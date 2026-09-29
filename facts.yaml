@@ -1,0 +1,410 @@
+- id: muse-identity
+  claim: Meta于2026-09-08发布个人智能体Muse，由Muse Spark驱动。
+  scope:
+    product: muse
+    evidence: 官方公告；不固定模型版本
+  sources:
+  - url: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: true
+- id: muse-names
+  claim: Muse Spark是模型；Meta AI是助手产品，与Muse分别列示。
+  scope:
+    product: muse
+    evidence: 官方模型说明及产品导航
+  sources:
+  - url: https://ai.meta.com/blog/introducing-muse-spark-msl/
+    checked_on: '2026-09-30'
+  - url: https://www.meta.com/blog/meta-connect-2026-everything-we-announced/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-regions
+  claim: 2026-09-29英文公告确认Muse在美国、加拿大可用。
+  scope:
+    product: muse
+    evidence: 仅确认这两个地区；不从旧地区稿推断其他地区开放
+  sources:
+  - url: https://about.fb.com/news/2026/09/introducing-muse-small-business/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: account
+  ttl_days: 14
+  status: confirmed
+  critical: true
+- id: muse-eligibility
+  claim: Muse面向18岁以上；订阅要求18岁或所在国成年年龄。
+  scope:
+    product: muse
+    evidence: 产品年龄与订阅资格分别依据官方页面
+  sources:
+  - url: https://research.meta.ai/blog/bringing-your-muse-to-life
+    checked_on: '2026-09-30'
+  - url: https://www.meta.com/help/subscriptions/1021145227643680/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: account
+  ttl_days: 14
+  status: confirmed
+  critical: true
+- id: muse-account
+  claim: Muse使用Meta账号，可通过Facebook、Instagram、邮箱或手机号创建。
+  scope:
+    product: muse
+    evidence: 官方帮助；本书没有注册验证
+  sources:
+  - url: https://www.meta.com/en-gb/help/artificial-intelligence/1331373868832401/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: account
+  ttl_days: 14
+  status: confirmed
+  critical: true
+- id: muse-entry
+  claim: 官方列Muse App、WhatsApp、网页、Mac桌面入口；首发含iOS和Android。
+  scope:
+    product: muse
+    evidence: 入口存在不证明所有地区或账号可用
+  sources:
+  - url: https://www.meta.com/blog/meta-connect-2026-everything-we-announced/
+    checked_on: '2026-09-30'
+  - url: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-iphone
+  claim: 美国区商店名Muse from Meta，开发者Meta Platforms, Inc.，仅iPhone，需iOS 18.0以上。
+  scope:
+    product: muse
+    evidence: 美国区App Store开发者上架字段
+  sources:
+  - url: https://apps.apple.com/us/app/muse-from-meta/id6760173601
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: install
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-language
+  claim: 美国区App Store语言列表含简体和繁体中文。
+  scope:
+    product: muse
+    evidence: 只确认商店字段，中文效果未经本书实测
+  sources:
+  - url: https://apps.apple.com/us/app/muse-from-meta/id6760173601
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-plans
+  claim: 免费有用量上限；本次读到Power为20美元/月、Maximum为100美元/月。
+  scope:
+    product: muse
+    evidence: 无地区路径英文帮助页；权益依地区和账号而异；不据此断言Max已正式更名
+  sources:
+  - url: https://www.meta.com/help/subscriptions/1021145227643680/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: price
+  ttl_days: 14
+  status: confirmed
+  critical: true
+- id: muse-free-quota-disclosure
+  claim: 本次订阅帮助页未列免费档具体用量额度。
+  scope:
+    product: muse
+    evidence: 未披露数字，不等于无限使用
+  sources:
+  - url: https://www.meta.com/help/subscriptions/1021145227643680/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: quota
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-mac-status
+  claim: 官方Connect总结明确Mac电脑操作已可用，需要用户许可。
+  scope:
+    product: muse
+    evidence: 文档确认，非本书实测
+  sources:
+  - url: https://www.meta.com/blog/meta-connect-2026-everything-we-announced/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-business-status
+  claim: Muse for Small Business是在Muse内增加的功能和连接器。
+  scope:
+    product: muse
+    evidence: 官方宣布可接入，并非另一个App；连接器是接通其他服务的功能
+  sources:
+  - url: https://about.fb.com/news/2026/09/introducing-muse-small-business/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-announced-surfaces
+  claim: 官方介绍实时语音、实时形象和专属邮箱；本次所读页面未给出完整账号开放范围与全面上线日。
+  scope:
+    product: muse
+    evidence: 正文按仅宣布处理；不把技术演示当全员可用
+  sources:
+  - url: https://www.meta.com/blog/meta-connect-2026-everything-we-announced/
+    checked_on: '2026-09-30'
+  - url: https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/
+    checked_on: '2026-09-30'
+  - url: https://research.meta.ai/blog/bringing-your-muse-to-life
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-glasses-status
+  claim: 官方称Muse接入AI眼镜将在未来几个月推出。
+  scope:
+    product: muse
+    evidence: 即将推出；没有指定本书可实测日期
+  sources:
+  - url: https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-charm-status
+  claim: Charm为面向Muse的口袋设备；所读官方页面只有预告与通知登记，没有价格和发售日。
+  scope:
+    product: muse
+    evidence: 仅宣布；本书未登记通知
+  sources:
+  - url: https://www.meta.com/muse-charm/
+    checked_on: '2026-09-30'
+  - url: https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-partner-status
+  claim: Connect新闻稿宣布增加合作服务，Expedia为即将推出；完整可用连接器名单须在Muse设置查看。
+  scope:
+    product: muse
+    evidence: 不将正在增加的伙伴名单全部写成已上线
+  sources:
+  - url: https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/
+    checked_on: '2026-09-30'
+  - url: https://about.fb.com/news/2026/09/introducing-muse-small-business/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-other-names
+  claim: Muse Code是编程智能体，Muse Image是图像生成模型，Muse Glimmer是可在本机运行的开放模型。
+  scope:
+    product: muse
+    evidence: 只区分身份，不教操作
+  sources:
+  - url: https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2
+    checked_on: '2026-09-30'
+  - url: https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/
+    checked_on: '2026-09-30'
+  - url: https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-chart
+  claim: TechCrunch报道：9月18日登顶美国App Store。
+  scope:
+    product: muse
+    evidence: 媒体报道的历史榜首事件，不证明好用
+  sources:
+  - url: https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-amazon-block
+  claim: TechCrunch报道Amazon封锁Muse购物访问。
+  scope:
+    product: muse
+    evidence: 2026-09-21报道的事件，未复测
+  sources:
+  - url: https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-human-calls
+  claim: Reuters报道员工测试中部分电话由真人代打且披露不足；Meta高管称已撤回该做法，发言人称准备妥当并适当披露后才推出。
+  scope:
+    product: muse
+    evidence: 2026-09-22 Reuters原稿转载；不推断全部用户电话执行者，也不判定当前代打功能状态
+  sources:
+  - url: https://www.investing.com/news/stock-market-news/exclusivemeta-testing-a-human-concierge-for-its-new-personal-ai-agent-muse-4911301
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-actions
+  claim: 官方说明Muse能浏览网页、填表并在授权下代办。
+  scope:
+    product: muse
+    evidence: 产品设计与官方列举，不是本书成功率结论
+  sources:
+  - url: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+    checked_on: '2026-09-30'
+  - url: https://introducing.muse.ai/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-background
+  claim: 官方设计说明称Muse可在App关闭后推进任务，并按计划或事件继续工作。
+  scope:
+    product: muse
+    evidence: 不保证持续无故障、不限额度或无需补充输入
+  sources:
+  - url: https://introducing.muse.ai/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-memory
+  claim: 官方帮助说明Muse会保留对话上下文，可围绕已有讨论继续。
+  scope:
+    product: muse
+    evidence: 能力说明；不保证每条偏好被准确记住
+  sources:
+  - url: https://www.meta.com/en-gb/help/artificial-intelligence/1331373868832401/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-task-loop
+  claim: 官方入门帮助建议明确交代任务、回答补问、检查结果并提出修改。
+  scope:
+    product: muse
+    evidence: 交办方法依据；不等于本书完成操作
+  sources:
+  - url: https://www.meta.com/en-gb/help/artificial-intelligence/1331373868832401/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-approval-scope
+  claim: 审批按权限设置执行，可单次、按任务、按网站或连接器持续批准。
+  scope:
+    product: muse
+    evidence: 不能保证每一步重新询问；文字要求不替代权限配置
+  sources:
+  - url: https://www.meta.com/en-gb/help/artificial-intelligence/1385290430137537/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: true
+- id: muse-fallibility
+  claim: 官方提示Muse可能不准确或采取意外操作，用户需监督、纠正和检查权限。
+  scope:
+    product: muse
+    evidence: 官方风险提示，不是本书事故复现
+  sources:
+  - url: https://www.meta.com/en-gb/help/artificial-intelligence/1385290430137537/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-moving-self-report
+  claim: Daniel Howley在本人帖文中称Muse帮助找搬家公司并取得报价。
+  scope:
+    product: muse
+    evidence: 用户自述（科技记者）；只读作者摘要，未读Yahoo评测全文；页面相对时间5d，绝对发布日期未确认
+  sources:
+  - url: https://www.linkedin.com/posts/daniel-howley-0b117712_metas-muse-is-an-impressively-capable-ai-activity-7508599611520098305-woJg
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-chinese-performance
+  claim: 中文指令与界面的实际效果
+  scope:
+    product: muse
+    evidence: 本次所读页面无法确认；未实测
+  sources:
+  - url: https://apps.apple.com/us/app/muse-from-meta/id6760173601
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: startup
+  ttl_days: 14
+  status: unknown
+  critical: false
+- id: muse-registration-card
+  claim: 免费注册是否必需绑定银行卡
+  scope:
+    product: muse
+    evidence: 本次所读页面无法确认；未实测
+  sources:
+  - url: https://www.meta.com/en-gb/help/artificial-intelligence/1331373868832401/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: startup
+  ttl_days: 14
+  status: unknown
+  critical: false
+- id: muse-android-mac-minimum
+  claim: Android和Mac最低系统版本
+  scope:
+    product: muse
+    evidence: 本次所读页面无法确认；未实测
+  sources:
+  - url: https://www.meta.com/blog/meta-connect-2026-everything-we-announced/
+    checked_on: '2026-09-30'
+  checked_on: '2026-09-30'
+  category: startup
+  ttl_days: 14
+  status: unknown
+  critical: false
