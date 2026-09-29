@@ -3,9 +3,9 @@ title: Muse 零基础入门
 type: book
 language: zh-CN
 product: muse
-audience: 不懂编程、对技术了解不多的中文读者；允许停在看懂、日常使用或更大授权任一层
+audience: 会用手机和常见App、没有编程经验的中文读者；先学基本操作，再按生活与工作场景选读真实使用案例
 baseline:
-  product_version: 有限测试；仅开篇及第1章有文档核对
+  product_version: 结构重构与案例收集阶段；新正文未起草，未操作实测
   checked_on: null
 repository:
   name: ''
@@ -19,397 +19,208 @@ required_checks:
 - operations
 units:
 - id: now
-  title: 开篇 现在的 Muse：名字、现况和这本书怎么读
+  title: 这本书怎么用
   path: manuscript/now.md
   section: popular
   depth: 0
   prerequisites: []
   features:
-  - name-map
-  - status-page
   - reading-paths
   facts:
   - muse-identity
-  - muse-names
-  - muse-regions
-  - muse-eligibility
-  - muse-account
-  - muse-entry
-  - muse-iphone
-  - muse-language
-  - muse-plans
-  - muse-free-quota-disclosure
-  - muse-mac-status
-  - muse-business-status
-  - muse-announced-surfaces
-  - muse-glasses-status
-  - muse-charm-status
-  - muse-partner-status
-  - muse-other-names
-  - muse-chart
-  - muse-amazon-block
-  - muse-human-calls
-  - muse-actions
-  - muse-task-loop
-  - muse-registration-card
-  - muse-android-mac-minimum
-  - muse-chinese-performance
   derived_from: null
   required_checks:
   - editorial
   - facts
-- id: what
-  title: 第 1 章 Muse 是什么：从你问它答，到你交代它去办
-  path: manuscript/what.md
+- id: start
+  title: 第 1 章 开始一个任务：说清要什么，再把结果改好
+  path: manuscript/start.md
   section: popular
-  depth: 0
-  prerequisites: []
-  features:
-  - agent-vs-chatbot
-  facts:
-  - muse-actions
-  - muse-background
-  - muse-memory
-  - muse-task-loop
-  - muse-approval-scope
-  - muse-fallibility
-  - muse-moving-self-report
-  derived_from: null
-  required_checks:
-  - editorial
-  - facts
-- id: how
-  title: 第 2 章 它凭什么能办事：云端电脑、浏览器、连接器和记忆
-  path: manuscript/how.md
-  section: popular
-  depth: 0
-  prerequisites:
-  - what
-  features:
-  - secure-vm
-  - browser
-  - connectors
-  - memory
-  - sentinel
-  - approvals
-  facts: []
-  derived_from: null
-  required_checks:
-  - editorial
-  - facts
-- id: scenes
-  title: 第 3 章 它能帮你做哪些事：一张生活场景地图
-  path: manuscript/scenes.md
-  section: popular
-  depth: 0
-  prerequisites:
-  - what
-  features:
-  - scene-map
-  - evidence-levels
-  facts: []
-  derived_from: null
-  required_checks:
-  - editorial
-  - facts
-- id: failures
-  title: 第 4 章 它会在哪里出错
-  path: manuscript/failures.md
-  section: popular
-  depth: 0
-  prerequisites:
-  - scenes
-  features:
-  - failure-types
-  - checking-habits
-  facts: []
-  derived_from: null
-  required_checks:
-  - editorial
-  - facts
-- id: trust
-  title: 第 5 章 能不能信它：权限、隐私和钱
-  path: manuscript/trust.md
-  section: popular
-  depth: 0
-  prerequisites:
-  - how
-  - failures
-  features:
-  - permissions
-  - privacy
-  - training-toggle
-  - confidential-vm
-  - liability
-  - business-model
-  facts: []
-  derived_from: null
-  required_checks:
-  - editorial
-  - facts
-- id: views
-  title: 第 6 章 大家怎么看：叫好的、怀疑的和不肯授权的
-  path: manuscript/views.md
-  section: popular
-  depth: 0
-  prerequisites:
-  - what
-  features:
-  - opinions
-  - growth-data
-  facts: []
-  derived_from: null
-  required_checks:
-  - editorial
-  - facts
-- id: choose
-  title: 第 7 章 你现在能不能用，要不要用
-  path: manuscript/choose.md
-  section: watershed
   depth: 0
   prerequisites:
   - now
-  - what
-  - trust
-  features:
-  - availability
-  - account
-  - cost-overview
-  - route-choice
-  facts: []
-  derived_from: null
-  required_checks:
-  - editorial
-  - facts
-- id: setup
-  title: 第 8 章 安装、登录和第一次设置
-  path: manuscript/setup.md
-  section: deep
-  depth: 0
-  prerequisites:
-  - choose
-  features:
-  - install
-  - meta-account
-  - personality
-  - training-toggle
-  - permissions-default
-  facts: []
-  derived_from: null
-- id: screen
-  title: 第 9 章 看懂界面：对话、文件库、活动记录、待办和目标
-  path: manuscript/screen.md
-  section: deep
-  depth: 0
-  prerequisites:
-  - setup
   features:
   - chat
-  - side-chats
-  - library
-  - activity-log
-  - upcoming
-  - goals
-  - browser-view
-  facts: []
+  - first-request
+  - revise
+  facts:
+  - muse-account
+  - muse-entry
+  - muse-task-loop
+  - muse-fallibility
   derived_from: null
-- id: first-task
-  title: 第 10 章 第一个任务：只查资料，不登录，不购买
-  path: manuscript/first-task.md
-  section: deep
+- id: files
+  title: 第 2 章 给它材料，把结果带走
+  path: manuscript/files.md
+  section: popular
   depth: 0
   prerequisites:
-  - screen
-  features:
-  - first-request
-  - check
-  - revise
-  facts: []
-  derived_from: null
-- id: brief
-  title: 第 11 章 把话说清楚：交办的六要素
-  path: manuscript/brief.md
-  section: deep
-  depth: 1
-  prerequisites:
-  - first-task
-  features:
-  - six-elements
-  - stop-points
-  facts: []
-  derived_from: null
-- id: accept
-  title: 第 12 章 验收与纠偏：找到、提交、确认
-  path: manuscript/accept.md
-  section: deep
-  depth: 1
-  prerequisites:
-  - brief
-  - failures
-  features:
-  - three-stage-acceptance
-  - missing-items
-  - stop-and-correct
-  facts: []
-  derived_from: null
-- id: artifacts
-  title: 第 13 章 让它交出一份东西：文件、表格和图片
-  path: manuscript/artifacts.md
-  section: deep
-  depth: 1
-  prerequisites:
-  - first-task
+  - start
   features:
   - upload
   - artifacts
   - library
-  facts: []
+  - activity-log
+  facts:
+  - muse-actions
+  - muse-background
   derived_from: null
 - id: connect
-  title: 第 14 章 接入第一个账号：从只读开始
+  title: 第 3 章 接入需要的账号，设置提醒和批准方式
   path: manuscript/connect.md
-  section: deep
-  depth: 1
-  prerequisites:
-  - accept
-  - trust
-  features:
-  - connectors
-  - read-only
-  - approval-scopes
-  - disconnect-vs-forget
-  facts: []
-  derived_from: null
-- id: mail
-  title: 第 15 章 邮件和日程：从找信息到待批准的回复
-  path: manuscript/mail.md
-  section: deep
-  depth: 1
-  prerequisites:
-  - connect
-  features:
-  - email
-  - calendar
-  - draft-approval
-  facts: []
-  derived_from: null
-- id: shopping
-  title: 第 16 章 购物和付款：下单前核对四项
-  path: manuscript/shopping.md
-  section: deep
-  depth: 1
-  prerequisites:
-  - accept
-  - trust
-  features:
-  - price-compare
-  - link-payment
-  - purchase-approval
-  - merchant-blocks
-  facts: []
-  derived_from: null
-- id: errands
-  title: 第 17 章 预约、填表和清查订阅
-  path: manuscript/errands.md
-  section: deep
-  depth: 1
-  prerequisites:
-  - accept
-  - connect
-  features:
-  - booking
-  - forms
-  - subscriptions
-  - multi-quote
-  facts: []
-  derived_from: null
-- id: followup
-  title: 第 18 章 让它持续跟进：提醒、周期任务、目标和记忆
-  path: manuscript/followup.md
-  section: deep
-  depth: 1
-  prerequisites:
-  - connect
-  features:
-  - reminders
-  - scheduled-tasks
-  - goals
-  - proactive
-  - memory
-  facts: []
-  derived_from: null
-- id: mac
-  title: 第 19 章 让它操作你的 Mac：三种权限和只读起步
-  path: manuscript/mac.md
-  section: deep
-  depth: 1
-  prerequisites:
-  - connect
-  - trust
-  features:
-  - mac
-  - full-disk-access
-  - automation
-  - revoke
-  facts: []
-  derived_from: null
-- id: surfaces
-  title: 第 20 章 更多入口：WhatsApp、语音、视频形象、专属邮箱、眼镜和 Charm
-  path: manuscript/surfaces.md
-  section: deep
+  section: popular
   depth: 0
   prerequisites:
-  - first-task
+  - files
   features:
-  - whatsapp
-  - voice
-  - realtime-avatar
-  - agent-email
-  - glasses
-  - charm
+  - connectors
+  - permissions
+  - reminders
+  - scheduled-tasks
+  - stop
+  facts:
+  - muse-approval-scope
+  - muse-memory
+  derived_from: null
+- id: choose
+  title: 选一个自己的案例
+  path: manuscript/choose.md
+  section: watershed
+  depth: 0
+  prerequisites:
+  - start
+  - files
+  - connect
+  features:
+  - route-choice
+  - scope-choice
   facts: []
   derived_from: null
   required_checks:
   - editorial
   - facts
+- id: household
+  title: 第 4 章 家庭生活：把一家人的琐事安排起来
+  path: manuscript/household.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - family-calendar
+  - plans
+  - scheduled-files
+  facts: []
+  derived_from: null
+- id: outings
+  title: 第 5 章 旅行与出门：把建议变成出行安排
+  path: manuscript/outings.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - travel-planning
+  - shared-document
+  - local-search
+  facts: []
+  derived_from: null
+- id: shopping
+  title: 第 6 章 购物与消费：找到合适的东西，整理日常开支
+  path: manuscript/shopping.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - price-compare
+  - used-goods
+  - subscriptions
+  facts: []
+  derived_from: null
+- id: office
+  title: 第 7 章 邮件与工作：少翻邮件，开会前有准备
+  path: manuscript/office.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - email
+  - meeting-prep
+  - draft-approval
+  facts: []
+  derived_from: null
+- id: learning
+  title: 第 8 章 学习与资料：先找到依据，再整理成自己的材料
+  path: manuscript/learning.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - research
+  - sources
+  - reports
+  facts: []
+  derived_from: null
+- id: creation
+  title: 第 9 章 内容创作：用已有材料做下一份作品
+  path: manuscript/creation.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - content-planning
+  - personal-archive
+  facts: []
+  derived_from: null
+- id: career
+  title: 第 10 章 求职与个人事务：把自己的资料整理好
+  path: manuscript/career.md
+  section: deep
+  depth: 1
+  prerequisites:
+  - choose
+  features:
+  - resume
+  - application
+  - human-review
+  facts: []
+  derived_from: null
 - id: business
-  title: 第 21 章 小生意怎么用
+  title: 第 11 章 小生意：研究商品，处理店里的具体工作
   path: manuscript/business.md
   section: deep
   depth: 1
   prerequisites:
-  - mail
-  - followup
+  - choose
   features:
-  - small-business
-  - business-connectors
+  - retail-research
+  - listings
+  - competitor-brief
   facts: []
   derived_from: null
-- id: cost
-  title: 第 22 章 额度和花钱：免费够不够，什么时候升级，怎么退订
-  path: manuscript/cost.md
-  section: deep
-  depth: 1
-  prerequisites:
-  - first-task
-  features:
-  - tokens
-  - plans
-  - cancel
-  facts: []
-  derived_from: null
-- id: plan
-  title: 第 23 章 你的交办清单
-  path: manuscript/plan.md
+- id: reference
+  title: 附录 入口、费用和常见问题
+  path: manuscript/reference.md
   section: deep
   depth: 0
-  prerequisites:
-  - accept
+  prerequisites: []
   features:
-  - delegation-plan
-  - periodic-review
-  - revoke
-  facts: []
+  - availability
+  - plans
+  - privacy
+  - help
+  facts:
+  - muse-regions
+  - muse-eligibility
+  - muse-plans
+  - muse-free-quota-disclosure
+  - muse-chinese-performance
+  - muse-registration-card
+  - muse-android-mac-minimum
   derived_from: null
   required_checks:
   - editorial

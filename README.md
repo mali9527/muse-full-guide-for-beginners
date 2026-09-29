@@ -2,50 +2,40 @@
 
 <p><img src="assets/branding/mali-avatar-v1.svg" width="48" height="48" alt="马力" align="absmiddle"> <strong>马力</strong></p>
 
-这本书从生活里的多步骤事务出发，讲清 Muse 是什么、如何交办，以及哪些结果要自己把关。
+先用三章学会Muse的基本操作，再按自己的生活和工作需要，读网友实际分享过的使用案例。
 
-**本地样章草稿，尚未公开。** 当前可读的是开篇和第 1 章；第 2—23 章只有目录骨架。请先读下面两篇。
+**当前为结构重构与资料收集阶段，尚未公开。** 新章节仅有标题骨架；旧开篇和第1章已退出当前正文。第一轮收集了26条案例记录和8条待补线索，不代表26次本书实测。
 
 <!-- growth:entry -->
-- [开篇：名字、现况和这本书怎么读](manuscript/now.md)
-- [第 1 章：从问答到交办](manuscript/what.md)
+- [新的内容框架](内容框架.md)：三章基本操作、八章场景案例。
+- [案例如何选择与引用](案例设计.md)：原始分享、实际结果和来源。
 <!-- /growth:entry -->
 
-## 适合谁与怎么读
+## 怎么读
 
-面向会用手机和常见 App、没有编程经验的读者。全书规划先帮助所有读者看懂 Muse，再为能合规使用的读者逐步讲解操作。当前地区、价格和入口统一见[开篇现况页](manuscript/now.md)。
+前面学习发起任务、提供材料、查看结果、接入必要账号和设置提醒。后面可按家庭、出门、购物、工作、学习、创作、求职和小生意选读。入口、费用和常见问题集中在附录。
 
-本书未注册或操作 Muse，没有实机、中文效果或真人试读记录。官方资料阅读与实际操作分开登记；教学示例不编写 Muse 的回复。[参考来源](参考来源.md)
+本书没有注册或操作Muse，步骤、中文效果和真人试读尚未验证。外部使用者的分享会注明作者和来源，不写成本书亲历。
 
-## 规划目录（仅前两个单元有正文）
+## 新目录（正文待写）
 
 <!-- studio:toc -->
-共 24 个单元，0 张图。
+共 14 个单元，0 张图。
 
-1. [开篇 现在的 Muse：名字、现况和这本书怎么读](manuscript/now.md)
-2. [第 1 章 Muse 是什么：从你问它答，到你交代它去办](manuscript/what.md)
-3. [第 2 章 它凭什么能办事：云端电脑、浏览器、连接器和记忆](manuscript/how.md)
-4. [第 3 章 它能帮你做哪些事：一张生活场景地图](manuscript/scenes.md)
-5. [第 4 章 它会在哪里出错](manuscript/failures.md)
-6. [第 5 章 能不能信它：权限、隐私和钱](manuscript/trust.md)
-7. [第 6 章 大家怎么看：叫好的、怀疑的和不肯授权的](manuscript/views.md)
-8. [第 7 章 你现在能不能用，要不要用](manuscript/choose.md)
-9. [第 8 章 安装、登录和第一次设置](manuscript/setup.md)
-10. [第 9 章 看懂界面：对话、文件库、活动记录、待办和目标](manuscript/screen.md)
-11. [第 10 章 第一个任务：只查资料，不登录，不购买](manuscript/first-task.md)
-12. [第 11 章 把话说清楚：交办的六要素](manuscript/brief.md)
-13. [第 12 章 验收与纠偏：找到、提交、确认](manuscript/accept.md)
-14. [第 13 章 让它交出一份东西：文件、表格和图片](manuscript/artifacts.md)
-15. [第 14 章 接入第一个账号：从只读开始](manuscript/connect.md)
-16. [第 15 章 邮件和日程：从找信息到待批准的回复](manuscript/mail.md)
-17. [第 16 章 购物和付款：下单前核对四项](manuscript/shopping.md)
-18. [第 17 章 预约、填表和清查订阅](manuscript/errands.md)
-19. [第 18 章 让它持续跟进：提醒、周期任务、目标和记忆](manuscript/followup.md)
-20. [第 19 章 让它操作你的 Mac：三种权限和只读起步](manuscript/mac.md)
-21. [第 20 章 更多入口：WhatsApp、语音、视频形象、专属邮箱、眼镜和 Charm](manuscript/surfaces.md)
-22. [第 21 章 小生意怎么用](manuscript/business.md)
-23. [第 22 章 额度和花钱：免费够不够，什么时候升级，怎么退订](manuscript/cost.md)
-24. [第 23 章 你的交办清单](manuscript/plan.md)
+1. [这本书怎么用](manuscript/now.md)
+2. [第 1 章 开始一个任务：说清要什么，再把结果改好](manuscript/start.md)
+3. [第 2 章 给它材料，把结果带走](manuscript/files.md)
+4. [第 3 章 接入需要的账号，设置提醒和批准方式](manuscript/connect.md)
+5. [选一个自己的案例](manuscript/choose.md)
+6. [第 4 章 家庭生活：把一家人的琐事安排起来](manuscript/household.md)
+7. [第 5 章 旅行与出门：把建议变成出行安排](manuscript/outings.md)
+8. [第 6 章 购物与消费：找到合适的东西，整理日常开支](manuscript/shopping.md)
+9. [第 7 章 邮件与工作：少翻邮件，开会前有准备](manuscript/office.md)
+10. [第 8 章 学习与资料：先找到依据，再整理成自己的材料](manuscript/learning.md)
+11. [第 9 章 内容创作：用已有材料做下一份作品](manuscript/creation.md)
+12. [第 10 章 求职与个人事务：把自己的资料整理好](manuscript/career.md)
+13. [第 11 章 小生意：研究商品，处理店里的具体工作](manuscript/business.md)
+14. [附录 入口、费用和常见问题](manuscript/reference.md)
 <!-- /studio:toc -->
 
 ## 阅读与适用范围
@@ -56,20 +46,18 @@
 尚未登记已公开的里程碑版本。
 <!-- /studio:release -->
 
-<!-- 说明当前可读格式、费用、核验和语言范围，详情可折叠或链接。当前维护稿与固定版分开；历史下载留详情页。没有当前有效附件就不设置下载入口。 -->
+资料出处见[参考来源](参考来源.md)。当前只维护简体中文结构，不提供PDF或英文全文。
 
 ## 反馈与许可
 
-请说明单元、平台、产品版本、现象与期望。许可见LICENSE；未确定许可前不对外公开。
+反馈请注明章节、原始案例与需要澄清的地方。许可见LICENSE；未确定许可前不对外公开。
 
 <details>
 <summary>写作与协作</summary>
 
-需求见[需求文档](需求文档.md)，工具字段见随书tools/FORMAT.md，规则见tools/standards/。完整任务、审校和实测留在私有总控，checks/只放可公开摘要。
+需求见[需求文档](需求文档.md)，工具字段见tools/FORMAT.md，采用规范见tools/standards/。任务、完整案例库、审校和实测记录在私有总控维护；当前书仓没有新稿通过的检查摘要。
 
 </details>
 
 <!-- growth:related -->
-<!-- 仅在有真实公开入口时加入系列与相关作品，附学习理由；不凑数量。 -->
-<!-- 公开正文有用时邀请 Star 收藏；更新通知另说明 Watch → Custom → Releases。 -->
 <!-- /growth:related -->
