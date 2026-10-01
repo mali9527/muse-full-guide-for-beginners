@@ -1,5 +1,5 @@
 # 选一个自己的案例
 
 <!-- studio:nav -->
-← [第 3 章 接入需要的账号，设置提醒和批准方式](connect.md) · [目录](../README.md) · [第 4 章 家庭生活：把一家人的琐事安排起来](household.md) →
+← [第 14 章 日常设置与排查：额度、通知、失败和重置](maintenance.md) · [目录](../README.md) · [第 15 章 家庭生活：让日程、资料和日常安排配合起来](household.md) →
 <!-- /studio:nav -->

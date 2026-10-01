@@ -3,9 +3,9 @@ title: Muse 零基础入门
 type: book
 language: zh-CN
 product: muse
-audience: 会用手机和常见App、没有编程经验的中文读者；先学基本操作，再按生活与工作场景选读真实使用案例
+audience: 会用手机和常见App、没有编程经验的中文读者；先系统掌握Muse的基本概念与操作，再按场景查阅近期案例原文摘录及说明
 baseline:
-  product_version: 结构重构与案例收集阶段；新正文未起草，未操作实测
+  product_version: v0.3结构与50条案例资料；操作章节未成稿、未实测
   checked_on: null
 repository:
   name: ''
@@ -32,55 +32,237 @@ units:
   required_checks:
   - editorial
   - facts
-- id: start
-  title: 第 1 章 开始一个任务：说清要什么，再把结果改好
-  path: manuscript/start.md
+- id: basics
+  title: 第 1 章 认识Muse：它是什么，能替你做哪些事
+  path: manuscript/basics.md
   section: popular
   depth: 0
   prerequisites:
   - now
   features:
-  - chat
-  - first-request
-  - revise
+  - agent
+  - model
+  - tools
+  - cloud-computer
+  facts:
+  - muse-identity
+  - muse-names
+  - muse-actions
+  - muse-background
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
+- id: setup
+  title: 第 2 章 开始使用：入口、账号与第一次设置
+  path: manuscript/setup.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - basics
+  features:
+  - account
+  - installation
+  - onboarding
   facts:
   - muse-account
   - muse-entry
+  - muse-eligibility
+  - muse-regions
+  derived_from: null
+- id: interface
+  title: 第 3 章 认识界面：对话、任务、文件和设置在哪里
+  path: manuscript/interface.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - setup
+  features:
+  - chat
+  - ideas
+  - library
+  - activity-log
+  - upcoming
+  facts:
+  - muse-task-loop
+  derived_from: null
+- id: start
+  title: 第 4 章 完整做一次任务：从一句需求到可用结果
+  path: manuscript/start.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - interface
+  features:
+  - first-request
+  - clarification
+  - review
+  - revise
+  facts:
   - muse-task-loop
   - muse-fallibility
   derived_from: null
-- id: files
-  title: 第 2 章 给它材料，把结果带走
-  path: manuscript/files.md
+- id: collaborate
+  title: 第 5 章 把事情说清楚：上下文、追问和多项任务
+  path: manuscript/collaborate.md
   section: popular
   depth: 0
   prerequisites:
   - start
   features:
+  - context
+  - follow-ups
+  - side-chats
+  - task-scope
+  facts:
+  - muse-task-loop
+  - muse-memory
+  derived_from: null
+- id: files
+  title: 第 6 章 给Muse材料：文字、图片、链接和文件
+  path: manuscript/files.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - collaborate
+  features:
   - upload
-  - artifacts
-  - library
-  - activity-log
+  - image-input
+  - links
+  - files
   facts:
   - muse-actions
-  - muse-background
   derived_from: null
-- id: connect
-  title: 第 3 章 接入需要的账号，设置提醒和批准方式
-  path: manuscript/connect.md
+- id: progress
+  title: 第 7 章 任务运行时：看进度、补信息、接手和停止
+  path: manuscript/progress.md
   section: popular
   depth: 0
   prerequisites:
   - files
   features:
-  - connectors
-  - permissions
-  - reminders
-  - scheduled-tasks
+  - activity-log
+  - background
+  - interrupt
   - stop
   facts:
+  - muse-background
   - muse-approval-scope
+  derived_from: null
+- id: results
+  title: 第 8 章 拿到并用好成果：文档、表格、图片与音频
+  path: manuscript/results.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - progress
+  features:
+  - artifacts
+  - library
+  - download
+  - revise-output
+  facts:
+  - muse-actions
+  - muse-fallibility
+  derived_from: null
+- id: connect
+  title: 第 9 章 接入邮箱、日历和其他账号
+  path: manuscript/connect.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - results
+  features:
+  - connectors
+  - login
+  - disconnect
+  - browser
+  facts:
+  - muse-actions
+  - muse-business-status
+  - muse-approval-scope
+  derived_from: null
+- id: permissions
+  title: 第 10 章 掌握许可：哪些能做，哪些先问你
+  path: manuscript/permissions.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - connect
+  features:
+  - permissions
+  - approval
+  - privacy
+  - data-controls
+  facts:
+  - muse-approval-scope
+  derived_from: null
+- id: memory
+  title: 第 11 章 让Muse逐渐了解你：记忆、偏好和主动建议
+  path: manuscript/memory.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - permissions
+  features:
+  - memory
+  - preferences
+  - proactivity
+  - personalization
+  facts:
   - muse-memory
+  derived_from: null
+- id: ongoing
+  title: 第 12 章 把一次请求变成提醒、定期任务和长期目标
+  path: manuscript/ongoing.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - memory
+  features:
+  - reminders
+  - scheduled-tasks
+  - goals
+  - notifications
+  facts:
+  - muse-background
+  - muse-memory
+  derived_from: null
+- id: surfaces
+  title: 第 13 章 在手机、网页和Mac之间继续用
+  path: manuscript/surfaces.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - ongoing
+  features:
+  - mobile
+  - web
+  - mac
+  - whatsapp
+  - voice
+  facts:
+  - muse-entry
+  - muse-mac-status
+  - muse-announced-surfaces
+  derived_from: null
+- id: maintenance
+  title: 第 14 章 日常设置与排查：额度、通知、失败和重置
+  path: manuscript/maintenance.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - surfaces
+  features:
+  - usage
+  - tokens
+  - plans
+  - settings
+  - troubleshooting
+  facts:
+  - muse-plans
+  - muse-free-quota-disclosure
+  - muse-fallibility
   derived_from: null
 - id: choose
   title: 选一个自己的案例
@@ -88,9 +270,7 @@ units:
   section: watershed
   depth: 0
   prerequisites:
-  - start
-  - files
-  - connect
+  - maintenance
   features:
   - route-choice
   - scope-choice
@@ -100,7 +280,7 @@ units:
   - editorial
   - facts
 - id: household
-  title: 第 4 章 家庭生活：把一家人的琐事安排起来
+  title: 第 15 章 家庭生活：让日程、资料和日常安排配合起来
   path: manuscript/household.md
   section: deep
   depth: 1
@@ -113,7 +293,7 @@ units:
   facts: []
   derived_from: null
 - id: outings
-  title: 第 5 章 旅行与出门：把建议变成出行安排
+  title: 第 16 章 旅行与出门：行程、票务和出门前的信息
   path: manuscript/outings.md
   section: deep
   depth: 1
@@ -126,7 +306,7 @@ units:
   facts: []
   derived_from: null
 - id: shopping
-  title: 第 6 章 购物与消费：找到合适的东西，整理日常开支
+  title: 第 17 章 购物与消费：找货、比价、取消服务和询价
   path: manuscript/shopping.md
   section: deep
   depth: 1
@@ -139,7 +319,7 @@ units:
   facts: []
   derived_from: null
 - id: office
-  title: 第 7 章 邮件与工作：少翻邮件，开会前有准备
+  title: 第 18 章 邮件与工作：找重点、备会议、盯期限
   path: manuscript/office.md
   section: deep
   depth: 1
@@ -152,7 +332,7 @@ units:
   facts: []
   derived_from: null
 - id: learning
-  title: 第 8 章 学习与资料：先找到依据，再整理成自己的材料
+  title: 第 19 章 学习与资料：研究、持续跟进和个人播客
   path: manuscript/learning.md
   section: deep
   depth: 1
@@ -165,7 +345,7 @@ units:
   facts: []
   derived_from: null
 - id: creation
-  title: 第 9 章 内容创作：用已有材料做下一份作品
+  title: 第 20 章 内容创作：旧材料、新作品和个人项目
   path: manuscript/creation.md
   section: deep
   depth: 1
@@ -177,7 +357,7 @@ units:
   facts: []
   derived_from: null
 - id: career
-  title: 第 10 章 求职与个人事务：把自己的资料整理好
+  title: 第 21 章 求职与个人事务：简历、申请和个人背景
   path: manuscript/career.md
   section: deep
   depth: 1
@@ -190,7 +370,7 @@ units:
   facts: []
   derived_from: null
 - id: business
-  title: 第 11 章 小生意：研究商品，处理店里的具体工作
+  title: 第 22 章 小生意：网站、客户、经营分析和客服
   path: manuscript/business.md
   section: deep
   depth: 1
