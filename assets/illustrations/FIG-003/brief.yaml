@@ -1,0 +1,29 @@
+kind: concept
+form: flow
+reader_question: 新通知改了哪一项？
+takeaway: 本书教学示意：更正通知只改上午安排，不能因此抹去原通知中仍有效的下午安排。
+source_sections:
+- 多份文件先讲清关系
+placement: 多份文件先讲清关系
+composition: 左右两张通知纸，汇入下方一张出行单。左上旧通知包含上午和下午两行图形横线；右上更正通知只画一行上午的图形横线。左上标签原通知，右上标签更正通知。下方成果分为上下两行，分别写上午改期、下午保留。从右上连线到上午改期，从左上连线到下午保留，路径不交叉。上部两纸左右安排允许以连线自然为优先；只含四条文字，勿添加虚构日期。
+  主标签使用约65px以上的清楚中文手写印刷体，标题约80px，四周留白。仅绘制title和labels；caption、alt及制作说明不得画进图里。
+content_guard: 本图是依据正文制作的概念或案例流程示意，不是Muse界面、原交付件或实测记录。不能增加产品能力、推定任务成功、增加未给出的品牌或许诺。保留同款1448×1086不透明细方格纸、黑色中性笔和严格中性灰。
+text_roles:
+  old:
+    role: author
+  new:
+    role: author
+  changed:
+    role: author
+  kept:
+    role: author
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 09c755e5dbc532a1536d7547f0dbd12626c4f6d5ddd7f4f0fa8902024d0b0aee
+  reviewed_by: Codex
+  checked_on: '2026-10-04'
+  reason: 本小节涉及多项对象或相邻状态，读者需要看清它们的关系和边界。
+  benefit: 本书教学示意：更正通知只改上午安排，不能因此抹去原通知中仍有效的下午安排。
+labels:
+  zh-CN: labels.zh-CN.yaml

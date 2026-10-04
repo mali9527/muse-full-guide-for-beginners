@@ -1,0 +1,29 @@
+kind: concept
+form: relationship
+reader_question: 同一信息，几处保留？
+takeaway: 删除上传文件，不等于同时清除对话和长期记忆；需要分别检查有关信息是否仍保留。
+source_sections:
+- 不想让它记住时，处理的是哪一份信息
+placement: 不想让它记住时，处理的是哪一份信息
+composition: 三个彼此独立、等大的卡片，三角布局。上方是上传的简历纸，左下是对话纸，右下是个人背景笔记。三张卡片分别大字标签上传文件、聊天记录、长期记忆。上方文件旁画小垃圾桶及删除动作短箭头，只作用到上方文件；两个下方卡片仍完整。底部大字标签分别检查。绝对不要画从垃圾桶通向三个对象的箭头，不画一键清除或全部消失。
+  主标签使用约65px以上的清楚中文手写印刷体，标题约80px，四周留白。仅绘制title和labels；caption、alt及制作说明不得画进图里。
+content_guard: 本图是依据正文制作的概念或案例流程示意，不是Muse界面、原交付件或实测记录。不能增加产品能力、推定任务成功、增加未给出的品牌或许诺。保留同款1448×1086不透明细方格纸、黑色中性笔和严格中性灰。
+text_roles:
+  file:
+    role: author
+  chat:
+    role: author
+  memory:
+    role: author
+  separate:
+    role: author
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 86a26f22b6824ae93a0d80899bf69fac956a68589622a822dfa059012a09a718
+  reviewed_by: Codex
+  checked_on: '2026-10-04'
+  reason: 本小节涉及多项对象或相邻状态，读者需要看清它们的关系和边界。
+  benefit: 删除上传文件，不等于同时清除对话和长期记忆；需要分别检查有关信息是否仍保留。
+labels:
+  zh-CN: labels.zh-CN.yaml

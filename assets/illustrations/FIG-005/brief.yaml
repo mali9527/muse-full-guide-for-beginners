@@ -1,0 +1,33 @@
+kind: concept
+form: comparison
+reader_question: 交材料的三条路？
+takeaway: 三种方式提供材料的范围不同。上传几份文件、接通一个服务、在浏览器里登录网站，不能互相推定。
+source_sections:
+- 三种交材料的方式
+placement: 三种交材料的方式
+composition: 三条平行横行，每行独立不相互连通。第一行手选的两张文件经过箭头到任务纸；第二行服务资料柜经有钥匙的桥到Muse的工作纸；第三行网站大门与浏览器纸页相连。各行仅两个大标签，左边方式、右边范围。都是物件比喻，不画真实控件、账号或登录字段。
+  主标签使用约65px以上的清楚中文手写印刷体，标题约80px，四周留白。仅绘制title和labels；caption、alt及制作说明不得画进图里。
+content_guard: 本图是依据正文制作的概念或案例流程示意，不是Muse界面、原交付件或实测记录。不能增加产品能力、推定任务成功、增加未给出的品牌或许诺。保留同款1448×1086不透明细方格纸、黑色中性笔和严格中性灰。
+text_roles:
+  upload:
+    role: author
+  chosen:
+    role: author
+  connector:
+    role: author
+  service:
+    role: author
+  browser:
+    role: author
+  site:
+    role: author
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: c56aa4d33645331a5cf77f8323ff23fb924d1167d796c4c7de5a430a7fe0f45a
+  reviewed_by: Codex
+  checked_on: '2026-10-04'
+  reason: 本小节涉及多项对象或相邻状态，读者需要看清它们的关系和边界。
+  benefit: 三种方式提供材料的范围不同。上传几份文件、接通一个服务、在浏览器里登录网站，不能互相推定。
+labels:
+  zh-CN: labels.zh-CN.yaml

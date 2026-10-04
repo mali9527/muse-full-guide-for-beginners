@@ -1,0 +1,31 @@
+kind: concept
+form: flow
+reader_question: 一份出行单怎样完成？
+takeaway: 初稿要对照原材料检查；修改时间、地点后，再复查相关安排，最后保存可用版本。
+source_sections:
+- 对着材料检查，别只看表格是否整齐
+placement: 对着材料检查，别只看表格是否整齐
+composition: 四个纸面物件组成清晰的四角循环。左上叠放的通知和一张要求卡；右上整理后的出行单；右下放大镜和原通知；左下改过的出行单。箭头左上到右上、右上到右下、右下到左下。左下有细回弧指向右下，表示修改后复查。右下向画面底部中央单独的文件夹伸出箭头，表示核对后保存。主流程箭头不穿越文字。
+  主标签使用约65px以上的清楚中文手写印刷体，标题约80px，四周留白。仅绘制title和labels；caption、alt及制作说明不得画进图里。
+content_guard: 本图是依据正文制作的概念或案例流程示意，不是Muse界面、原交付件或实测记录。不能增加产品能力、推定任务成功、增加未给出的品牌或许诺。保留同款1448×1086不透明细方格纸、黑色中性笔和严格中性灰。
+text_roles:
+  in:
+    role: author
+  draft:
+    role: author
+  check:
+    role: author
+  revise:
+    role: author
+  save:
+    role: author
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 0f33bb2cf8b318d479531ad3611160a8ff933d86b02d55236350121a0adb2e52
+  reviewed_by: Codex
+  checked_on: '2026-10-04'
+  reason: 本小节涉及多项对象或相邻状态，读者需要看清它们的关系和边界。
+  benefit: 初稿要对照原材料检查；修改时间、地点后，再复查相关安排，最后保存可用版本。
+labels:
+  zh-CN: labels.zh-CN.yaml

@@ -1,0 +1,29 @@
+kind: concept
+form: flow
+reader_question: 发出前，先看承诺？
+takeaway: C83 提醒读者：回复可能擅自增加承诺。先检查和删改，再决定是否发送。图为案例过程示意。
+source_sections:
+- C83 「看看有没有我漏掉的要紧事」：它找出一封邮件、起草回复，初稿里多出了一个会面承诺
+placement: C83 「看看有没有我漏掉的要紧事」：它找出一封邮件、起草回复，初稿里多出了一个会面承诺
+composition: 三张信纸由左上到右上再到下方中央。第一张一行文字会面承诺被圈起，上方标签回复初稿；第二张对应那一行以黑笔划掉，上方标签本人删改；第三张是完成核对的信封，上方标签确认后发送。不填写任何正文句子，其他正文用无字的短横线表示。会面承诺这四字仅第一张出现一次。
+  主标签使用约65px以上的清楚中文手写印刷体，标题约80px，四周留白。仅绘制title和labels；caption、alt及制作说明不得画进图里。
+content_guard: 本图是依据正文制作的概念或案例流程示意，不是Muse界面、原交付件或实测记录。不能增加产品能力、推定任务成功、增加未给出的品牌或许诺。保留同款1448×1086不透明细方格纸、黑色中性笔和严格中性灰。
+text_roles:
+  draft:
+    role: author
+  promise:
+    role: author
+  revise:
+    role: author
+  send:
+    role: author
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: b6895796379063bc94dab2e00ce93913085f40b78d81d2941c962e39f555f9dd
+  reviewed_by: Codex
+  checked_on: '2026-10-04'
+  reason: 本小节涉及多项对象或相邻状态，读者需要看清它们的关系和边界。
+  benefit: C83 提醒读者：回复可能擅自增加承诺。先检查和删改，再决定是否发送。图为案例过程示意。
+labels:
+  zh-CN: labels.zh-CN.yaml

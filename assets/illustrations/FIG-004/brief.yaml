@@ -1,0 +1,33 @@
+kind: concept
+form: flow
+reader_question: 事情办到哪一步？
+takeaway: 找到候选、提交请求、收到确认是三个不同进展。检查与当前进展相应的证据，才能知道事情是否办妥。
+source_sections:
+- 找到、提交和确认分别要看什么
+placement: 找到、提交和确认分别要看什么
+composition: 纵向三个台阶式节点，左侧画向下箭头。第一层放大镜对着候选纸，第二层寄出的申请纸，第三层收到商家盖章回执的信封。每层左侧状态大字、右侧证据大字，中间留足间距。没有自动成功标志或勾号串。
+  主标签使用约65px以上的清楚中文手写印刷体，标题约80px，四周留白。仅绘制title和labels；caption、alt及制作说明不得画进图里。
+content_guard: 本图是依据正文制作的概念或案例流程示意，不是Muse界面、原交付件或实测记录。不能增加产品能力、推定任务成功、增加未给出的品牌或许诺。保留同款1448×1086不透明细方格纸、黑色中性笔和严格中性灰。
+text_roles:
+  found:
+    role: author
+  candidate:
+    role: author
+  sent:
+    role: author
+  sentproof:
+    role: author
+  confirmed:
+    role: author
+  receipt:
+    role: author
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 38805291a3ec08ad3939cd594902391120951e83e3cd0df5a849135c0e86255d
+  reviewed_by: Codex
+  checked_on: '2026-10-04'
+  reason: 本小节涉及多项对象或相邻状态，读者需要看清它们的关系和边界。
+  benefit: 找到候选、提交请求、收到确认是三个不同进展。检查与当前进展相应的证据，才能知道事情是否办妥。
+labels:
+  zh-CN: labels.zh-CN.yaml

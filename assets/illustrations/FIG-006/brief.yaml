@@ -1,0 +1,35 @@
+kind: concept
+form: comparison
+reader_question: 许可要看范围？
+takeaway: 许可可能只适用于一次动作，也可能覆盖本任务或同一网站、连接器以后的同类动作。图中的范围不代表允许任意操作。
+source_sections:
+- 批准一次，和以后都批准，差在哪里
+placement: 批准一次，和以后都批准，差在哪里
+composition: 三行比较图。第一行单个动作圆点；第二行一个任务圈内三个同类动作圆点；第三行两个并列小框分别代表同一网站与同一连接器，各框内从现在延伸到以后的一列同类动作。第一、二行左侧是大标签，右侧配短说明；第三行大标签以后同类，两个框仅各写网站、连接器。不得把网站与连接器画成包含关系，不使用全局无限授权图像。
+  主标签使用约65px以上的清楚中文手写印刷体，标题约80px，四周留白。仅绘制title和labels；caption、alt及制作说明不得画进图里。
+content_guard: 本图是依据正文制作的概念或案例流程示意，不是Muse界面、原交付件或实测记录。不能增加产品能力、推定任务成功、增加未给出的品牌或许诺。保留同款1448×1086不透明细方格纸、黑色中性笔和严格中性灰。
+text_roles:
+  once:
+    role: author
+  one:
+    role: author
+  task:
+    role: author
+  similar:
+    role: author
+  future:
+    role: author
+  site:
+    role: author
+  connector:
+    role: author
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 1ae380fe2255e50aa53e58f5b6ba1684b8c3a95744eea053e8e13285afb98263
+  reviewed_by: Codex
+  checked_on: '2026-10-04'
+  reason: 本小节涉及多项对象或相邻状态，读者需要看清它们的关系和边界。
+  benefit: 许可可能只适用于一次动作，也可能覆盖本任务或同一网站、连接器以后的同类动作。图中的范围不代表允许任意操作。
+labels:
+  zh-CN: labels.zh-CN.yaml

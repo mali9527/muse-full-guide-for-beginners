@@ -527,7 +527,55 @@ outputs:
     en:
       enabled: false
       directory: en
-diagrams: []
+diagrams:
+- id: FIG-001
+  unit: basics
+  type: illustration
+  spec: assets/illustrations/FIG-001/brief.yaml
+- id: FIG-002
+  unit: start
+  type: illustration
+  spec: assets/illustrations/FIG-002/brief.yaml
+- id: FIG-003
+  unit: files
+  type: illustration
+  spec: assets/illustrations/FIG-003/brief.yaml
+- id: FIG-004
+  unit: progress
+  type: illustration
+  spec: assets/illustrations/FIG-004/brief.yaml
+- id: FIG-005
+  unit: connect
+  type: illustration
+  spec: assets/illustrations/FIG-005/brief.yaml
+- id: FIG-006
+  unit: permissions
+  type: illustration
+  spec: assets/illustrations/FIG-006/brief.yaml
+- id: FIG-007
+  unit: memory
+  type: illustration
+  spec: assets/illustrations/FIG-007/brief.yaml
+- id: FIG-008
+  unit: ongoing
+  type: illustration
+  spec: assets/illustrations/FIG-008/brief.yaml
+- id: FIG-009
+  unit: household
+  type: illustration
+  spec: assets/illustrations/FIG-009/brief.yaml
+- id: FIG-010
+  unit: shopping
+  type: illustration
+  spec: assets/illustrations/FIG-010/brief.yaml
+- id: FIG-011
+  unit: office
+  type: illustration
+  spec: assets/illustrations/FIG-011/brief.yaml
+- id: FIG-012
+  unit: principles
+  type: illustration
+  spec: assets/illustrations/FIG-012/brief.yaml
 toolkit: 0.1.0
 published:
   version: null

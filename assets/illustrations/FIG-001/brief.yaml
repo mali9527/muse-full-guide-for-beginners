@@ -1,0 +1,33 @@
+kind: concept
+form: comparison
+reader_question: 先看得到什么？
+takeaway: 从已有材料到可以使用的结果：前三个案例分别整理出行信息、家庭简报和待核对的购物车。
+source_sections:
+- 三件小事，看见它的实际用途
+placement: 三件小事，看见它的实际用途
+composition: 三行平行场景，左列是材料小物件，中列为向右的手绘箭头，右列是成果小物件。第一行信封到一张路线纸；第二行两个日历到一页家庭简报；第三行手写购物纸到带待检查放大镜的购物车。每行上方左、右各一个标签。不要加机器人或软件界面。
+  主标签使用约65px以上的清楚中文手写印刷体，标题约80px，四周留白。仅绘制title和labels；caption、alt及制作说明不得画进图里。
+content_guard: 本图是依据正文制作的概念或案例流程示意，不是Muse界面、原交付件或实测记录。不能增加产品能力、推定任务成功、增加未给出的品牌或许诺。保留同款1448×1086不透明细方格纸、黑色中性笔和严格中性灰。
+text_roles:
+  mail:
+    role: author
+  trip:
+    role: author
+  cal:
+    role: author
+  brief:
+    role: author
+  list:
+    role: author
+  cart:
+    role: author
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: deefae5488d745b862984af7fe4783659ad39e4970ece3fbcde24c102e65c9e8
+  reviewed_by: Codex
+  checked_on: '2026-10-04'
+  reason: 本小节涉及多项对象或相邻状态，读者需要看清它们的关系和边界。
+  benefit: 从已有材料到可以使用的结果：前三个案例分别整理出行信息、家庭简报和待核对的购物车。
+labels:
+  zh-CN: labels.zh-CN.yaml

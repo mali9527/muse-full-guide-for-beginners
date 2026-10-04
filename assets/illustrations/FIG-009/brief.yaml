@@ -1,0 +1,29 @@
+kind: concept
+form: flow
+reader_question: 从各自日程到全家简报？
+takeaway: C02 的任务流程示意：汇总邮件和日历、在简报里看见时间冲突，再由家人决定怎样调整。
+source_sections:
+- C02 做一份全家能一起看的每周简报
+placement: C02 做一份全家能一起看的每周简报
+composition: 左上两本日历和信封，标签邮件与日历；右上可识别为一页纸的简报，不画真实PDF或声称是原件，标签一页简报。箭头从左上至右上。简报下方放大镜圈出两个重叠的时间条，标签找出冲突。再向左下的两个人商量安排的小景画箭头，标签家人决定。流程左上到右上到右下到左下，图形轻简。
+  主标签使用约65px以上的清楚中文手写印刷体，标题约80px，四周留白。仅绘制title和labels；caption、alt及制作说明不得画进图里。
+content_guard: 本图是依据正文制作的概念或案例流程示意，不是Muse界面、原交付件或实测记录。不能增加产品能力、推定任务成功、增加未给出的品牌或许诺。保留同款1448×1086不透明细方格纸、黑色中性笔和严格中性灰。
+text_roles:
+  source:
+    role: author
+  report:
+    role: author
+  conflict:
+    role: author
+  people:
+    role: author
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 1c26916fe73c022a88546a8baa7f770e3e36c9eebb8b060391eb865a2cbdde38
+  reviewed_by: Codex
+  checked_on: '2026-10-04'
+  reason: 本小节涉及多项对象或相邻状态，读者需要看清它们的关系和边界。
+  benefit: C02 的任务流程示意：汇总邮件和日历、在简报里看见时间冲突，再由家人决定怎样调整。
+labels:
+  zh-CN: labels.zh-CN.yaml

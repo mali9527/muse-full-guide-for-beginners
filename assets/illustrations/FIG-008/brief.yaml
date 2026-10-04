@@ -1,0 +1,33 @@
+kind: concept
+form: comparison
+reader_question: 以后继续做的三种事？
+takeaway: 提醒核对时间，定期任务核对每次取得的新资料，长期目标核对下一步与阶段进展。
+source_sections:
+- 定期任务，要交代每次重新做什么
+placement: 定期任务，要交代每次重新做什么
+composition: 三行时间示意。第一行一个时钟到一个通知铃，只出现一个执行点；第二行三个等间隔执行点，每点画一份新查阅的资料纸；第三行三个大小递进的里程碑，末端是一面目标小旗。每行左端是类别标签，右端是关注点；时间线不用任何具体日期数字。
+  主标签使用约65px以上的清楚中文手写印刷体，标题约80px，四周留白。仅绘制title和labels；caption、alt及制作说明不得画进图里。
+content_guard: 本图是依据正文制作的概念或案例流程示意，不是Muse界面、原交付件或实测记录。不能增加产品能力、推定任务成功、增加未给出的品牌或许诺。保留同款1448×1086不透明细方格纸、黑色中性笔和严格中性灰。
+text_roles:
+  remind:
+    role: author
+  time:
+    role: author
+  repeat:
+    role: author
+  fresh:
+    role: author
+  goal:
+    role: author
+  next:
+    role: author
+schema_version: 2
+style: notebook-pen-v1
+analysis:
+  source_sha256: 46138fe3ebfbf7e31c6db0853e6f0a25b018651c4b021fb37207f621425c924d
+  reviewed_by: Codex
+  checked_on: '2026-10-04'
+  reason: 本小节涉及多项对象或相邻状态，读者需要看清它们的关系和边界。
+  benefit: 提醒核对时间，定期任务核对每次取得的新资料，长期目标核对下一步与阶段进展。
+labels:
+  zh-CN: labels.zh-CN.yaml
