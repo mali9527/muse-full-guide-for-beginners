@@ -629,3 +629,85 @@
   ttl_days: 14
   status: confirmed
   critical: false
+- id: muse-chat-behavior
+  claim: 官方说明Muse可连续接收补充消息；侧聊用于组织主题，主聊与侧聊之间仍能联系背景。
+  scope:
+    product: muse
+    evidence: 官方文字说明，未进行账户或界面操作；排列和用词可能因端与版本变化。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/1331373868832401/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-interface-paths
+  claim: 官方帮助提供Chat、Library、助手头像下Activity log与Upcoming、Goals等入口；System files在Library内。
+  scope:
+    product: muse
+    evidence: 官方文字说明，未进行账户或界面操作；排列和用词可能因端与版本变化。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/2225571704857152/
+    checked_on: '2026-10-04'
+  - url: https://www.meta.com/help/artificial-intelligence/1385290430137537/
+    checked_on: '2026-10-04'
+  - url: https://www.meta.com/en-gb/help/artificial-intelligence/1331373868832401/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-file-types
+  claim: 官方成果帮助列PDF、DOCX、纯文本、Markdown、XLSX、CSV、PNG/JPEG/GIF/WebP及代码文件；生成文件可继续修改。
+  scope:
+    product: muse
+    evidence: 官方文字说明，未进行账户或界面操作；排列和用词可能因端与版本变化。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/2074655449783957/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-connect-path
+  claim: 官方连接流程为Settings→Connectors→目标服务Connect→Continue，再完成登录或授权；部分设备类连接的访问在设备设置管理。
+  scope:
+    product: muse
+    evidence: 官方文字说明，未进行账户或界面操作；排列和用词可能因端与版本变化。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/1687253048996149/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-permission-modes
+  claim: Settings→Permissions分别管理Connectors与Web access defaults；Ask for some actions和Always ask在两类下触发条件不同；可按连接器、成果与定时任务、已允许网站管理。
+  scope:
+    product: muse
+    evidence: 官方文字说明，未进行账户或界面操作；排列和用词可能因端与版本变化。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/1385290430137537/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-memory-files
+  claim: 官方数据页说明可在助手入口Identity中管理Memory、Soul与Identity；记忆文件可编辑删除。
+  scope:
+    product: muse
+    evidence: 官方文字说明，未进行账户或界面操作；排列和用词可能因端与版本变化。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/2225571704857152/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false

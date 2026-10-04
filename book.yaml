@@ -95,6 +95,7 @@ units:
   facts:
   - muse-task-loop
   - muse-fallibility
+  - muse-interface-paths
   derived_from: null
 - id: interface
   title: 第 4 章 用到哪里看哪里：对话、任务、文件和设置
@@ -113,6 +114,8 @@ units:
   - muse-artifacts
   - muse-approval-scope
   - muse-goals-upcoming
+  - muse-chat-behavior
+  - muse-interface-paths
   derived_from: null
 - id: collaborate
   title: 第 5 章 让结果更合用：补充要求、追问与修改
@@ -129,6 +132,7 @@ units:
   facts:
   - muse-task-loop
   - muse-memory
+  - muse-chat-behavior
   derived_from: null
 - id: files
   title: 第 6 章 给 Muse 合适的材料：文字、图片、链接和文件
@@ -145,6 +149,7 @@ units:
   facts:
   - muse-actions
   - muse-artifacts
+  - muse-file-types
   derived_from: null
 - id: results
   title: 第 7 章 把成果用起来：检查、修改、保存与分享
@@ -163,6 +168,7 @@ units:
   - muse-fallibility
   - muse-interactive-artifacts
   - muse-artifact-sharing
+  - muse-file-types
   derived_from: null
 - id: progress
   title: 第 8 章 任务没做完时：看进度、补信息、接手和停止
@@ -201,6 +207,7 @@ units:
   - muse-auto-meta-connectors
   - muse-disconnect-retention
   - muse-custom-connectors
+  - muse-connect-path
   derived_from: null
 - id: permissions
   title: 第 10 章 让 Muse 对外办事：发送、提交与许可
@@ -219,6 +226,7 @@ units:
   facts:
   - muse-approval-scope
   - muse-purchase-confirmation
+  - muse-permission-modes
   derived_from: null
 - id: memory
   title: 第 11 章 让 Muse 逐渐了解你：偏好、记忆与主动建议
@@ -236,6 +244,7 @@ units:
   - muse-memory
   - muse-memory-import
   - muse-delete-versus-forget
+  - muse-memory-files
   derived_from: null
 - id: ongoing
   title: 第 12 章 按时继续做：提醒、定期任务与长期目标
@@ -253,6 +262,7 @@ units:
   - muse-background
   - muse-memory
   - muse-goals-upcoming
+  - muse-interface-paths
   derived_from: null
 - id: surfaces
   title: 第 13 章 换个设备继续用：手机、网页与 Mac
