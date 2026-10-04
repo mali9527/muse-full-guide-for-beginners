@@ -1,0 +1,1795 @@
+- unit: now
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/now.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：给出开始使用与按任务查案例两条阅读路径；全稿范围已与目录一致。
+    移除第2—14章仍在编写的旧状态；未实测集中说明一次。
+- unit: now
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/now.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 26单元、108条案例与12张采用图和配置一致；导读明确公开预览及尚未实测。产品身份仍据官方公告，本轮重新打开确认。
+- unit: now
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/now.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: now
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/now.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: basics
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/basics.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：保留作者认可的背景、三件具体小事、八类场景和任务过程；不以agent原理开篇。
+    未为了完稿扩大背景篇幅；八类场景用表格提供跳转。
+- unit: basics
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/basics.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：Meta背景、发布时间、生活与小生意用途依据官方；C43/C02/C78保留本人参与与来源性质。
+- unit: basics
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/basics.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: basics
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/basics.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: setup
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/setup.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：区分下载、资格、登录、连接与训练数据开关；连接器和模型在需要时解释。
+    不逐键讲系统注册，也不要求开始前接通全部账号。
+- unit: setup
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/setup.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：官方入口、账号方式、自动Meta连接与训练开关有资料；地区写已确认范围，不写完整名单。
+- unit: setup
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/setup.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: setup
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/setup.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: start
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/start.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：原创虚构通知把交材料、说明要求、补问、核对、更正与文件交付连成完整任务。
+    只保留本次任务需要的入口；不预讲模型架构。
+- unit: start
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/start.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：13:50由提前10分钟推算；上午更正9:40/10:00/12:30，下午不改；表格明确是人工核对点。
+- unit: start
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/start.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: start
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/start.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: interface
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/interface.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：按继续讨论、看过程、找成果、看未来安排分别定位界面。
+    没有逐个罗列不使用的按钮；系统文件只解释何时需要。
+- unit: interface
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/interface.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：Chat、Activity
+    log、Library、Upcoming、Goals、Ideas都有官方依据；布局未写成固定。
+- unit: interface
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/interface.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: interface
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/interface.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: collaborate
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/collaborate.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：按事实、遗漏、形式与承诺区分修改；上下文用当前任务解释，侧聊不等同权限隔离。
+    不采用背公式或专家身份提示；复杂任务才显式汇总已有条件。
+- unit: collaborate
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/collaborate.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：连续消息和侧聊背景来自官方；保留已发生外部动作无法靠补消息撤回的判断。
+- unit: collaborate
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/collaborate.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: collaborate
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/collaborate.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: files
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/files.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：解释不同材料保留的信息、关键字段读取核对、多版本权威顺序与空值。
+    常识性的上传动作不逐键展开，技术格式解释限定到选择所需。
+- unit: files
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/files.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：支持类型与连接方式有官方页；没有臆造大小上限、OCR准确率或所有网页可读。
+- unit: files
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/files.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: files
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/files.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: results
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/results.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：按用途选文件并检查实际内容；交互页面用正常、缺失、零值与重开测试讲透。
+    先核内容再选确需形式；不要求每次生成全套格式。
+- unit: results
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/results.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：Artifacts、单页交互与分享条件有官方依据；250/5=50为人工测试，不伪造Muse输出。
+- unit: results
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/results.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: results
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/results.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: progress
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/progress.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：查看已做动作与等待原因；补条件、登录接手、恢复和停止前后状态有区分。
+    避免猜测统一状态标签和恢复按钮位置。
+- unit: progress
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/progress.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：专用凭据入口、接手时暂停、后台工作与无法收回已发邮件依据官方；实际入口未实测。
+- unit: progress
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/progress.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: progress
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/progress.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: connect
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/connect.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：上传、连接器和网页会话分别解释；通过已知会议验证实际接通的是哪个账号。
+    只讲当前任务需要的连接，API概念限定到自建条件。
+- unit: connect
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/connect.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：Settings→Connectors流程、断开后残留、自建未审核有官方依据；未保证组织账号或任意系统可接通。
+- unit: connect
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/connect.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: connect
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/connect.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: permissions
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/permissions.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：分别解释连接器与网页询问模式、五种批准范围及每笔购物账单核对。
+    提示注入用无关网页命令解释，未引入不需要掌握的内部组件名。
+- unit: permissions
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/permissions.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：许可范围依O03，凭据与购物确认依O13；不把任务预算当银行卡限额，不写绝对防护。
+- unit: permissions
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/permissions.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: permissions
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/permissions.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: memory
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/memory.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：临时要求、长期偏好、过期事实和别人信息分开；查看、更正、导入和忘记各有对象。
+    不要求新手逐项编辑人格文件；有用的新背景优先于整份旧聊天搬入。
+- unit: memory
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/memory.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：Memory/Soul/Identity、ZIP入口和忘记局限有官方依据；修正C44到个人事务章。
+- unit: memory
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/memory.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: memory
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/memory.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: ongoing
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/ongoing.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：从一次提醒到每周检索和长期目标，说明时区、输入、成果、截止、修改与首次实际执行。
+    不把提醒、定期任务和Goals揉成重复功能列表；取消核对集中在改计划段。
+- unit: ongoing
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/ongoing.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：Upcoming/Goals及对话修改有官方资料；教学安排不写为实测，C18/C38链接已改到学习章。
+- unit: ongoing
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/ongoing.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: ongoing
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/ongoing.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: surfaces
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/surfaces.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：按输入与检查场景选端；区分云端浏览器和Mac本机、听写与实时语音。
+    不编安装权限逐屏教程；预告硬件只讲与入门有关的状态。
+- unit: surfaces
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/surfaces.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：O16原页是9月23日，已修正资源登记；Mac已宣布可用与眼镜/Charm预告分开，未保证休眠行为。
+- unit: surfaces
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/surfaces.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: surfaces
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/surfaces.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: maintenance
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/maintenance.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：任务、通知、额度、订阅和资料清理分别排查；最后成功动作与重复提交风险相连。
+    费用表集中附录；对熟悉的系统通知仅指出检查对象。
+- unit: maintenance
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/maintenance.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：原购买平台、取消回执、下载与不可逆重置依据官方；C77链接修正到购物章。
+- unit: maintenance
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/maintenance.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: maintenance
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/maintenance.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: choose
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/choose.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：用手头任务与期望成果导航，读者可不按全书顺序阅读案例。
+    删去操作篇尚未写完的重复提示。
+- unit: choose
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/choose.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：108条与8章活跃索引一致；不把所有案例宣传成广泛认可或本书复现。
+- unit: choose
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/choose.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: choose
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/choose.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: household
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/household.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：19条案例全文通读，日程、资料、上门服务、日常与额外搭建分组清楚。
+    补HTML、托管、API/MCP与webhook的够用解释；不扩展成开发教程。
+- unit: household
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/household.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：沿用MU-R5逐条阅读结果；官方员工、媒体亲历与网友自述有标记，C118共享实现未知。
+- unit: household
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/household.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: household
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/household.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: outings
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/outings.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：14条案例全文通读，整理信息、查价与实际预订的结果分开。
+    章末去掉退出C37的正向推荐，改活跃C119；凭据保险库就地解释。
+- unit: outings
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/outings.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：原来源和历史结果与MU-R5一致；电话执行者与账号可用性不作无证断言。
+- unit: outings
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/outings.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: outings
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/outings.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: shopping
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/shopping.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：20条案例全文通读，找货、填购物车、付款与后续服务的分工明确。
+    修正退出C37的引用并为Artifact配中文；本章不重复完整权限教程。
+- unit: shopping
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/shopping.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：商业关系、历史报价、亚马逊访问历史与失败保留；电话测试回链Reuters背景。
+- unit: shopping
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/shopping.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: shopping
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/shopping.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: office
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/office.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：13条案例全文通读，C83的承诺错误与C90长期漏项支持读者判断。
+    为上下文和评论中的技能补最低解释，记忆细讲回查第11章。
+- unit: office
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/office.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：C86后续改善未冒充六邮箱监控成功；C88冲突版本不选未经确认的精确时间。
+- unit: office
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/office.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: office
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/office.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: learning
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/learning.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：5条案例全文通读，研究成果、已设追踪和长期播客分开。
+    补一手来源、提示词和RSS；使用建议将来源与时间范围作为研究条件。
+- unit: learning
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/learning.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：C18未写后续补齐，C38未视为音频质量实测，C93语音情况限定为作者当时体验。
+- unit: learning
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/learning.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: learning
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/learning.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: creation
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/creation.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：8条案例全文通读，资料整理、草稿、网页和平台写入结果逐条区分。
+    解释HTML、MMO、网络隧道、构建和签名；把复杂功能改成更易懂的表盘小组件。
+- unit: creation
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/creation.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：C20成稿未查看、C19未发布、C94未采用、C98错误迁移均保留；原文引语未伪造。
+- unit: creation
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/creation.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: creation
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/creation.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: career
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/career.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：18条案例全文通读，申请提交、自动回复与到账/获批/录用区别清楚。
+    梦幻橄榄球及弃权申领给够用解释；删除结尾无证据的现阶段多数判断。
+- unit: career
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/career.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：C106未核团队收到、C111图未查看、C108推算非实时保持；Reuters回读只支持员工测试背景。
+- unit: career
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/career.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: career
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/career.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: business
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/business.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：11条案例全文通读，网站、资料、销售和自建系统分组并保留经营条件。
+    去掉已退出C23推荐；补API、工单与专用工具，C115改称事件避免预判。
+- unit: business
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/business.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：C30是官方示例无商家成果；C47合成演示未观看；C123为作者自家系统，无任意连接保证。
+- unit: business
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/business.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: business
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/business.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: principles
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/principles.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：案例后解释agent、模型、工具和任务循环，说明每一步必须取得可核对结果。
+    不引入训练架构、基准分数或内部安全组件；与操作篇以链接衔接。
+- unit: principles
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/principles.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：Muse Spark原页本轮回读；独立云端环境与第13章Mac本机操作可区分。
+- unit: principles
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/principles.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: principles
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/principles.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
+- unit: reference
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/reference.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: editorial
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：统一官方入口、方案表、易变条件和问题到章节映射。
+    避免重复操作步骤；token只解释到理解额度，未给固定任务数换算。
+- unit: reference
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/reference.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: facts
+  result: pass
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 逐单元对照既有复核版本：除导读更新图文预览范围及12个图块外，文字未改变。新增插图与正文/案例对应，图文与首页均已检查。原审阅依据：Power/Maximum为10月4日官方页口径；地区、中文、免费数值和硬件范围保留未知，不冒充实测。
+- unit: reference
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/reference.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: operations
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未在Muse账号执行本单元步骤；文档阅读与案例自述不能替代实际操作。
+- unit: reference
+  source_commit: b54dee4111debc764fa8efdb9b5a61d0a6446d3d
+  paths:
+  - manuscript/reference.md
+  - book.yaml
+  - facts.yaml
+  - 写作约定.md
+  - 术语翻译表.md
+  - tools/standards/reader-writing.md
+  kind: trial
+  result: unknown
+  checked_on: '2026-10-04'
+  engine: codex
+  author_engine: codex
+  platforms: []
+  limitations: 接续 c77756d 的全文复核，本次审核图文与公开说明差异；未重新逐条读取所有来源。未操作 Muse、未验证中文效果、未真人试读。
+  reason: 未安排具备目标读者特征的真人试读。
