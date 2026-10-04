@@ -3,7 +3,7 @@ title: Muse 零基础入门
 type: book
 language: zh-CN
 product: muse
-audience: 会用手机和常见App、没有编程经验的中文读者；先认识Muse的背景与具体价值，再学会操作，按场景查阅公开案例；原理放在书后选读
+audience: 熟悉电脑、手机与常用系统功能，但没有Muse使用经验的中文读者；不预设编程与AI专业知识，陌生概念首次通俗解释；先认识背景与价值，再学操作、查案例，原理后置
 baseline:
   product_version: 官方资料逐章覆盖，108条案例；写前准备完成，第2—14章仍为细纲与骨架，未实测
   checked_on: null
