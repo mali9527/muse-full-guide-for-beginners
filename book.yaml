@@ -228,7 +228,6 @@ units:
   depth: 0
   prerequisites:
   - progress
-  - permissions
   features:
   - reminders
   - scheduled-tasks
