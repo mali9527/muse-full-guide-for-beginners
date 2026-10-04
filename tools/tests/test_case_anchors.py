@@ -8,9 +8,18 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from studio_lib.builder import rewritten_body
+from studio_lib.pdf_export import figure_captions
 
 
 class CaseAnchorTests(unittest.TestCase):
+    def test_paired_caption_preserves_explanation_without_repeating_alt(self):
+        image = '![说明。](figure.png){width=100%}\n\n*图：%s*\n<!-- /diagram: FIG-001 -->\n'
+        entries = [('FIG-001', 'figure.png', 'one', 'Chapter')]
+        same = figure_captions(image % '说明。', entries)
+        self.assertIn('![FIG-001 · 说明。]', same)
+        extra = figure_captions(image % '补充细节。', entries)
+        self.assertIn('![FIG-001 · 说明。补充细节。]', extra)
+
     def test_case_targets_and_literal_examples(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

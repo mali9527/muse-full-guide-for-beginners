@@ -21,7 +21,7 @@
     "studio_lib/builder.py": "7142cabfd5989f8d2d4621434756aeaefaf16abad14b4f51984cdb0d138a2409",
     "studio_lib/localization.py": "40f2f655951b8bb3af0225a0b2663d6ab310fc513a434f94b3030b2c5f6eb778",
     "studio_lib/common.py": "c216042fbccef7b0ab215396712e23103d06fcda8645ddf5ad0d962085b08f32",
-    "studio_lib/pdf_export.py": "4f144c6c5784b7aa533a2de47024fe29949aa8914dc3e7736a5ee14affa4886d",
+    "studio_lib/pdf_export.py": "522eb1a7caa9de850a9557ed5b998c04a2b274c53a3bdcc8e6a227e84a99ad59",
     "studio_lib/checker.py": "c2363ec2ef400f3a9fba6ecc3fa2ce0e7de2e117699512891af8c807173b68b0",
     "pdf/template.typ": "d496a5f9837a03bdc1dce8b948fdfab249a07abc8bf6718325521147876683cc",
     "standards/editorial.md": "b1cfad7624d72058dff59f9bd149fa24ae10312531f437b4cda0f62617176a01",
@@ -36,7 +36,7 @@
     "standards/branding.md": "3c464d5eb2882dc153cf1612774ec35d7e12c339a08d6c08dd2bb5a8326b7843",
     "standards/pdf.md": "4b38281de3cefd5da091a8d9688d3760c6dff2d3d2089d513f02413e0e5e1f35",
     "standards/social-posts.md": "f6130157f23f13379216433ae7d8be138c444859e2bc151492710779f203864b",
-    "tests/test_case_anchors.py": "54d8861dfd119a9d4670137f30321b906814562f018165bee72b11dd88fdef4f",
+    "tests/test_case_anchors.py": "fa6c2adad45f8c7cf65fa23f12a7d16745a4bab1948df367662fcf34e80be36a",
     "standards/reader-writing.md": "054d8eb797f9dcdfbc06e035cb0c4a2ea606317b655afc3732051a21a9297d2c"
   }
 }

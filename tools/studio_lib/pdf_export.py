@@ -103,8 +103,9 @@ def figure_captions(body, entries):
         def replace(match):
             title, paired, explanation = match.groups()
             label = fid + " · " + title
-            if paired:
-                label += "。" + explanation.strip()
+            if paired and explanation.strip() != title.strip():
+                separator = "" if title.rstrip().endswith(("。", "！", "？", ".", "!", "?")) else "。"
+                label += separator + explanation.strip()
             result = "![" + label + "](" + filename + "){width=100%}"
             return result + ("\n\n<!-- /diagram: " + fid + " -->" if paired else "")
         body = map_pdf_prose(body, lambda text: re.sub(pattern, replace, text, flags=re.M))
