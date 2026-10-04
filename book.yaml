@@ -3,9 +3,9 @@ title: Muse 零基础入门
 type: book
 language: zh-CN
 product: muse
-audience: 会用手机和常见App、没有编程经验的中文读者；先系统掌握Muse的基本概念与操作，再按场景查阅近期案例原文摘录及说明
+audience: 会用手机和常见App、没有编程经验的中文读者；先认识Muse的背景与具体价值，再学会操作，按场景查阅公开案例；原理放在书后选读
 baseline:
-  product_version: 导读与第1章初稿、114条案例正文；第2—14章待写，未实测
+  product_version: 背景与价值先行的第1章、114条案例、书后原理选读；第2—14章待写，未实测
   checked_on: null
 repository:
   name: ''
@@ -28,32 +28,32 @@ units:
   - reading-paths
   facts:
   - muse-identity
+  - muse-actions
   derived_from: null
   required_checks:
   - editorial
   - facts
 - id: basics
-  title: 第 1 章 认识Muse：它是什么，能替你做哪些事
+  title: 第 1 章 认识 Muse：背景、用途与值得先看的场景
   path: manuscript/basics.md
   section: popular
   depth: 0
   prerequisites:
   - now
   features:
-  - agent
-  - model
-  - tools
-  - cloud-computer
+  - product-background
+  - everyday-value
+  - use-cases
+  - task-overview
   facts:
   - muse-identity
-  - muse-names
+  - muse-product-background
+  - muse-design-purpose
+  - muse-business-status
   - muse-actions
-  - muse-background
   - muse-task-loop
-  - muse-approval-scope
-  - muse-fallibility
-  - muse-cloud-environment
   - muse-artifacts
+  - muse-approval-scope
   derived_from: null
   required_checks:
   - editorial
@@ -387,6 +387,31 @@ units:
   - competitor-brief
   facts: []
   derived_from: null
+- id: principles
+  title: 选读 Muse 如何工作：模型、工具与后台任务
+  path: manuscript/principles.md
+  section: deep
+  depth: 0
+  prerequisites:
+  - basics
+  features:
+  - optional-principles
+  - agent
+  - model
+  - tools
+  - cloud-computer
+  - background
+  facts:
+  - muse-identity
+  - muse-names
+  - muse-actions
+  - muse-background
+  - muse-cloud-environment
+  - muse-approval-scope
+  derived_from: null
+  required_checks:
+  - editorial
+  - facts
 - id: reference
   title: 附录 入口、费用和常见问题
   path: manuscript/reference.md

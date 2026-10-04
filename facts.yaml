@@ -146,14 +146,14 @@
   status: confirmed
   critical: false
 - id: muse-business-status
-  claim: Muse for Small Business是在Muse内增加的功能和连接器。
+  claim: Meta于2026-09-29宣布Muse for Small Business，通过Muse内的功能和连接器扩展小生意用途。
   scope:
     product: muse
-    evidence: 官方宣布可接入，并非另一个App；连接器是接通其他服务的功能
+    evidence: 官方公告；不是另一个App，不保证所有账号拥有全部连接器。
   sources:
   - url: https://about.fb.com/news/2026/09/introducing-muse-small-business/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: startup
   ttl_days: 14
   status: confirmed
@@ -426,6 +426,32 @@
     evidence: 官方功能说明；不保证任意格式、排版或内容均正确
   sources:
   - url: https://www.meta.com/en-gb/help/artificial-intelligence/1331373868832401/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-product-background
+  claim: Muse由Meta推出；Meta官方产品导航还列有Facebook、Instagram和WhatsApp。
+  scope:
+    product: muse
+    evidence: 仅用于介绍推出产品的公司；不将其他应用的所有功能视为Muse能力。
+  sources:
+  - url: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-design-purpose
+  claim: Muse团队在设计说明中以兼顾家庭和工作的经历说明产品目标：减少日常事务占用，让用户有更多时间做重要的事。
+  scope:
+    product: muse
+    evidence: 官方团队解释的设计出发点，不是已证实的效率或用户效果结论。
+  sources:
+  - url: https://introducing.muse.ai/
     checked_on: '2026-10-04'
   checked_on: '2026-10-04'
   category: stable
