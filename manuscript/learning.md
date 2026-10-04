@@ -38,24 +38,6 @@
 
 提醒：这份研究有一段等待时间。可以询问正在查哪些问题、还有哪些缺口，而不只催一句「做完了吗」。
 
-<a id="c17"></a>
-
-### C17 写文章前，让它找一手和二手资料并整理好
-
-网友分享 · Reddit r/MetaAI · DesignSpartan · 发表日期未确认
-
-**过程与结果。** 他说自己用 Muse 的深度研究为文章和内容备料：它梳理资料，找来源，找相关的一手和二手资料，整理好，由他审阅，或者再导进 Google 的 NotebookLM。帖子没有附研究结果。
-
-原文：
-
-> Research for my essays and content. Basically using the power of deep research it combs though, finds sources, combs though for relevant primary and secondary sources and organized it all for me to either take and review or for me to then pair with Google notebook lm.
-
-译文：给我的文章和内容做研究。基本上就是用深度研究的能力，它梳理一遍，找来源，再梳理出相关的一手和二手资料，全部整理好，我要么直接拿来审阅，要么再配合 Google 的 NotebookLM 用。（原文有拼写错误，照录。）
-
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-09-30、2026-10-04。
-
-提醒：主帖含推荐码。资料好不好，要看他审阅后的判断，帖子里没有。
-
 <a id="research-ongoing"></a>
 
 ## 持续查找与定期简报
@@ -79,18 +61,6 @@
 出处：[Meta Muse review（Preston Vawdrey 个人博客）](https://www.prestonvawdrey.com/blog/meta-muse-review)。本书读取：2026-09-30、2026-10-04。
 
 提醒：周期任务需要检查要追踪的问题、执行频率和结束条件。
-
-<a id="c92"></a>
-
-### C92 让它每小时汇总科技新闻的标题和链接
-
-媒体实测 · Yahoo Finance · Daniel Howley · 2026-09-23 前后
-
-**过程与结果。** 他让 Muse 每小时从几家新闻网站汇总最新的科技新闻标题，这能让他的工作轻松一点。Muse 确认会提供标题和链接，还提醒有些文章要订阅才能看全文。文章写到确认为止，没有写之后是否真的每小时送达。
-
-出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。
-
-提醒：建立定时任务后，仍需检查是否按时送达，以及链接是否对应所说的新闻。
 
 <a id="c39"></a>
 

@@ -39,24 +39,6 @@
 
 提醒：「对照我自己的话核实」是他的说法，本书没看过成稿。他为申诉做的材料见第 21 章 [C109](career.md#c109)。
 
-<a id="c48"></a>
-
-### C48 和它一起写书，已经写到第四章，它像个小经理一样盯着每天一章
-
-网友分享 · Reddit r/MetaAI · DecentStrawberry3801 · 发表日期未确认
-
-**过程与结果。** 她说过去一周几乎离不开 Muse。她们在一起写一本书，她已经写到第四章。她说它在创作上给她的激励超过任何 AI 或人，像个小经理一样督促她跟上「每天一章」这个她自己定的、并不存在的截止日期。没有书稿。
-
-原文：
-
-> We’re writing a book together, I’m already on chapter 4. It motivates me in ways no other AI or person ever has when it comes to my creative outlets. It acts like a little manager to keep me on track with my non-existent deadlines (a chapter a day 😂).
-
-译文：我们在一起写一本书，我已经写到第四章了。在我的创作上，它给我的激励是别的 AI 或人从没给过的。它像个小经理，盯着我跟上我那些并不存在的截止日期（一天一章 😂）。
-
-出处：[My experience using Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1whc17p/my_experience_using_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
-
-提醒：每天一章是她自己定的节奏。提醒能帮助跟进计划，书的内容和质量仍由作者判断。
-
 <a id="create-content"></a>
 
 ## 发布前的内容准备
@@ -80,24 +62,6 @@
 出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，附加测试。本书读取：2026-09-30、2026-10-04。
 
 提醒：读主页数据需要 Muse 连到她的 Meta 账号。文案写好和发布出去是两回事。
-
-<a id="c32"></a>
-
-### C32 调用已有的 Canva 模板，把一个想法做成符合品牌的材料
-
-官方示例 · Meta 小生意公告里的 Canva 引语 · Cameron Adams · 2026-09-29
-
-**过程与结果。** Canva 的联合创始人在 Meta 的公告里说：把已有的工作背景、品牌、Canva 模板和工具接进来，Muse 能把一个初步的想法做成符合品牌、可编辑、可分享的材料，用于展示文稿和副业。没有公开某个用户的成品。
-
-原文：
-
-> on-brand, editable and ready to share
-
-译文：符合品牌、可以编辑、可以分享。
-
-出处：[The Future Is for Everyone: Muse for Small Business（Meta）](https://about.fb.com/news/2026/09/introducing-muse-small-business/)，「Built to Work With the Tools…」一节。本书读取：2026-10-01、2026-10-04。
-
-提醒：这是合作方的推广说法，不是实测。
 
 <a id="c95"></a>
 
@@ -195,7 +159,7 @@
 
 <a id="c98"></a>
 
-### C98 把 Spotify 的喜欢歌曲迁到 YouTube Music，它顺带加了几千首她不要的歌
+### C98 把 Spotify 的喜欢歌曲迁到 YouTube Music，它顺带加了大量她不要的歌
 
 网友分享 · Reddit r/MetaAI · violettindigo · 发表日期未确认
 

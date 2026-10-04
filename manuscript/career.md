@@ -143,18 +143,6 @@
 
 提醒：钱还没到账。社会安全号这类信息是他自己填的，不是交给 Muse 填。
 
-<a id="c100"></a>
-
-### C100 《纽约时报》记者的三件事：重复订阅和退款、拍停车罚单付款、给牙科保险公司打电话
-
-媒体转述 · Mind and Iron 转述 The New York Times 记者 Eli Tan 的经历 · 2026 年 9 月；未读到纽约时报原文
-
-**过程与结果。** 据 Mind and Iron 转述，Eli Tan 把信用卡接给 Muse（他起名 Wren），让它在 Google Sheets 里跟踪消费。他看着它几分钟内建起几百行数据的表，标出两个重复的订阅并取消。接着 Muse 用他的邮箱为一份已经过期的免费报纸试用申请退款，拿回 44.99 美元。他还发现 Muse 很会填网上的表格：拍一张停车罚单的照片，Muse 就替他交罚款，付款前先问他。据转述，Muse 还替他给牙科保险公司打过电话，报会员号、回答安全问题、排队等待，接通后转给他；这一件本书只读到转述，没有原文。同一篇转述还说，他让 Muse 做的播客烦人到他自己都听不下去，买电影票和棒球票也没买成。
-
-出处：[Should you use Muse?（Mind and Iron，Steven Zeitchik 转引）](https://mindandiron.substack.com/p/mind-and-iron-should-you-use-muse)；纽约时报原文 [I Gave My Life Over to Meta's A.I. Agent and Was Blown Away](https://www.nytimes.com/2026/09/22/technology/meta-muse-ai-agent.html) 本书没打开。本书读取：2026-10-04。
-
-提醒：这里的 44.99 美元指报纸试用退款，整个故事均经媒体转述。保险电话的执行方式无法确认，不据此判断当时完全由 AI 通话。
-
 <a id="personal-services"></a>
 
 ## 客服、保险与预约
@@ -263,24 +251,6 @@
 
 提醒：这条说明的是「准备材料」这件事 Muse 能帮上，不说明申诉渠道有效。他整理人生故事的事见第 20 章 [C20](creation.md#c20)。
 
-<a id="c107"></a>
-
-### C107 把邮箱和 Optery 账号交给它，让它从数据经纪商那里删自己的信息
-
-网友分享 · Reddit r/MetaAI · HovercraftThis8633 · 发表日期未确认
-
-**过程与结果。** 他让 Muse 处理从数据经纪商网站删除个人信息这件事。他给了邮箱访问权和 Optery 账号的登录，Muse 可以做公开的清除，每月重复，替他填表。帖子没有列出删了哪些网站，也没有确认函。
-
-原文：
-
-> I gave it access to my email and login to my Optery account. It can do the public clearing and repeat monthly fill out forms on your behalf
-
-译文：我给了它我邮箱的访问权和 Optery 账号的登录。它可以做公开的清除，每个月重复，替你填表。
-
-出处：[What are you using Muse agent for? How's your…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wcb3cq/what_are_you_using_muse_agent_for_hows_your/) 的评论。本书读取：2026-10-04。
-
-提醒：Optery 是一个帮人从数据经纪商删除信息的服务。这件事本身要交出邮箱，想一想值不值。
-
 <a id="c44"></a>
 
 ### C44 导入另一个助手的个人背景后，它发现旅行计划的旧信息和新邮件对不上
@@ -298,6 +268,18 @@
 出处：[I gave Muse access to my personal data…（TechRadar）](https://www.techradar.com/ai-platforms-assistants/i-gave-muse-access-to-my-personal-data-and-now-i-know-why-personal-agents-are-probably-going-to-change-the-world)，「Muse is always busy」一节。本书读取：2026-10-01、2026-10-04。
 
 提醒：带入旧背景前先整理日期、已经改变的计划和仍然有效的偏好，发现冲突时明确采用哪一项。
+
+<a id="c121"></a>
+
+### C121 从旧邮件和日历里找齐申请要用的旅行记录
+
+媒体实测 · The Wall Street Journal（Mint 刊载） · Nicole Nguyen · 2026-09-29
+
+**过程与结果。** 她接入邮箱与日历后，让 Muse 汇集 Global Entry 申请材料，包括过去五年的国际旅行记录。
+
+提醒：成果是材料整理，没有写到申请提交或获批。读者可借鉴的是从旧资料重建时间线，正式表单仍须逐项核对。
+
+出处：[I tried Meta’s Muse AI agent. It’s helpful and scary at the same time.](https://www.livemint.com/ai/i-tried-meta-s-muse-ai-agent-it-s-helpful-and-scary-at-the-same-time-11790645582639.html)。本书读取：2026-10-04。
 
 <a id="personal-adapt"></a>
 
@@ -321,7 +303,9 @@
 
 出处：[I tried Meta's Muse agent（Taylor Arndt，Substack）](https://taylorarndt.substack.com/p/i-tried-metas-muse-agent-i-really)。本书读取：2026-10-04。
 
-提醒：这是一位屏幕阅读器用户的经历，她的变通办法不等于界面问题已经修复。
+**后续。** [9 月 24 日的复测](https://taylorarndt.substack.com/p/i-tried-metas-muse-again-after-meta)写到，她要求按标题组织回复后，后续回复保留了这种形式；但等待状态和部分控件仍不好用。
+
+提醒：调整回复格式能帮助阅读，不等于整个界面的无障碍问题已经修复。
 
 <a id="c108"></a>
 
@@ -363,6 +347,6 @@
 
 申请和申诉类的材料（[C109](#c109)、[C22](#c22)、[C99](#c99)），让它起草，你来发。它写得快，但它不替你承担后果。
 
-账单和退款（[C100](#c100)、[C11](shopping.md#c11)）这一类收益看得见，但先核对它找出来的「重复」「异常」是不是真的（[C103](#c103)）。
+查订阅和账单（[C11](shopping.md#c11)）这一类结果容易比较，但先核对它找出来的「重复」「异常」是不是真的（[C103](#c103)）。
 
 打电话的功能（[C33](#c33)）不是人人都有，而且 Meta 承认过测试期间有真人代打。遇到只认电话的公司（[C101](#c101)），现阶段多半还得你自己打。

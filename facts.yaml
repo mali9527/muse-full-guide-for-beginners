@@ -31,8 +31,8 @@
     evidence: 仅确认这两个地区；不从旧地区稿推断其他地区开放
   sources:
   - url: https://about.fb.com/news/2026/09/introducing-muse-small-business/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: account
   ttl_days: 14
   status: confirmed
@@ -59,8 +59,8 @@
     evidence: 官方帮助；本书没有注册验证
   sources:
   - url: https://www.meta.com/en-gb/help/artificial-intelligence/1331373868832401/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: account
   ttl_days: 14
   status: confirmed
@@ -72,10 +72,10 @@
     evidence: 入口存在不证明所有地区或账号可用
   sources:
   - url: https://www.meta.com/blog/meta-connect-2026-everything-we-announced/
-    checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
   - url: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: startup
   ttl_days: 14
   status: confirmed
@@ -87,8 +87,8 @@
     evidence: 美国区App Store开发者上架字段
   sources:
   - url: https://apps.apple.com/us/app/muse-from-meta/id6760173601
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: install
   ttl_days: 14
   status: confirmed
@@ -100,21 +100,21 @@
     evidence: 只确认商店字段，中文效果未经本书实测
   sources:
   - url: https://apps.apple.com/us/app/muse-from-meta/id6760173601
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: startup
   ttl_days: 14
   status: confirmed
   critical: false
 - id: muse-plans
-  claim: 免费有用量上限；官方订阅帮助页写Power为20美元/月（每周5亿Muse tokens）、Max为100美元/月（每周30亿）；早期报道把Max写作Maximum。
+  claim: 2026-10-04所读官方订阅页列Power为20美元/月（每周5亿Muse tokens），Maximum为100美元/月（每周30亿）；免费有用量上限。
   scope:
     product: muse
-    evidence: 无地区路径英文帮助页；权益依地区和账号而异；不据此断言Max已正式更名
+    evidence: 本轮页面使用Maximum，早前记录为Max；名称与购买页可能变化，依当前账号页面确认，不推断全球正式更名。
   sources:
   - url: https://www.meta.com/help/subscriptions/1021145227643680/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: price
   ttl_days: 14
   status: confirmed
@@ -126,8 +126,8 @@
     evidence: 未披露数字，不等于无限使用
   sources:
   - url: https://www.meta.com/help/subscriptions/1021145227643680/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: quota
   ttl_days: 14
   status: confirmed
@@ -139,8 +139,8 @@
     evidence: 文档确认，非本书实测
   sources:
   - url: https://www.meta.com/blog/meta-connect-2026-everything-we-announced/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: permission
   ttl_days: 14
   status: confirmed
@@ -303,14 +303,16 @@
   status: confirmed
   critical: false
 - id: muse-memory
-  claim: 官方帮助说明Muse会保留对话上下文，可围绕已有讨论继续。
+  claim: 官方帮助说明Muse有由对话及已连接资料形成的记忆，并可用文件管理；可继续先前讨论，也可修改已有记忆。
   scope:
     product: muse
     evidence: 能力说明；不保证每条偏好被准确记住
   sources:
-  - url: https://www.meta.com/en-gb/help/artificial-intelligence/1331373868832401/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+  - url: https://www.meta.com/help/artificial-intelligence/995796179982326/
+    checked_on: '2026-10-04'
+  - url: https://www.meta.com/help/artificial-intelligence/2225571704857152/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: stable
   ttl_days: null
   status: confirmed
@@ -456,5 +458,174 @@
   checked_on: '2026-10-04'
   category: stable
   ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-interactive-artifacts
+  claim: 官方文件帮助包括可交互的单页工具和可视化；已有文件可继续修改并在Library查找。
+  scope:
+    product: muse
+    evidence: 功能存在不保证生成内容、部署方式或多人访问已经可用。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/2074655449783957/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-artifact-sharing
+  claim: 官方说明Muse的成果不会对外共享，除非用户开启共享或批准分享。
+  scope:
+    product: muse
+    evidence: 分享范围和账号界面仍需实际核对。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/2074655449783957/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-auto-meta-connectors
+  claim: 官方说明同一Accounts Center中的Facebook、Instagram和Threads账号可自动与Muse连接。
+  scope:
+    product: muse
+    evidence: 首次设置应检查实际连接；不是建议接入所有账号。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/1687253048996149/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-disconnect-retention
+  claim: 断开连接停止后续数据交换，但已进入Muse对话和记忆的信息可能保留。
+  scope:
+    product: muse
+    evidence: 断开不等于删除历史资料。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/1687253048996149/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-custom-connectors
+  claim: 官方支持利用接口资料创建自建连接器，凭据进入安全存储；Meta不审核自建连接器。
+  scope:
+    product: muse
+    evidence: 接口、服务许可和认证条件仍须满足，不保证任意服务可接入。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/1687253048996149/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-memory-import
+  claim: 官方帮助列出Data Controls中的Import memory，可上传其他助手导出的聊天ZIP。
+  scope:
+    product: muse
+    evidence: 实际兼容格式与导入结果未实测；导入后检查旧资料是否过时。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/995796179982326/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-delete-versus-forget
+  claim: 删除消息或文件不一定删除已形成的记忆；官方提供记忆文件管理，要求忘记也有局限。
+  scope:
+    product: muse
+    evidence: 不把删除某个入口当作所有副本清除。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/2225571704857152/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-training-control
+  claim: Help improve our AI models初始开启，可在Data Controls关闭，官方说明选择也适用于过去的交互。
+  scope:
+    product: muse
+    evidence: 按帮助说明记录；本书未审计后台数据处理。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/2225571704857152/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-data-export-reset
+  claim: 官方提供Download your Muse data；Reset Muse永久删除其资料、对话、文件和活动任务。
+  scope:
+    product: muse
+    evidence: Muse数据下载与Accounts Center账号信息导出分别说明，重置前先保全所需成果。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/2225571704857152/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-goals-upcoming
+  claim: 官方资料区分Goals目标、Upcoming待执行任务和Library文件，可通过相应入口或对话管理。
+  scope:
+    product: muse
+    evidence: 入口位置会变化；建立目标不是每次执行均成功的证据。
+  sources:
+  - url: https://www.meta.com/help/artificial-intelligence/2225571704857152/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-browser-takeover
+  claim: 官方安全说明称用户接手浏览器期间智能体暂停操作。
+  scope:
+    product: muse
+    evidence: 仅确认机制说明；登录、验证码与返回任务的界面未实测。
+  sources:
+  - url: https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-purchase-confirmation
+  claim: 官方购买流程说明每次结账需要用户明确确认交易细节，一次性卡号限制商家、金额与时间范围。
+  scope:
+    product: muse
+    evidence: 专指官方支付流程；不能推导所有网站付款路径或后续产品版本都相同。
+  sources:
+  - url: https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-subscription-cancel
+  claim: 取消Muse订阅要通过原购买平台；卸载App或退出账号不会取消订阅，通常可用至当前计费期结束。
+  scope:
+    product: muse
+    evidence: 退款与例外按原购买平台和适用条款，菜单路径待实际核对。
+  sources:
+  - url: https://www.meta.com/help/subscriptions/1348439670603568/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: price
+  ttl_days: 14
   status: confirmed
   critical: false

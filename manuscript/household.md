@@ -111,6 +111,20 @@
 
 提醒：学校、社团这类网站各有各的登录方式，Muse 不一定进得去。普通读者没有 Meta 工程师帮忙。
 
+<a id="c118"></a>
+
+### C118 把全家的安排做成一个每天打开的小网页
+
+媒体实测 · Tom's Guide · Amanda Caswell · 2026-10-04
+
+**事情。** 五口之家的日程散在手机、便签和家人聊天里，她希望大家能自己查看当天安排。
+
+**过程与结果。** 她向 Muse 说明平常一周的活动，请它先做一个 Today 页面，再加入家庭日历、分工、购物清单和餐单。之后有新通知，她继续交给 Muse 修改。她报告重复问询减少了。
+
+提醒：文章没有提供可供本书检查的运行版本，也没有说明家人登录和访问权限的实现。这里记录的是作者的使用经历，不能据此承诺多人共享已经适合所有家庭。
+
+出处：[I used Meta Muse as an AI house manager for my family of five — here’s what happened](https://www.tomsguide.com/ai/i-used-meta-muse-as-an-ai-house-manager-for-my-family-of-five-heres-what-happened)。本书读取：2026-10-04。
+
 <a id="family-materials"></a>
 
 ## 食谱、回访邮件与家庭资料
@@ -289,6 +303,18 @@
 
 提醒：选哪家是他自己定的，Muse 负责提交。同一位作者还讲了几件事，见 [C58](#c58)、[C59](#c59) 和第 21 章。
 
+<a id="c120"></a>
+
+### C120 给出四组时间和偏好的保姆，登录后让它完成预约
+
+媒体实测 · The Wall Street Journal（Mint 刊载） · Nicole Nguyen · 2026-09-29
+
+**过程与结果。** 她给 Muse 四组日期、时间和偏好的保姆，自己登录托育预约平台后，让它完成预约。随后 Muse 提议把安排加入日历，她才连接 Google Calendar。
+
+提醒：先登录、完成预约、再接日历，是这一次经历的顺序；不能据此认定任意托育平台都能接入。
+
+出处：[I tried Meta’s Muse AI agent. It’s helpful and scary at the same time.](https://www.livemint.com/ai/i-tried-meta-s-muse-ai-agent-it-s-helpful-and-scary-at-the-same-time-11790645582639.html)。本书读取：2026-10-04。
+
 <a id="family-routines"></a>
 
 ## 家庭目标与日常安排
@@ -382,24 +408,6 @@
 出处：[What's the coolest thing you've done with Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wjyjxu/whats_the_coolest_thing_youve_done_with_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
 
 提醒：需要自己写接口。本书不据此给任何训练建议。
-
-<a id="c60"></a>
-
-### C60 给旧扫地机器人做了一个连接，一句话让它扫十五分钟
-
-网友分享 · Reddit r/MetaAI · Bluehens96 · 2026-10-02 · 需要技术条件
-
-**过程与结果。** 他为家里的旧扫地机器人做了一个自定义连接，之后可以直接说「扫十五分钟然后回去」。帖子没说品牌和做法。
-
-原文：
-
-> Built a custom workaround connection for my old robovacuum so that I can just ask him to control it “run my vacuum for 15 minutes then send him home”
-
-译文：给我的旧扫地机器人做了一个自定义的变通连接，这样我就能直接让它控制：「扫十五分钟，然后让它回家」。
-
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
-
-提醒：这是自定义连接器，Meta 不审核这类连接器。不是所有扫地机器人都能这样接。
 
 ## 线索
 

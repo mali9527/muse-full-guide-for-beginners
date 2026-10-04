@@ -6,14 +6,14 @@
 
 经营小生意时，研究同行、维护网站、更新商品和回复客户都需要花时间。本章收集了把这些工作交给 Muse 的经历，也保留了对外谈价、约见时出现的问题。
 
-值得先看三条。一位二手服装店主让 Muse 把 Depop 上的商品搬到 eBay，中间反复遇到人机验证，标题起得笼统，约一小时搬完，之后卖出了四件（[C114](#c114)）。一位网站主接入 Squarespace 后，Muse 给了修改建议，还真的搭出了博客页和周边商店，他之后自己微调（[C35](#c35)）。另一位卖家让 Muse 代管一天 Marketplace 的出售，Muse 谈成价格、给了买家住址、约了上门取货，他事后才知道（[C115](#c115)）。
+可以先看两种成果和一个需要留意的边界。一位二手服装店主让 Muse 把 Depop 上的商品搬到 eBay，中间反复遇到人机验证，标题起得笼统，约一小时搬完，之后卖出了四件（[C114](#c114)）。一位网站主接入 Squarespace 后，Muse 给了修改建议，还搭出了博客页和周边商店，他之后自己微调（[C35](#c35)）。另有媒体报道，Muse 代管 Marketplace 出售时约了买家上门，卖家事后才知道；这件事的具体授权仍未厘清（[C115](#c115)）。
 
 | 你想处理的事 | 从这里开始 |
 |---|---|
 | [维护网站与网店](#business-site) | [网站与商店（C35）](#c35) |
 | [找客户与整理经营资料](#business-research) | [潜在客户（C36）](#c36) |
 | [商品上架与出售](#business-selling) | [商品跨平台上架（C114）](#c114) |
-| [需要自建工具的客服用法](#business-extra) | [自建客服演示（C47）](#c47) |
+| [需要自建连接和工具的用法](#business-extra) | [自建客服演示（C47）](#c47) |
 
 <a id="business-site"></a>
 
@@ -97,24 +97,6 @@
 出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 10。本书读取：2026-09-30、2026-10-04。
 
 提醒：关闭 App 后，这项研究仍在后台进行。需要停止任务时，应明确停止或取消，不能只关闭窗口。
-
-<a id="c23"></a>
-
-### C23 为零售店持续查陈列设备、展示柜、店面设计趋势和竞争者
-
-网友分享 · Reddit r/MetaAI · Most_Apricot5133 · 发表日期未确认
-
-**过程与结果。** 他用 Muse 为自己的零售生意做研究：海外的陈列设备、珠宝展示柜、店面设计趋势、竞争者和买家信号。他觉得有用的地方是它会一直往下挖来源，而不是给一个快答案。他还在测试，没有展示报告或采购决定。
-
-原文：
-
-> The useful part is that it can keep digging through sources instead of giving me one quick answer.
-
-译文：有用的地方在于，它能一直往下挖来源，而不是给我一个快答案。
-
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1ws1c5q/top_three_use_cases_for_muse/)。本书读取：2026-09-30、2026-10-04。
-
-提醒：主帖含推荐码，并说明推荐双方都有好处。
 
 <a id="c116"></a>
 
@@ -201,7 +183,7 @@
 
 **事情。** 内容创作者 Matt Robb 让 Muse 替他代管 Facebook Marketplace 上一件东西的出售。
 
-**过程与结果。** 据他发布的截图，Muse 和一位买家谈了价、同意了价格、分享了他的住址、安排了取货，他全程不知道有人已经被约到家里来。买家到了他的楼下等。他之后告诉 Muse，以后任何取货都要先问他。Meta 的 David Singleton 表示正在调查，并说以往类似报告里发现智能体遵循了用户的授权；这不是对这一件事的结论。
+**过程与结果。** 据 Android Authority 对他帖子和截图的转述，Muse 和一位买家谈了价、同意了价格、分享了他的住址、安排了取货，他全程不知道有人已经被约到家里来。买家到了他的楼下等。他之后告诉 Muse，以后任何取货都要先问他。Meta 的 David Singleton 表示正在调查，并说以往类似报告里发现智能体遵循了用户的授权；这不是对这一件事的结论。
 
 原文：
 
@@ -211,11 +193,11 @@
 
 出处：[Android Authority 的报道](https://www.androidauthority.com/meta-muse-ai-privacy-issues-3715963/)。本书读取：2026-10-04。Robb 本人在 Threads 上的原帖本书没有打开。
 
-提醒：这件事的授权情况没有查清，用户和 Meta 的说法不一致。交办这类任务时，要明确最低价、联系方式的使用范围和见面安排，并检查已有许可；报价或约见之前保留自己的确认步骤。
+提醒：这件事的授权情况没有查清，不能据现有报道认定它越权，也不能认定用户已经批准。交办这类任务时，要明确最低价、联系方式的使用范围和见面安排，并检查已有许可；报价或约见之前保留自己的确认步骤。
 
 <a id="business-extra"></a>
 
-## 需要自建工具的客服用法
+## 需要自建连接和工具的用法
 
 <a id="c47"></a>
 
@@ -235,23 +217,19 @@
 
 提醒：这是自家系统的演示，演示数据是合成的。本书没有看视频。
 
-<a id="c117"></a>
+<a id="c123"></a>
 
-### C117 内置的打电话功能不肯替他打，他接了 ElevenLabs 的电话号码
+### C123 没有现成连接器，让 Muse 接入自己公司的工作系统
 
-网友分享 · Reddit r/MetaAI · hariboyolo · 发表日期未确认 · 需要技术条件
+创作者分享 · Taylor's Substack · Taylor Arndt · 2026-09-24 · 需要技术条件
 
-**过程与结果。** 他说 Muse 的打电话功能不肯替他打，于是给 Muse 一个 ElevenLabs 的电话号码，把 ElevenLabs 的 API 密钥交给 Muse，让它通过那边打电话。帖子没有具体的通话任务和录音。
+**事情。** 她希望 Muse 能使用自己公司的 Start Testing 系统，而 Meta 没有为它提供现成连接器。
 
-原文：
+**过程与结果。** 她让 Muse 创建连接，经过等待和认证后出现了可用的连接。她同时指出，等待期间状态不清，屏幕阅读器用户尤其难判断它在工作还是卡住。
 
-> I haven’t had luck with phone calls with muse because it refuses to do it for me. Elevenlabs has its own phone thing built in just gotta give Elevenlabs api key to muse
+提醒：作者拥有这个产品和相应接入条件，文章没有给出完整实现或长期运行记录。自建连接器的能力与审核范围另见官方连接器帮助，不能保证一句话接通任何系统。
 
-译文：我用 Muse 打电话一直没成功，它拒绝替我打。ElevenLabs 自带电话功能，只要把 ElevenLabs 的 API 密钥给 Muse 就行。
-
-出处：[What's the coolest thing you've done with Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wjyjxu/whats_the_coolest_thing_youve_done_with_muse/) 的评论和作者补充。本书读取：2026-10-04。
-
-提醒：这是自建接入，和 [C50](shopping.md#c50) 那种内置的测试功能不是一回事。交出第三方服务的 API 密钥，也是一种授权。
+出处：[I Tried Meta's Muse Again After Meta Connect. This Got Interesting Fast.](https://taylorarndt.substack.com/p/i-tried-metas-muse-again-after-meta)。本书读取：2026-10-04。
 
 ## 线索
 
@@ -259,7 +237,7 @@
 
 ## 换成自己的事
 
-可以从一份供自己审阅的材料开始：研究竞争者、供应商或设计趋势（[C23](#c23)、[C26](#c26)），或者用已有数据起草周报（[C116](#c116)）。对外采用前核对来源、数字和结论，先确认结果能用，再安排后续工作。
+可以从一份供自己审阅的材料开始：研究竞争者、供应商或设计趋势（[C23](../cases/条目调整记录.md#c23)、[C26](#c26)），或者用已有数据起草周报（[C116](#c116)）。对外采用前核对来源、数字和结论，先确认结果能用，再安排后续工作。
 
 改商品、改网站是写入动作。[C25](#c25) 的做法是范本：每一步批准，最后自己点发布。[C35](#c35) 也是搭完自己微调。
 

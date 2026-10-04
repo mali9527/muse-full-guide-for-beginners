@@ -83,26 +83,6 @@
 
 提醒：到选项和追踪为止，没有订票。
 
-<a id="c37"></a>
-
-### C37 每天同时盯机票和租车，等到符合自己的条件
-
-网友分享 · Reddit r/MetaAI · SeatownCooks · 发表日期未确认
-
-**事情。** 他每年同一时间去佛罗里达。
-
-**过程与结果。** 他让 Muse 每天查机票和租车价格，直到找到符合要求、价格也合适的选项。帖子没说这次订到没有、省了多少。
-
-原文：
-
-> Daily travel search. I go to Florida every year at the same time. I have it scanning daily for airfare and rental car prices until it finds my specifications at the price I want.
-
-译文：每日旅行搜索。我每年同一时间去佛罗里达。我让它每天扫描机票和租车价格，直到找到符合我要求、价格也合我意的。
-
-出处：[How do I get the most use out of Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wozi3y/how_do_i_get_the_most_use_out_of_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
-
-提醒：这是周期任务，监测会持续消耗额度。
-
 <a id="c63"></a>
 
 ### C63 查去拉斯维加斯的航班，建了每日监价，最后还是自己查
@@ -233,24 +213,6 @@
 
 提醒：打电话功能不是所有账号都有，其他评论者说自己没有。「六成」是他自己的说法，没有样本。主帖含推荐码。
 
-<a id="c06"></a>
-
-### C06 让它定期留意家附近有没有新开的餐厅
-
-网友分享 · Reddit r/MetaAI · CaptainBroccoli · 发表日期未确认
-
-**过程与结果。** 他让 Muse 定期上网查，有新餐厅开业就告诉他，因为他们喜欢支持本地新店。帖子没有给出具体餐厅或通知的样子。有评论者质疑：产品才出来几天，哪有那么多新开的餐厅可以追踪。
-
-原文：
-
-> New Restaurants in My Neighborhood - Not as exciting, but Muse checks the web for me periodically and tells me if there are any new restaurants opening up around me. We always like to support new local businesses!
-
-译文：我家附近的新餐厅。没那么刺激，但 Muse 会定期替我上网查，告诉我附近有没有新开的餐厅。我们一直喜欢支持本地新店！
-
-出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)。本书读取：2026-09-30、2026-10-04。
-
-提醒：主帖含推荐码。[C64](#c64)、[C66](#c66) 说明餐厅信息可能过时，收到通知后自己核一下。
-
 <a id="travel-movies"></a>
 
 ## 电影推荐与场次
@@ -293,6 +255,20 @@
 
 提醒：到结账为止，没有付款。节目有赞助商，不是 Meta。
 
+<a id="c119"></a>
+
+### C119 逐场查演出票价，停在结账前
+
+媒体实测 · PCWorld · Ben Patterson · 2026-09-25
+
+**事情。** 他想找便宜的演出票，普通提问得到的只是购票建议，于是明确让 Muse 打开官方票务网站查。
+
+**过程与结果。** Muse 找到《麦克白》的含手续费票价，并走到需要登录的结账环节；作者取消了购买。他又让它比较《The Holes》的各场演出和《汉密尔顿》未来三十天的场次，得到不同价格的候选。
+
+提醒：文章记录的是查价和准备结账，没有完成购票。这个例子的价值在于替人逐场检查，文中的历史价格不作为今天能买到的报价。
+
+出处：[Meta’s Muse AI assistant was born to shop](https://www.pcworld.com/article/3243549/metas-muse-ai-assistant-was-born-to-shop.html)。本书读取：2026-10-04。
+
 ## 线索
 
 - 让 Muse 跑了 146 次机票搜索，从旧金山到十一个西班牙城市去、十个意大利城市回，跨七个日期，找最便宜的往返。[Deep Mehta 在 X 上的原帖](https://x.com/mehtadeep/status/2099498596789850192)，[聚合站的转述](https://shipwithmuse.live/builds/146-flight-searches-for-the-cheapest-europe-trip)。本书没打开原帖，搜索次数和省钱数字都没核。
@@ -302,7 +278,7 @@
 
 出门前找信息，可以参考 [C43](#c43)：说清是哪件事、大概什么时候、涉及谁，并确认 Muse 能访问相关邮件。找到之后，打开原邮件核对地点、日期和联系人，尤其留意后来的变更。
 
-订票订位要分三段看：找到候选，提交，对方确认。[C61](#c61)、[C37](#c37) 停在找到候选，[C65](#c65) 走完了三段，[C62](#c62)、[C67](#c67) 卡在提交那一步。
+订票订位要分三段看：找到候选，提交，对方确认。[C61](#c61)、[C37](../cases/条目调整记录.md#c37) 停在找到候选，[C65](#c65) 走完了三段，[C62](#c62)、[C67](#c67) 卡在提交那一步。
 
 餐厅信息过时是反复出现的问题（[C64](#c64)、[C66](#c66)）。出发前用商家当前页面核对地址、营业状态和电话。
 
