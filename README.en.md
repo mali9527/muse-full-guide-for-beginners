@@ -26,3 +26,7 @@ Track the source version and review date for this language. A Chinese update doe
 <!-- Link only to published material and explain the next learning step. -->
 <!-- Invite readers to star useful material for later reference; release notifications use Watch → Custom → Releases. -->
 <!-- /growth:related -->
+
+## Content license
+
+The original text, original example materials and original teaching illustrations are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), subject to the scope and exclusions in [LICENSE](LICENSE). Noncommercial sharing and adaptation require attribution, indication of changes and compliance with ShareAlike. Readers may apply the knowledge and methods they learn at work. Adopting the license does not change this work's status as an unpublished local draft.
