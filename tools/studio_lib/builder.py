@@ -136,6 +136,12 @@ def rewritten_body(root, unit, text, out_parent, units, pdf_mode=False, source_c
     path_to_unit = {safe_path(root, u["path"]).resolve(): u for u in units}
     heading_ids = {u["id"]: headings(safe_path(root, u["path"]).read_text(encoding="utf-8")) for u in units}
     counters = {}
+    def pdf_anchor(anchor):
+        # An empty Markdown span becomes a bare Typst label attached to the
+        # preceding element. Consecutive case aliases then overwrite each other.
+        # Give every target its own invisible element at the original position.
+        value = json.dumps(anchor, ensure_ascii=False)
+        return "\n" + TICK * 3 + "{=typst}\n#metadata(" + value + ") #label(" + value + ")\n" + TICK * 3 + "\n\n"
     def links(s):
         def link(m):
             if pdf_mode:
@@ -171,7 +177,7 @@ def rewritten_body(root, unit, text, out_parent, units, pdf_mode=False, source_c
         explicit = re.fullmatch(r" {0,3}<a\s+id=([\"'])([^\"']+)\1\s*></a>\s*", s)
         if explicit:
             anchor = unit["id"] + "-" + explicit.group(2)
-            return ("[]{#" + anchor + "}" if pdf_mode else '<a id="' + anchor + '"></a>') + ("\n" if s.endswith("\n") else "")
+            return pdf_anchor(anchor) if pdf_mode else '<a id="' + anchor + '"></a>' + ("\n" if s.endswith("\n") else "")
         if not m: return body
         key = slug(m.group(2)); n = counters.get(key, 0); counters[key] = n + 1
         anchor = unit["id"] + "-" + key + ("-" + str(n) if n else "")
@@ -184,7 +190,7 @@ def rewritten_body(root, unit, text, out_parent, units, pdf_mode=False, source_c
     result = map_markdown(manuscript, line)
     if pdf_mode:
         # A unit-level target is stable even after its visible heading changes.
-        result = "[]{#" + unit["id"] + "}\n\n" + result
+        result = pdf_anchor(unit["id"]) + result
     return result
 
 
