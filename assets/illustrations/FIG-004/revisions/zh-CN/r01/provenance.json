@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "figure": "FIG-004",
+  "language": "zh-CN",
+  "image": {
+    "format": "PNG",
+    "opaque": true,
+    "monochrome": true,
+    "max_channel_delta": 0,
+    "chroma_noise_fraction": 0.0,
+    "color_check": "neutral-gray-v1",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 527628,
+    "sha256": "527737c8bf97ab4794776b345f862e5cc95ab08144790a2099fa3665a809236d"
+  },
+  "input_fingerprint": "a2196e9c0b6a609b28981fe1f297a10488f6c8c9225446a9434d6f979f7e4aa2",
+  "tool": "image_gen",
+  "receipt": {
+    "input_fingerprint": "a2196e9c0b6a609b28981fe1f297a10488f6c8c9225446a9434d6f979f7e4aa2",
+    "tool": "image_gen",
+    "model": "unknown",
+    "references": [
+      {
+        "id": "paper",
+        "role": "paper",
+        "sha256": "9280e4573358d22f4835fba2d8d9bb24d284aa7f4d8dcfb80a9c43d105e9ae61",
+        "passed": true
+      },
+      {
+        "id": "style",
+        "role": "style",
+        "sha256": "e393eebfe128f646e0700ba95b874aab12b764ea3e5ac5b85e98dc57bd03ee13",
+        "passed": true
+      }
+    ],
+    "postprocessing": {
+      "tool": "Pillow",
+      "source_sha256": "1b323177048bac10898336a5810b36ab03c3207bedb97581a31cd1a3f21812cd",
+      "final_sha256": "527737c8bf97ab4794776b345f862e5cc95ab08144790a2099fa3665a809236d",
+      "operations": [
+        "convert to neutral grayscale"
+      ],
+      "authorization": "作者在当前任务明确批准后，由执行者传入--authorized；实际授权原话另存审校记录。",
+      "source_key": "fig004r02",
+      "composition_and_text": "原图内容不作重画或文字替换；原图保留。"
+    },
+    "generation_record": {
+      "source_key": "fig004r02",
+      "followup_prompt": "\nCorrect image 1: remove the three small characters 已收到 from the round stamp on the bottom receipt. Keep a plain empty stamp outline. Only these words may be rendered in the picture: 事情办到哪一步 / 找到 / 候选信息 / 提交 / 提交记录 / 确认 / 商家回执. Everything else unchanged, exactly 1448x1086 and strictly grayscale.",
+      "initial_tool": "image_gen",
+      "method": "paper and penmanship images passed on each generation; corrections also passed the prior draft"
+    }
+  },
+  "created_at": "2026-10-04T14:43:52.903512+00:00"
+}

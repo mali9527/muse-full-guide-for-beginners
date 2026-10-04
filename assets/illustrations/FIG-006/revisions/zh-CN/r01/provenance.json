@@ -1,0 +1,57 @@
+{
+  "schema_version": 2,
+  "figure": "FIG-006",
+  "language": "zh-CN",
+  "image": {
+    "format": "PNG",
+    "opaque": true,
+    "monochrome": true,
+    "max_channel_delta": 0,
+    "chroma_noise_fraction": 0.0,
+    "color_check": "neutral-gray-v1",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 544934,
+    "sha256": "d8f8b2596aec17e1e9572597376ff9d26d9a17be8d83d34c10bbaf7271e2c6c3"
+  },
+  "input_fingerprint": "2891574c5c9b5b5f55f85daadfb39c92943a3b21651b27263c30ad401583bfe7",
+  "tool": "image_gen",
+  "receipt": {
+    "input_fingerprint": "2891574c5c9b5b5f55f85daadfb39c92943a3b21651b27263c30ad401583bfe7",
+    "tool": "image_gen",
+    "model": "unknown",
+    "references": [
+      {
+        "id": "paper",
+        "role": "paper",
+        "sha256": "9280e4573358d22f4835fba2d8d9bb24d284aa7f4d8dcfb80a9c43d105e9ae61",
+        "passed": true
+      },
+      {
+        "id": "style",
+        "role": "style",
+        "sha256": "e393eebfe128f646e0700ba95b874aab12b764ea3e5ac5b85e98dc57bd03ee13",
+        "passed": true
+      }
+    ],
+    "postprocessing": {
+      "tool": "Pillow",
+      "source_sha256": "16b705a7baf572c6d5f067c267b6033327353ef363c0dd90061286046045cddc",
+      "final_sha256": "d8f8b2596aec17e1e9572597376ff9d26d9a17be8d83d34c10bbaf7271e2c6c3",
+      "operations": [
+        "convert to neutral grayscale",
+        "1447x1087 to 1448x1086 Lanczos; one-pixel correction"
+      ],
+      "authorization": "作者在当前任务明确批准后，由执行者传入--authorized；实际授权原话另存审校记录。",
+      "source_key": "fig006r02",
+      "composition_and_text": "原图内容不作重画或文字替换；原图保留。"
+    },
+    "generation_record": {
+      "source_key": "fig006r02",
+      "followup_prompt": "\nSimplify draft image 1. DELETE the three long explanatory text blocks on the right (批准本任务内的同类动作 / 批准同一网站上以后的同类动作 / 批准同一连接器上以后的同类动作). Keep ONLY the title and seven exact labels from JSON: 本次动作, 只批准这次, 本任务内, 同类动作, 以后同类, 网站, 连接器. Enlarge the remaining diagram to use the freed right space with generous margins. The task group and the two separate site/connector groups remain structurally the same, website and connector are separate scopes. Each label ink height >=65px. No other text. Exact 1448x1086 opaque grayscale output.",
+      "initial_tool": "image_gen",
+      "method": "paper and penmanship images passed on each generation; corrections also passed the prior draft"
+    }
+  },
+  "created_at": "2026-10-04T14:43:58.784498+00:00"
+}

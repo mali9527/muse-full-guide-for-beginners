@@ -8,7 +8,7 @@ baseline:
   product_version: 完整中文文字初稿：26单元、108条案例；依据官方资料和公开经历写作，未实测
   checked_on: '2026-10-04'
 repository:
-  name: ''
+  name: mali9527/muse-full-guide-for-beginners
   default_branch: main
 is_test: false
 watershed: choose

@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "figure": "FIG-009",
+  "language": "zh-CN",
+  "image": {
+    "format": "PNG",
+    "opaque": true,
+    "monochrome": true,
+    "max_channel_delta": 0,
+    "chroma_noise_fraction": 0.0,
+    "color_check": "neutral-gray-v1",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 601818,
+    "sha256": "8cb825a8f98d66d1eaf57b0f91953b95e7539be92f323a7c7785ec4c96f5c295"
+  },
+  "input_fingerprint": "6385c1def0437cc534a1149d4adc21c8ab986fef029ee73cfbc4759d7951254c",
+  "tool": "image_gen",
+  "receipt": {
+    "input_fingerprint": "6385c1def0437cc534a1149d4adc21c8ab986fef029ee73cfbc4759d7951254c",
+    "tool": "image_gen",
+    "model": "unknown",
+    "references": [
+      {
+        "id": "paper",
+        "role": "paper",
+        "sha256": "9280e4573358d22f4835fba2d8d9bb24d284aa7f4d8dcfb80a9c43d105e9ae61",
+        "passed": true
+      },
+      {
+        "id": "style",
+        "role": "style",
+        "sha256": "e393eebfe128f646e0700ba95b874aab12b764ea3e5ac5b85e98dc57bd03ee13",
+        "passed": true
+      }
+    ],
+    "postprocessing": {
+      "tool": "Pillow",
+      "source_sha256": "81c7d8f95a68c732862539723b85b24acb2b6b5010c10bac6f578071012386eb",
+      "final_sha256": "8cb825a8f98d66d1eaf57b0f91953b95e7539be92f323a7c7785ec4c96f5c295",
+      "operations": [
+        "convert to neutral grayscale"
+      ],
+      "authorization": "作者在当前任务明确批准后，由执行者传入--authorized；实际授权原话另存审校记录。",
+      "source_key": "fig009r02",
+      "composition_and_text": "原图内容不作重画或文字替换；原图保留。"
+    },
+    "generation_record": {
+      "source_key": "fig009r02",
+      "followup_prompt": "\nMobile readability edit of image 1. Enlarge FOUR main labels 邮件与日历 / 一页简报 / 找出冲突 / 家人决定 to 80px ink height, at least 40% larger. Remove every tiny word INSIDE calendars and report (我的日程, 家人的日程, 一周简报, all weekday names). Keep only unlabeled lines, calendar grids and overlapping time bars inside objects. Title and four main labels are the ONLY visible text. Keep four scenes and arrows in same sequence; preserve the family illustration. Strict grayscale 1448x1086 full opaque paper.",
+      "initial_tool": "image_gen",
+      "method": "paper and penmanship images passed on each generation; corrections also passed the prior draft"
+    }
+  },
+  "created_at": "2026-10-04T14:44:09.134951+00:00"
+}

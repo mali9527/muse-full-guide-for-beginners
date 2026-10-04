@@ -1,0 +1,16 @@
+{
+  "image_sha256": "4800e94d2979cd86bad539cf9e08a853202ea5b6541dd5f9166614d3204829c3",
+  "input_fingerprint": "962b34b5a72680d24c0ed83ecfa84248fc7042734807ca0514c8537a6b9cd4db",
+  "language": "zh-CN",
+  "reviewer": "Codex",
+  "checked_on": "2026-10-04",
+  "content": "pass",
+  "text": "pass",
+  "visual": "pass",
+  "background": "pass",
+  "monochrome": "pass",
+  "structure": "pass",
+  "localization": "pass",
+  "placement": "pass",
+  "notes": "逐张查看最终灰度 PNG 的 358px 浏览器预览，对照前轮原图审校与冻结图意、标签；纸底、箭头、文本均符合。概念/案例示意，不作为产品操作证据。"
+}

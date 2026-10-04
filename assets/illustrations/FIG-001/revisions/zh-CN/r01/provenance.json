@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "figure": "FIG-001",
+  "language": "zh-CN",
+  "image": {
+    "format": "PNG",
+    "opaque": true,
+    "monochrome": true,
+    "max_channel_delta": 0,
+    "chroma_noise_fraction": 0.0,
+    "color_check": "neutral-gray-v1",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 544859,
+    "sha256": "c4113970077acf06e09ceb0be8fb869859f78f7126966fa1a9a79acc0b196c88"
+  },
+  "input_fingerprint": "429e84b73aaef8afd55276a5911cac39cddc6e7bfa2111b1ef60f981c496b175",
+  "tool": "image_gen",
+  "receipt": {
+    "input_fingerprint": "429e84b73aaef8afd55276a5911cac39cddc6e7bfa2111b1ef60f981c496b175",
+    "tool": "image_gen",
+    "model": "unknown",
+    "references": [
+      {
+        "id": "paper",
+        "role": "paper",
+        "sha256": "9280e4573358d22f4835fba2d8d9bb24d284aa7f4d8dcfb80a9c43d105e9ae61",
+        "passed": true
+      },
+      {
+        "id": "style",
+        "role": "style",
+        "sha256": "e393eebfe128f646e0700ba95b874aab12b764ea3e5ac5b85e98dc57bd03ee13",
+        "passed": true
+      }
+    ],
+    "postprocessing": {
+      "tool": "Pillow",
+      "source_sha256": "8913ca3912fbd1177f606cba3105cfffdbec7336652bec986fde5e3503889ced",
+      "final_sha256": "c4113970077acf06e09ceb0be8fb869859f78f7126966fa1a9a79acc0b196c88",
+      "operations": [
+        "convert to neutral grayscale"
+      ],
+      "authorization": "作者在当前任务明确批准后，由执行者传入--authorized；实际授权原话另存审校记录。",
+      "source_key": "fig001r03",
+      "composition_and_text": "原图内容不作重画或文字替换；原图保留。"
+    },
+    "generation_record": {
+      "source_key": "fig001r03",
+      "followup_prompt": "\nMobile reading revision of supplied current draft image 1. The six main labels are too small at 358px reading width. INCREASE all six label handwriting height by 50%, to about 75-80 pixels ink height on the original canvas. Shorten drawing heights slightly if necessary, preserve the same three row pairs and all arrow directions. Title unchanged. Only render title plus: 旧邮件 / 出行信息 / 全家日程 / 家庭简报 / 手写清单 / 待核购物车. No other text. The magnifying glass stays empty, with no check. 1448x1086 opaque strictly grayscale.",
+      "initial_tool": "image_gen",
+      "method": "paper and penmanship images passed on each generation; corrections also passed the prior draft"
+    }
+  },
+  "created_at": "2026-10-04T14:43:44.225342+00:00"
+}

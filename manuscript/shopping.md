@@ -27,6 +27,12 @@
 
 **过程与结果。** 他头天晚上设置的：把 Muse 指向他过去的订单，说明一些偏好，让它领优惠券，再拍了一张家里手写的购物清单。他说 Muse 全做对了，他检查了一遍购物车，然后结账。帖子没说是哪家超市、花了多少。
 
+<!-- diagram: FIG-010 -->
+![C78 的分工：Muse 参考清单与历史订单准备购物车，分享者自己检查并结账；这不代表所有超市都支持同样流程。](../assets/illustrations/FIG-010/revisions/zh-CN/r01/zh-CN.png)
+
+*图：C78 的分工：Muse 参考清单与历史订单准备购物车，分享者自己检查并结账；这不代表所有超市都支持同样流程。*
+<!-- /diagram: FIG-010 -->
+
 原文：
 
 > I set it up last night to load my grocery pickup cart. I pointed it at my past orders, explained some preferences and asked it to clip coupons, then took a photo of our hand written grocery list. It honestly nailed it, I looked it over then checked out

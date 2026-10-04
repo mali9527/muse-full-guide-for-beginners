@@ -1,0 +1,57 @@
+{
+  "schema_version": 2,
+  "figure": "FIG-002",
+  "language": "zh-CN",
+  "image": {
+    "format": "PNG",
+    "opaque": true,
+    "monochrome": true,
+    "max_channel_delta": 0,
+    "chroma_noise_fraction": 0.0,
+    "color_check": "neutral-gray-v1",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 533785,
+    "sha256": "148b7dd6c5f0a07b94c6ee545c987abdd03624b3fdc07b5d077789f4a5d4847c"
+  },
+  "input_fingerprint": "76f0e958f982ab65ded6439960697054c68453bc7db676febc1dad6c290b087a",
+  "tool": "image_gen",
+  "receipt": {
+    "input_fingerprint": "76f0e958f982ab65ded6439960697054c68453bc7db676febc1dad6c290b087a",
+    "tool": "image_gen",
+    "model": "unknown",
+    "references": [
+      {
+        "id": "paper",
+        "role": "paper",
+        "sha256": "9280e4573358d22f4835fba2d8d9bb24d284aa7f4d8dcfb80a9c43d105e9ae61",
+        "passed": true
+      },
+      {
+        "id": "style",
+        "role": "style",
+        "sha256": "e393eebfe128f646e0700ba95b874aab12b764ea3e5ac5b85e98dc57bd03ee13",
+        "passed": true
+      }
+    ],
+    "postprocessing": {
+      "tool": "Pillow",
+      "source_sha256": "b3c90a07b838f1344889549082040e5f92413259e4d9200d9eccba35c6141e98",
+      "final_sha256": "148b7dd6c5f0a07b94c6ee545c987abdd03624b3fdc07b5d077789f4a5d4847c",
+      "operations": [
+        "convert to neutral grayscale",
+        "1447x1087 to 1448x1086 Lanczos; one-pixel correction"
+      ],
+      "authorization": "作者在当前任务明确批准后，由执行者传入--authorized；实际授权原话另存审校记录。",
+      "source_key": "fig002r02",
+      "composition_and_text": "原图内容不作重画或文字替换；原图保留。"
+    },
+    "generation_record": {
+      "source_key": "fig002r02",
+      "followup_prompt": "\nMobile readability edit to image 1. INCREASE all five labels 材料与要求, 初稿, 对照原件, 修改, 核对后保存 to 75-80px ink height, about 50% larger. Remove all tiny words inside the papers, including 通知, 要求, 出行单; use unlabeled strokes instead. Keep all four main nodes and the bottom saved folder, same arrow relationships: materials to draft to check; check to revise, revise back to check, and check to save. No direct revise-to-save shortcut. Keep same grid and pen, 1448x1086 fully opaque true grayscale.",
+      "initial_tool": "image_gen",
+      "method": "paper and penmanship images passed on each generation; corrections also passed the prior draft"
+    }
+  },
+  "created_at": "2026-10-04T14:43:46.825738+00:00"
+}

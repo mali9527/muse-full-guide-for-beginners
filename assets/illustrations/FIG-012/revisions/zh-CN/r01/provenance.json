@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "figure": "FIG-012",
+  "language": "zh-CN",
+  "image": {
+    "format": "PNG",
+    "opaque": true,
+    "monochrome": true,
+    "max_channel_delta": 0,
+    "chroma_noise_fraction": 0.0,
+    "color_check": "neutral-gray-v1",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 544618,
+    "sha256": "1e333d64ddbad56f4dc9984c61dc9d01fbdeede93cc795fff3e5924850561274"
+  },
+  "input_fingerprint": "c1b944ddddb0ffec7cd7a83804dad068fb45db62fb7b32b8c77777605b8979e7",
+  "tool": "image_gen",
+  "receipt": {
+    "input_fingerprint": "c1b944ddddb0ffec7cd7a83804dad068fb45db62fb7b32b8c77777605b8979e7",
+    "tool": "image_gen",
+    "model": "unknown",
+    "references": [
+      {
+        "id": "paper",
+        "role": "paper",
+        "sha256": "9280e4573358d22f4835fba2d8d9bb24d284aa7f4d8dcfb80a9c43d105e9ae61",
+        "passed": true
+      },
+      {
+        "id": "style",
+        "role": "style",
+        "sha256": "e393eebfe128f646e0700ba95b874aab12b764ea3e5ac5b85e98dc57bd03ee13",
+        "passed": true
+      }
+    ],
+    "postprocessing": {
+      "tool": "Pillow",
+      "source_sha256": "987aeac44d3147f4864d26e212d38841e278e5cc121a6797bf08b772284fed66",
+      "final_sha256": "1e333d64ddbad56f4dc9984c61dc9d01fbdeede93cc795fff3e5924850561274",
+      "operations": [
+        "convert to neutral grayscale"
+      ],
+      "authorization": "作者在当前任务明确批准后，由执行者传入--authorized；实际授权原话另存审校记录。",
+      "source_key": "fig012r02",
+      "composition_and_text": "原图内容不作重画或文字替换；原图保留。"
+    },
+    "generation_record": {
+      "source_key": "fig012r02",
+      "followup_prompt": "\nMobile readability edit of image 1. Enlarge five labels 模型判断 / 调用工具 / 查看结果 / 决定下一步 / 需要时问你 to about 75-80px ink height (roughly 40-50% larger). Increase each node width only as needed; reduce icon size to leave more breathing space. Preserve the four-node clockwise cycle and dashed branch from next-step node to person. Do not invent additional labels or any footer. Same black gel pen, same 1448x1086 opaque grid, strict neutral grayscale.",
+      "initial_tool": "image_gen",
+      "method": "paper and penmanship images passed on each generation; corrections also passed the prior draft"
+    }
+  },
+  "created_at": "2026-10-04T14:44:19.630962+00:00"
+}

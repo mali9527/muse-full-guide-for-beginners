@@ -32,6 +32,12 @@
 
 **过程与结果。** CaptainBroccoli 让 Muse 每周读家庭的 Google 日历，汇总天气、每天的活动、可能的交通冲突、本地球队比赛、县里的新闻，再加几个和儿子聊天的「餐桌话题」，生成 HTML 网页文件，也就是能用浏览器打开的页面，他每周打印。Claire Vo 的做法相近：接入日历和邮箱后，她要一页像简报一样的 PDF，放在厨房桌上；结果里有一周安排，还标出了巴西柔术课和钢琴课时间重叠。CaptainBroccoli 说自己受了 Claire 的启发，两种做法放在这里对照。
 
+<!-- diagram: FIG-009 -->
+![C02 的任务流程示意：汇总邮件和日历、在简报里看见时间冲突，再由家人决定怎样调整。](../assets/illustrations/FIG-009/revisions/zh-CN/r01/zh-CN.png)
+
+*图：C02 的任务流程示意：汇总邮件和日历、在简报里看见时间冲突，再由家人决定怎样调整。*
+<!-- /diagram: FIG-009 -->
+
 原文（CaptainBroccoli）：
 
 > One more thing I forgot - a family weekly newsletter. Muse reads our family Google Calendar each week to summarize the weather, family events each day, any potential transportation conflicts, when our local sports teams are playing, local news from our county,  and also includes fun “table topics” to chat about with our son!

@@ -1,0 +1,6 @@
+schema_version: 2
+languages:
+  zh-CN:
+    revision: r01
+    image_sha256: c4113970077acf06e09ceb0be8fb869859f78f7126966fa1a9a79acc0b196c88
+    input_fingerprint: 429e84b73aaef8afd55276a5911cac39cddc6e7bfa2111b1ef60f981c496b175
