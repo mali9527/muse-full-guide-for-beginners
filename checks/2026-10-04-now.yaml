@@ -1,8 +1,11 @@
 - unit: now
-  source_commit: fffe5c2a8aaed7e350afcd64223d64bd37699155
-  paths:
+  source_commit: 09ccf00f2b6a7c45546f208314473563776fa46a
+  paths: &id001
   - manuscript/now.md
+  - manuscript/basics.md
+  - manuscript/principles.md
   - book.yaml
+  - facts.yaml
   - cases/案例资料集.md
   kind: editorial
   result: pass
@@ -10,28 +13,22 @@
   engine: codex
   author_engine: codex
   platforms: []
-  limitations: 仅概念稿与阅读路径。产品说明依据官方相关正文；引用案例未独立复现。
-  reason: 按零基础读者逐段检查概念顺序、术语、前置、示例与来源边界。
+  limitations: 官方文字及公开案例依据的概念稿，未独立复现案例，不覆盖全部案例章。
+  reason: 通读产品导读、阅读路径、来源性质和当前稿范围，核对本地结构与官方产品定位。
 - unit: now
-  source_commit: fffe5c2a8aaed7e350afcd64223d64bd37699155
-  paths:
-  - manuscript/now.md
-  - book.yaml
-  - cases/案例资料集.md
+  source_commit: 09ccf00f2b6a7c45546f208314473563776fa46a
+  paths: *id001
   kind: facts
   result: pass
   checked_on: '2026-10-04'
   engine: codex
   author_engine: codex
   platforms: []
-  limitations: 仅概念稿与阅读路径。产品说明依据官方相关正文；引用案例未独立复现。
-  reason: 按本单元实际断言反查当次官方阅读及书稿结构；不覆盖全部案例事实。
+  limitations: 官方文字及公开案例依据的概念稿，未独立复现案例，不覆盖全部案例章。
+  reason: 通读产品导读、阅读路径、来源性质和当前稿范围，核对本地结构与官方产品定位。
 - unit: now
-  source_commit: fffe5c2a8aaed7e350afcd64223d64bd37699155
-  paths:
-  - manuscript/now.md
-  - book.yaml
-  - cases/案例资料集.md
+  source_commit: 09ccf00f2b6a7c45546f208314473563776fa46a
+  paths: *id001
   kind: operations
   result: unknown
   checked_on: '2026-10-04'
@@ -41,11 +38,8 @@
   limitations: 没有 Muse 账号、设备操作或真人试读记录。
   reason: 未执行实际操作，不能用文档阅读代替。
 - unit: now
-  source_commit: fffe5c2a8aaed7e350afcd64223d64bd37699155
-  paths:
-  - manuscript/now.md
-  - book.yaml
-  - cases/案例资料集.md
+  source_commit: 09ccf00f2b6a7c45546f208314473563776fa46a
+  paths: *id001
   kind: trial
   result: unknown
   checked_on: '2026-10-04'
