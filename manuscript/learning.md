@@ -4,9 +4,9 @@
 ← [第 18 章 邮件与工作：找重点、备会议、盯期限](office.md) · [目录](../README.md) · [第 20 章 内容创作：旧材料、新作品和个人项目](creation.md) →
 <!-- /studio:nav -->
 
-查资料是聊天机器人也能做的事。Muse 不一样的地方有两处：它可以一直查下去，而且查不到的部分可以转成一个周期任务，之后继续留意；它能把结果做成文件、播客这类你能带走的东西。这一章的案例多数是进行中的，写到作者写到的程度。
+查资料时，可以让 Muse 把主题研究做成报告，也可以让它定期跟进某个问题，或把资料整理成播客。本章把这些不同任务放在一起：有的已经交出文件，有的只是设好了后续安排，要分开看待。
 
-值得先看两条。一位创作者让它研究一个主题并交出带来源的报告，中途追问进度，得知它正在读来源、已经攒了七条一手资料笔记，最后报告做成了 PDF（C16）。另一位博主研究买哪台 Mac，Muse 发现有一项信息现在查不到，自己建了一个周期任务继续补（C18）。
+值得先看两条。一位创作者让它研究一个主题并交出带来源的报告，中途追问进度，得知它正在读来源、已经攒了七条一手资料笔记，最后报告做成了 PDF（[C16](#c16)）。另一位博主研究买哪台 Mac，Muse 发现有一项信息现在查不到，自己建了一个周期任务继续补（[C18](#c18)）。
 
 ## 案例
 
@@ -20,15 +20,15 @@
 
 **过程与结果。** 任务开始后长时间没有动静，她追问它是否还在做，Muse 回答正在读来源，已经收集了七条一手资料笔记，报告还没写。之后报告交来了，她认为结果扎实；她又让 Muse 把结果做成 PDF，文档比她预期的好。她指出的问题是进度反馈不够。
 
-原文：
+原文短引：
 
-> it reported that it was actively reading sources and had collected seven primary-source notes, with the report not yet written.
+> seven primary-source notes
 
-译文：它回报说自己正在读来源，已经收集了七条一手资料笔记，报告还没写。
+译文：七条一手资料笔记。
 
 出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 3。本书读取：2026-09-30、2026-10-04。
 
-提醒：本书没有看过那份报告。研究类任务要等，第 7 章讲过怎么看进度、什么时候该问。
+提醒：这份研究有一段等待时间。可以询问正在查哪些问题、还有哪些缺口，而不只催一句「做完了吗」。
 
 <a id="c18"></a>
 
@@ -40,15 +40,15 @@
 
 **过程与结果。** Muse 完成了研究，发现有一项信息现在还查不到，就给自己设了一个周期任务，之后继续补这个缺口。文章没写后来补上没有、最后买了哪台。
 
-原文：
+原文短引：
 
-> It finished the research, noticed the thing it could not yet know, and set itself a recurring job to close the gap.
+> set itself a recurring job to close the gap.
 
-译文：它完成了研究，注意到有一件事它现在还不可能知道，于是给自己设了一个周期任务来补上这个缺口。
+译文：给自己设置了周期任务，继续补上这个缺口。
 
 出处：[Meta Muse review（Preston Vawdrey 个人博客）](https://www.prestonvawdrey.com/blog/meta-muse-review)。本书读取：2026-09-30、2026-10-04。
 
-提醒：它自己建的周期任务，也要去 Upcoming 里看一眼，第 12 章讲过怎么查、怎么停。
+提醒：周期任务需要检查要追踪的问题、执行频率和结束条件。
 
 <a id="c17"></a>
 
@@ -76,15 +76,9 @@
 
 **过程与结果。** 他让 Muse 每小时从几家新闻网站汇总最新的科技新闻标题，这能让他的工作轻松一点。Muse 确认会提供标题和链接，还提醒有些文章要订阅才能看全文。文章写到确认为止，没有写之后是否真的每小时送达。
 
-原文：
-
-> The agent then came back with a confirmation that it would provide the headlines and links to the appropriate sites, even noting that some required subscriptions to access the full articles.
-
-译文：然后它回来确认，会提供标题和相应网站的链接，还注明有些文章需要订阅才能看全文。
-
 出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。
 
-提醒：这篇原文本书经页面读取工具转录，入书前请核一次。
+提醒：建立定时任务后，仍需检查是否按时送达，以及链接是否对应所说的新闻。
 
 <a id="c93"></a>
 
@@ -103,7 +97,7 @@
 
 出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/comment/pck528s/) 的评论。本书读取：2026-10-04。
 
-提醒：语音能力按他当时的体验写，不是产品规格；现况见开篇。评论含推荐码。
+提醒：这里说的是他当时的语音生成体验。评论含推荐码。
 
 <a id="c38"></a>
 
@@ -123,7 +117,7 @@
 
 出处：[How do I get the most use out of Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wozi3y/how_do_i_get_the_most_use_out_of_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
 
-提醒：生成音频会持续消耗额度，第 14 章讲过怎么看用量。《纽约时报》的记者也让它做过播客，他说那期播客烦人到他自己都听不下去（见第 21 章 C100 的出处）。
+提醒：先试听内容、节奏和来源是否适合自己，再决定是否每天生成；同时留意用量。
 
 <a id="c39"></a>
 
@@ -143,9 +137,9 @@
 
 译文：对，它会同时开四个浏览器一起干。我得为播客或视频找些更好的提示词。这两样目前缺少好的故事和画面。
 
-出处：同 C38。本书读取：2026-10-01、2026-10-04。
+出处：[How do I get the most use out of Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wozi3y/how_do_i_get_the_most_use_out_of_muse/)。本书读取：2026-10-01、2026-10-04。
 
-提醒：试用期到期会扣费，这件事他没提，你要记得。日夜不停地查会消耗大量额度。
+提醒：先查所用网站的试用期和续费规则，再安排检索。持续任务也要检查频率、范围和用量。
 
 ## 线索
 
@@ -153,8 +147,8 @@
 
 ## 换成自己的事
 
-研究类任务，交办时说清三样：主题、要什么形式的结果（清单、报告、PDF）、要不要来源。C16 的报告有来源，所以她能检查。
+研究类任务，交办时说清三样：主题、要什么形式的结果（清单、报告、PDF）、要不要来源。[C16](#c16) 的报告有来源，所以她能检查。
 
-它查不到的，可以让它继续留意（C18）。但周期任务要有结束条件，不然会一直跑。
+它查不到的，可以让它继续留意（[C18](#c18)）。安排时明确结束条件，并检查它实际执行了什么。
 
-播客和语音简报（C38、C93）是把「读」变成「听」。先做一两期听听，再决定要不要每天来。做之前看一眼第 14 章的额度说明。
+播客和语音简报（[C38](#c38)、[C93](#c93)）是把「读」变成「听」。先做一两期听听，再决定要不要每天来。生成几次后留意用量，再安排频率。

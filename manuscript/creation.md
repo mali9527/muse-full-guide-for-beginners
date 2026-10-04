@@ -6,7 +6,7 @@
 
 这一章的材料比别的章少，案例也更分散：有人让它决定下一条发什么，有人让它把十几年的帖子写成自己的故事，有人让它陪着写书，也有人让它做游戏、改表盘。真正发布出去的内容几乎没有，多数停在草稿和自用。
 
-值得先看两条。一位创作者让 Muse 根据以往帖子的表现决定下一条发什么形式，它比较了数据、挑了观众很久没见的形式、用她的口吻写了文案，到发布那步她停了手（C19）。一位用户账号被封后拿到了数据导出，让 Muse 从 2008 年以来的近五千条帖子里整理出自己的人生故事（C20）。
+值得先看两条。一位创作者让 Muse 根据以往帖子的表现决定下一条发什么形式，它比较了数据、挑了观众很久没见的形式、用她的口吻写了文案，到发布那步她停了手（[C19](#c19)）。一位用户账号被封后拿到了数据导出，让 Muse 从 2008 年以来的近五千条帖子里整理出自己的人生故事（[C20](#c20)）。
 
 ## 案例
 
@@ -20,15 +20,11 @@
 
 **过程与结果。** 她说 Muse 没有瞎猜：它比较了她最近几种形式的实际表现，注意到哪一种她的观众很久没看到了，选了那一种，然后用她的口吻写了文案和评论模板。到发布那一步需要登录，她停了手，因为不想在测试里扩大授权。她对图片建议的评价不高。
 
-原文：
-
-> it did not guess. It compared how my recent formats had actually performed on the page, noted which one my audience had not seen for a while, and picked that one — then wrote the caption in my voice
-
-译文：它没有猜。它比较了我最近几种形式在主页上的实际表现，注意到哪一种我的观众很久没看到了，选了那一种，然后用我的口吻写了文案。
+原文短引：
 
 > Nothing was published.
 
-译文：什么都没有发布。
+译文：没有发布任何内容。
 
 出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，附加测试。本书读取：2026-09-30、2026-10-04。
 
@@ -42,9 +38,9 @@
 
 **过程与结果。** 同一位作者的两项测试。一是让 Muse 重建一份表格：它先复述了输入，重建后疑似返回了原文件，她继续尝试仍不足以信任，于是停下。二是让它生成一个网页：大约四十秒出了 HTML，她认为只是初稿，而且之后不容易找到输出文件。两件都没有采用。
 
-出处：同 C19，测试 9 和附加网页测试。本书读取：2026-10-04。
+出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 9 和附加网页测试。本书读取：2026-10-04。
 
-提醒：没有逐字引文。文件类成果要去 Library 里找，第 8 章讲过。
+提醒：到 Library（资料库）检查实际生成的文件，打开确认内容，不能只凭对话中的完成提示。
 
 <a id="c20"></a>
 
@@ -64,7 +60,7 @@
 
 出处：[Meta introduces an AI agent that can transact on…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wito8o/meta_introduces_an_ai_agent_that_can_transact_on/) 的评论。本书读取：2026-09-30、2026-10-04。
 
-提醒：「对照我自己的话核实」是他的说法，本书没看过成稿。他为申诉做的材料见第 21 章 C109。
+提醒：「对照我自己的话核实」是他的说法，本书没看过成稿。他为申诉做的材料见第 21 章 [C109](career.md#c109)。
 
 <a id="c48"></a>
 
@@ -82,7 +78,7 @@
 
 出处：[My experience using Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1whc17p/my_experience_using_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
 
-提醒：一天一章是她自己定的节奏，用的是提醒和目标功能，第 12 章讲过。
+提醒：每天一章是她自己定的节奏。提醒能帮助跟进计划，书的内容和质量仍由作者判断。
 
 <a id="c95"></a>
 
@@ -101,7 +97,7 @@
 
 出处：[It was great… until it wasn't（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/) 的评论。本书读取：2026-10-04。
 
-提醒：多个文件一起交给它时，先确认它读到了哪些，第 6 章讲过。
+提醒：多个文件一起交给它时，先确认它读到了哪些，再处理缺失的部分。
 
 <a id="c98"></a>
 
@@ -117,9 +113,9 @@
 
 译文：我让它把我 Spotify 上所有喜欢的歌放到 YT Music 上，它做了。它还把 Barbra Streisand、One Direction、1975 和另外几个不是我选的歌手的歌全加了进去。每。一。首。现场版、重制版、歌词视频，全都有。我花了两个小时想修好，它把我的算法毁了。（原文拼写照录。）
 
-出处：同 C95，另一位评论者。本书读取：2026-10-04。
+出处：[It was great… until it wasn't（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/)，另一位评论者。本书读取：2026-10-04。
 
-提醒：批量写入别人的平台之前，先让它用一小批试，第 12 章讲过。做错的东西不一定收得回来。
+提醒：批量写入别人的平台之前，先让它用一小批试，做错的东西不一定收得回来。
 
 <a id="c32"></a>
 
@@ -156,7 +152,7 @@
 
 出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence) 的评论。本书读取：2026-10-04。
 
-提醒：这是把 Muse 当测试用户用。它能像人一样点页面、填表，这个能力第 2 章讲过。
+提醒：这是用 Muse 检查自己的网站。应提供适合测试的账号和数据，避免测试操作影响真实记录。
 
 <a id="c42"></a>
 
@@ -172,7 +168,7 @@
 
 译文：我目前最喜欢的实验，是让 Muse 做并持续改进一个小型浏览器 MMO。花了些功夫，但我终于把一个免费的 Cloudflare 命名隧道跑起来了，游戏可以公开访问，不用另付托管费。Muse 甚至能运行多个角色来测试多人模式。
 
-出处：同 C96 的帖子，另一位评论者。本书读取：2026-10-01、2026-10-04。
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence) 的帖子，另一位评论者。本书读取：2026-10-01、2026-10-04。
 
 提醒：需要自己配置网络隧道。评论含推荐码。
 
@@ -196,10 +192,10 @@
 
 ## 换成自己的事
 
-创作类的任务，先让它做「决定和草稿」，发布留给自己。C19 的做法值得学：让它拿数据说话，再写文案，你来点发布。
+创作类的任务，先让它做「决定和草稿」，发布留给自己。[C19](#c19) 的做法值得学：让它拿数据说话，再写文案，你来点发布。
 
-旧材料整理（C20）是 Muse 擅长的。把导出的文件交给它之前，想清楚里面有没有别人的隐私。
+[C20](#c20) 展示了一种整理旧材料的办法：把历年的帖子导出后，围绕一个明确主题重组。提供文件前检查是否含有别人的私人信息，读成稿时再对照原材料核实人物、日期和经历。
 
-批量写入别的平台（C98）风险最大，做错了不好撤。先试一小批，核对，再放开。
+批量写入别的平台（[C98](#c98)）会把错误一起放大，做错后可能要逐项清理。先试一小批，核对，再放开。
 
-给它多个文件时（C95），先问它读到了哪些。它说看不到，就一张一张给，或者换个传法，第 6 章讲过。
+给它多个文件时（[C95](#c95)），先问它读到了哪些。如果有文件没读到，先确认上传是否完成，再分批提供。

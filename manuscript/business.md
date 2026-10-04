@@ -4,9 +4,9 @@
 ← [第 21 章 个人事务：求职、账单、保险和申请](career.md) · [目录](../README.md) · [附录 入口、费用和常见问题](reference.md) →
 <!-- /studio:nav -->
 
-做小生意的人用 Muse，和个人用户的差别在于：事情有重复性，出错有成本。这一章的案例里，研究、改网站、更新商品这类事做成了不少；对外发消息、谈价格的事，有人成功，也有人出了事故。
+经营小生意时，研究同行、维护网站、更新商品和回复客户都需要花时间。本章收集了把这些工作交给 Muse 的经历，也保留了对外谈价、约见时出现的问题。
 
-值得先看三条。一位二手服装店主让 Muse 把 Depop 上的商品搬到 eBay，中间反复遇到人机验证，标题起得笼统，约一小时搬完，之后卖出了四件（C114）。一位网站主接入 Squarespace 后，Muse 给了修改建议，还真的搭出了博客页和周边商店，他之后自己微调（C35）。另一位卖家让 Muse 代管一天 Marketplace 的出售，Muse 谈成价格、给了买家住址、约了上门取货，他事后才知道（C115）。
+值得先看三条。一位二手服装店主让 Muse 把 Depop 上的商品搬到 eBay，中间反复遇到人机验证，标题起得笼统，约一小时搬完，之后卖出了四件（[C114](#c114)）。一位网站主接入 Squarespace 后，Muse 给了修改建议，还真的搭出了博客页和周边商店，他之后自己微调（[C35](#c35)）。另一位卖家让 Muse 代管一天 Marketplace 的出售，Muse 谈成价格、给了买家住址、约了上门取货，他事后才知道（[C115](#c115)）。
 
 ## 案例
 
@@ -28,7 +28,7 @@
 
 出处：[My Weekend with an A.I. Agent（The New Yorker）](https://www.newyorker.com/culture/infinite-scroll/my-weekend-with-an-ai-agent)。本书读取：2026-10-04。
 
-提醒：验证码要他自己过。搬完之后商品标题要自己改。同一篇里没做成的事见第 16 章 C67。
+提醒：验证码要他自己过。搬完之后商品标题要自己改。同一篇里没做成的事见第 16 章 [C67](outings.md#c67)。
 
 <a id="c35"></a>
 
@@ -47,7 +47,7 @@
 
 出处：[Really enjoying Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wl76t5/really_enjoying_muse/)。本书读取：2026-10-01、2026-10-04。Tom's Guide 的[十个用法整理](https://www.tomsguide.com/ai/i-scoured-reddit-for-muse-ai-use-cases-10-that-will-actually-save-you-time)也选了这条。
 
-提醒：没有公开的网站地址可以核查。接管浏览器的操作第 7 章讲过。
+提醒：修改自己的网站时，先看改动影响哪些页面，再检查实际显示和链接是否正常。
 
 <a id="c36"></a>
 
@@ -85,7 +85,7 @@
 
 出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence) 的评论。本书读取：2026-10-01、2026-10-04。
 
-提醒：几位卖家的结果不一致。改价和回复买家是写入动作，第 10 章讲过分别授权。
+提醒：几位卖家的结果不一致。改价与回复买家会改变实际业务，应先检查内容和已有许可。
 
 <a id="c115"></a>
 
@@ -101,11 +101,11 @@
 
 > The buyer eventually showed up at his building and waited,
 
-译文：买家最终到了他的楼下等着，
+译文：买家最终到了他的楼下等着。
 
 出处：[Android Authority 的报道](https://www.androidauthority.com/meta-muse-ai-privacy-issues-3715963/)。本书读取：2026-10-04。Robb 本人在 Threads 上的原帖本书没有打开。
 
-提醒：这件事的授权情况没有查清，用户和 Meta 的说法不一致。它说明的是：最低价、能透露什么信息、什么时候见面，要逐项单独授权，第 10 章讲过。
+提醒：这件事的授权情况没有查清，用户和 Meta 的说法不一致。交办这类任务时，要明确最低价、联系方式的使用范围和见面安排，并检查已有许可；报价或约见之前保留自己的确认步骤。
 
 <a id="c25"></a>
 
@@ -133,15 +133,15 @@
 
 **过程与结果。** 她给 Muse 一项竞争者研究的任务，几乎立刻关掉了应用。后来重新打开，竞争者简报已经完成，她认为稍作编辑就能用。本书没有看过那份简报。
 
-原文：
+原文短引：
 
-> I gave Muse a competitor research assignment and closed the application almost immediately, well before it had finished.
+> closed the application almost immediately
 
-译文：我给了 Muse 一项竞争者研究的任务，几乎立刻就关掉了应用，远在它完成之前。
+译文：几乎立刻关掉了应用。
 
 出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 10。本书读取：2026-09-30、2026-10-04。
 
-提醒：关掉 App 它还在干，第 7 章讲过。
+提醒：关闭 App 后，这项研究仍在后台进行。需要停止任务时，应明确停止或取消，不能只关闭窗口。
 
 <a id="c116"></a>
 
@@ -151,9 +151,9 @@
 
 **过程与结果。** 同一位作者的两项测试。一是让 Muse 用她已有的 Meta 企业背景生成周报，她认为相关、具体，只需少量修改。二是让它制定内容计划，Muse 利用业务背景选出适合她受众的话题，她认可规划，认为做成成品的部分较弱。都是她的自评。
 
-出处：同 C26，测试 5 和测试 6。本书读取：2026-10-04。
+出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 5 和测试 6。本书读取：2026-10-04。
 
-提醒：没有逐字引文。「规划好、成品弱」在她的多项测试里反复出现。
+提醒：「规划好、成品弱」在她的多项测试里反复出现。
 
 <a id="c23"></a>
 
@@ -194,7 +194,7 @@
 
 出处：[The Future Is for Everyone: Muse for Small Business（Meta）](https://about.fb.com/news/2026/09/introducing-muse-small-business/)，「What Small Businesses are Getting Done with Muse」一节。本书读取：2026-10-01、2026-10-04。
 
-提醒：这是厂商的示例，不是有人做成的记录。「看起来不对劲」的开支要自己核，一位记者的个人账单里被标出的「重复扣款」其实是分期（第 21 章 C103）。
+提醒：这是厂商的示例，不是有人做成的记录。「看起来不对劲」的开支要自己核，一位记者的个人账单里被标出的「重复扣款」其实是分期（第 21 章 [C103](career.md#c103)）。
 
 <a id="c47"></a>
 
@@ -230,7 +230,7 @@
 
 出处：[What's the coolest thing you've done with Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wjyjxu/whats_the_coolest_thing_youve_done_with_muse/) 的评论和作者补充。本书读取：2026-10-04。
 
-提醒：这是自建接入，和 C50 那种内置的测试功能不是一回事。交出第三方服务的 API 密钥，也是一种授权。
+提醒：这是自建接入，和 [C50](shopping.md#c50) 那种内置的测试功能不是一回事。交出第三方服务的 API 密钥，也是一种授权。
 
 ## 线索
 
@@ -238,10 +238,10 @@
 
 ## 换成自己的事
 
-小生意里最先能交出去的是研究和整理：竞争者、供应商、设计趋势（C23、C26），还有用自己的数据写周报（C116）。这些出错的代价低。
+可以从一份供自己审阅的材料开始：研究竞争者、供应商或设计趋势（[C23](#c23)、[C26](#c26)），或者用已有数据起草周报（[C116](#c116)）。对外采用前核对来源、数字和结论，先确认结果能用，再安排后续工作。
 
-改商品、改网站是写入动作。C25 的做法是范本：每一步批准，最后自己点发布。C35 也是搭完自己微调。
+改商品、改网站是写入动作。[C25](#c25) 的做法是范本：每一步批准，最后自己点发布。[C35](#c35) 也是搭完自己微调。
 
-对外谈价、约见面，是这一章里风险最高的事。C115 的事故和 C24 里几位卖家不一致的结果都说明：先定好最低价、能透露什么、什么时候见人，让它每一步来问你，或者干脆这一步自己来。
+对外谈价、提供住址和约见面会直接影响买家与你的安排。[C115](#c115) 的事故和 [C24](#c24) 里几位卖家不一致的结果都说明：先定好最低价、能透露什么、什么时候见人，约定需要本人确认的步骤，同时检查已有许可；无法确认执行范围时，这一步由自己处理。
 
-卖东西和搬商品（C114、C24）里反复出现的是人机验证和笼统的标题。验证码由你过，标题你改。
+卖东西和搬商品（[C114](#c114)、[C24](#c24)）里反复出现的是人机验证和笼统的标题。验证码由你过，标题你改。

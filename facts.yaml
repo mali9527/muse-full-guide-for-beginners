@@ -5,8 +5,8 @@
     evidence: 官方公告；不固定模型版本
   sources:
   - url: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: stable
   ttl_days: null
   status: confirmed
@@ -18,10 +18,8 @@
     evidence: 官方模型说明及产品导航
   sources:
   - url: https://ai.meta.com/blog/introducing-muse-spark-msl/
-    checked_on: '2026-09-30'
-  - url: https://www.meta.com/blog/meta-connect-2026-everything-we-announced/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: stable
   ttl_days: null
   status: confirmed
@@ -283,10 +281,10 @@
     evidence: 产品设计与官方列举，不是本书成功率结论
   sources:
   - url: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
-    checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
   - url: https://introducing.muse.ai/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: stable
   ttl_days: null
   status: confirmed
@@ -298,8 +296,8 @@
     evidence: 不保证持续无故障、不限额度或无需补充输入
   sources:
   - url: https://introducing.muse.ai/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: stable
   ttl_days: null
   status: confirmed
@@ -324,8 +322,8 @@
     evidence: 交办方法依据；不等于本书完成操作
   sources:
   - url: https://www.meta.com/en-gb/help/artificial-intelligence/1331373868832401/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: stable
   ttl_days: null
   status: confirmed
@@ -337,8 +335,8 @@
     evidence: 不能保证每一步重新询问；文字要求不替代权限配置
   sources:
   - url: https://www.meta.com/en-gb/help/artificial-intelligence/1385290430137537/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: permission
   ttl_days: 14
   status: confirmed
@@ -350,8 +348,8 @@
     evidence: 官方风险提示，不是本书事故复现
   sources:
   - url: https://www.meta.com/en-gb/help/artificial-intelligence/1385290430137537/
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: stable
   ttl_days: null
   status: confirmed
@@ -407,4 +405,30 @@
   category: startup
   ttl_days: 14
   status: unknown
+  critical: false
+- id: muse-cloud-environment
+  claim: 官方说明 Muse 有独立的云端电脑环境和浏览器，名称为 Muse Secure VM。
+  scope:
+    product: muse
+    evidence: 产品环境说明；本书未检查实际运行环境
+  sources:
+  - url: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: stable
+  ttl_days: null
+  status: confirmed
+  critical: false
+- id: muse-artifacts
+  claim: 官方帮助说明可上传材料并让 Muse 生成文档、PDF、表格等文件，随后可继续修改并在 Library 查找。
+  scope:
+    product: muse
+    evidence: 官方功能说明；不保证任意格式、排版或内容均正确
+  sources:
+  - url: https://www.meta.com/en-gb/help/artificial-intelligence/1331373868832401/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: stable
+  ttl_days: null
+  status: confirmed
   critical: false

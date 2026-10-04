@@ -4,9 +4,16 @@
 ← [第 16 章 旅行与出门：行程、票务、餐厅和出门前的信息](outings.md) · [目录](../README.md) · [第 18 章 邮件与工作：找重点、备会议、盯期限](office.md) →
 <!-- /studio:nav -->
 
-买东西是 Muse 宣传最多的用途，也是翻车最多的地方。这一章的案例里，找货和比价多数做成了，真正付钱的不多：有的停在购物车，有的停在登录，有的被商家规则拦住。取消服务和改套餐反而有几个成功的例子。
+这一章把购物分成几个环节来看：找商品、比较价格、填购物车、付款，以及售后或改套餐。收录的经历里，有人找到合适商品，有人停在登录和结账，也有人被商家规则拦住。看清事情完成到哪一步，比一句「买东西成功了」更有用。
 
-值得先看三条。Tom's Guide 的记者用七种购物要求试了一遍，三种有用，他把结果一条条写了出来（C08）。几位网友把超市的购物车交给了它：有人拍一张手写清单，有人让它按历史订单每周填好常购品，自己只管结账（C78、C79）。一位记者让它买一个七美元的咖啡机配件，它找到了、放进购物车，下单还是她自己完成的（C74）。
+值得先看三条。Tom's Guide 的记者用七种购物要求试了一遍，三种有用，他把结果一条条写了出来（[C08](#c08)）。几位网友把超市的购物车交给了它：有人拍一张手写清单，有人让它按历史订单每周填好常购品，自己只管结账（[C78](#c78)、[C79](#c79)）。一位记者让它买一个七美元的咖啡机配件，它找到了、放进购物车，下单还是她自己完成的（[C74](#c74)）。
+
+| 手头的事 | 可以先看 |
+|---|---|
+| 找型号、找配件、比较替代品 | [七种购物要求](#c08)、[咖啡机配件](#c74)、[停产商品](#c81) |
+| 日常买菜 | [手写清单](#c78)、[常购品](#c79) |
+| 订阅和客服 | [检查订阅](#c11)、[取消宽带](#c34)、[修改套餐](#c82) |
+| 整理旧卡、持续盯货 | [礼品卡余额](#c80)、[到货提醒](#c40) |
 
 ## 案例
 
@@ -21,15 +28,11 @@
 
 **过程与结果。** 有用的三种：比较同一款游戏手柄（Midnight Black 的 PS5 DualSense）在不同店的价格，Muse 找到 Walmart 一位第三方卖家 67.61 美元免运费的报价，比常见价 74 美元低；找一张 PS4 二手游戏《Garou: Mark of the Wolves》，Muse 在 eBay 上找到 54.99 美元的二手实体版，成色 Very Good，卖家好评率 100%；找一本 Batman 合订本的现货和低价，Muse 找到 74.99 美元，他随后自己去那家店买了。另外四种，找优惠码、设最高预算、本地二手市场找沙发、监测 Xbox Series S 降价，他归为不够可信或没有结果，文章没有逐条展开。原来的 C09 讲的就是二手游戏那条，现在合在这里。
 
-原文：
+原文短引：
 
-> rank by total price
+> either didn’t yield the most trustworthy results or produced nothing at all.
 
-译文：按总价排序。（这是他讲通用提示词时的话。）
-
-> a used copy
-
-译文：一份二手版本。
+译文：要么没有给出足够可信的结果，要么什么也没找到。（作者对四项不理想任务的合并评价。）
 
 出处：[I tried turning Meta's Muse AI into my personal shopper — only 3 of 7 prompts actually worked（Tom's Guide）](https://www.tomsguide.com/ai/i-tried-turning-metas-muse-ai-into-my-personal-shopper-only-3-of-7-prompts-actually-worked)。本书读取：2026-09-30、2026-10-04。
 
@@ -45,7 +48,7 @@
 
 出处：[I tried Meta's new Muse AI agent — it's incredibly useful, but handing it my digital life felt deeply uncomfortable（TechRadar）](https://www.techradar.com/ai-platforms-assistants/i-tried-metas-new-muse-ai-agent-its-incredibly-useful-but-handing-it-my-digital-life-felt-deeply-uncomfortable)，「Muse shops for you」一节。本书读取：2026-09-30、2026-10-04。
 
-提醒：这篇发表在亚马逊封锁 Muse 之前。没有逐字引文，过程按原文复述。
+提醒：这篇发表在亚马逊封锁 Muse 之前。
 
 <a id="c72"></a>
 
@@ -53,7 +56,7 @@
 
 创作者分享 · ChatPRD · Claire Vo · 2026-09-16
 
-**过程与结果。** 她的第一个购物测试是买 New Balance 9060。她说体验不好：Muse 找不准她要的配色，浏览过程中像是卡住了。没有买到。她随后试的 IMAX 购票（第 16 章 C27）顺畅得多。
+**过程与结果。** 她的第一个购物测试是买 New Balance 9060。她说体验不好：Muse 找不准她要的配色，浏览过程中像是卡住了。没有买到。她随后试的 IMAX 购票（第 16 章 [C27](outings.md#c27)）顺畅得多。
 
 原文：
 
@@ -63,7 +66,7 @@
 
 出处：[Claire Vo 的文字实录（ChatPRD）](https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent)，「Test 1: Shopping for Shoes (Failure)」一节。本书读取：2026-10-01、2026-10-04。
 
-提醒：这句引文经页面读取工具转录，入书前请对照原页核一次。
+提醒：她在买鞋和买电影票时的体验不同，任务和网站条件都会影响结果。
 
 <a id="c73"></a>
 
@@ -73,15 +76,9 @@
 
 **过程与结果。** 他让 Muse 去任天堂网站买一款游戏。Muse 一步步走购买流程，边走边向他汇报。到需要登录任天堂账号时，Muse 向他要登录信息，并说明信息会放进安全存储，它自己看不到他输入的内容。文章后面说买成了，但明显比他自己买慢。
 
-原文：
-
-> Once it got to the point where it needed to log into my Nintendo account, Muse asked for my information, noting that it would stay in secure storage and that the agent couldn't see or read what I typed.
-
-译文：到了需要登录我任天堂账号的那一步，Muse 向我要信息，并说明这些信息会留在安全存储里，它看不到也读不到我输入的内容。
-
 出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。作者的 [LinkedIn 帖](https://www.linkedin.com/posts/daniel-howley-0b117712_metas-muse-is-an-impressively-capable-ai-activity-7508599611520098305-woJg)说买到了游戏。
 
-提醒：「安全存储」是官方的说法，第 10 章讲过它意味着什么。这篇原文经页面读取工具转录，入书前请核一次。
+提醒：这里是记者对当时购买流程的描述；不要把登录完成当成付款完成，应继续检查订单确认。
 
 <a id="c74"></a>
 
@@ -97,7 +94,7 @@
 
 > I had to finish up the order myself,
 
-译文：订单得我自己来完成，
+译文：订单得我自己来完成。
 
 出处：[Meta's AI agent is a cute little guy who's great at spending my money（The Verge）](https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping)，第二项任务及后文。本书读取：2026-10-04。
 
@@ -119,7 +116,7 @@
 
 出处：[Meta's Muse is surprisingly unimpressive（The Automated Operator）](https://theautomatedoperator.substack.com/p/metas-muse-is-surprisingly-unimpressive)。本书读取：2026-10-04。
 
-提醒：他的意见是：Muse 应该先问伞放在哪里，再挑合适的，而不是给一堆无关选项。这是对使用方法的提醒，第 5 章讲过先说清用途。
+提醒：他认为 Muse 应先问伞放在哪里。可以在找商品之前说明用途、尺寸和使用环境，减少不合适的候选。
 
 <a id="c76"></a>
 
@@ -131,11 +128,7 @@
 
 **过程与结果。** 苹果的经期数据同步不到 Muse，她手机上另一款经期应用也连不上。Muse 能开始建 Walmart 订单，她说只能选免运费，Muse 却理解得太死，没注意到订单里多出了一堆当日配送费。她让它取消任务，不下单。
 
-原文（授权中文版）：
-
-> 它確實能開始建立 Walmart 訂單，我也告訴 Muse 只能選擇免運配送，但它把這項要求解讀得太死，沒注意到訂單加上了一堆額外的當日配送費。
-
-原文（英文）：
+原文短引：
 
 > I told it to cancel the task and not place the order.
 
@@ -143,7 +136,7 @@
 
 出处：[Business Insider 的 Muse 评测（英文原文）](https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9)；[授权中文版](https://www.businessinsider.tw/article/7312)。本书读取：2026-10-04。
 
-提醒：只看最终总额。「免运费」不等于没有别的费用，第 12 章讲过。
+提醒：检查最终总额和费用明细。「免运费」不等于没有配送或其他附加费用。
 
 <a id="c77"></a>
 
@@ -152,12 +145,6 @@
 媒体实测 · CNN · Lisa Eadicicco · 2026-09-23
 
 **过程与结果。** 买洗发水没买成，Muse 去查了原因：那家店是美发用品店，要专业执照号。在 Target 能浏览商品，到结账时自动点击被拦，她得自己填个人信息。Muse 的用法建议里说它能在 Facebook Marketplace 上和卖家砍价，她试了，Muse 说它不能直接给卖家发消息，只能筛选商品、替她拟议价的话；Meta 发言人则说功能描述是准确的。
-
-原文：
-
-> When I had trouble purchasing a bottle of shampoo, it scanned the website to find out why.
-
-译文：我买一瓶洗发水遇到麻烦时，它扫了网站找出原因。
 
 出处：[CNN 的实测（经 KESQ 转载）](https://kesq.com/money/cnn-business-consumer/2026/09/23/meta-says-its-muse-ai-agent-can-do-things-for-you-i-put-it-to-the-test/)，「How Muse was helpful」和「Things that were easier to do on my own」两节。本书读取：2026-09-30、2026-10-04。
 
@@ -259,7 +246,7 @@
 
 出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/comment/pdcf981/) 的评论。本书读取：2026-10-04。
 
-提醒：和 C78 是不同的人、不同的做法：一个靠照片，一个靠历史订单。两人都把付款留给自己。
+提醒：和 [C78](#c78) 是不同的人、不同的做法：一个靠照片，一个靠历史订单。两人都把付款留给自己。
 
 <a id="c80"></a>
 
@@ -317,7 +304,7 @@
 
 出处：[What are you using Muse agent for? How's your…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wcb3cq/what_are_you_using_muse_agent_for_hows_your/) 的评论。本书读取：2026-09-30、2026-10-04。
 
-提醒：整条评论就这两句。表格长什么样、买到没有，都没有。
+提醒：读不到商品页不一定表示已售出，移除记录前要检查原因。
 
 <a id="c40"></a>
 
@@ -335,7 +322,7 @@
 
 出处：[How do I get the most use out of Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wozi3y/how_do_i_get_the_most_use_out_of_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
 
-提醒：只有这一句话。监测缺货商品是第 12 章讲的条件监测，找到候选和获准购买是两步。
+提醒：这里没有说明由谁结账。找到补货信息和获准购买是两步。
 
 <a id="c50"></a>
 
@@ -353,7 +340,7 @@
 
 出处：[What's the coolest thing you've done with Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wjyjxu/whats_the_coolest_thing_youve_done_with_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
 
-提醒：打电话功能的开放范围见开篇现况页。第 5 章提到过真人代打的争议。
+提醒：作者自称有测试资格；不能据此判断所有账号都能使用同样的电话功能。
 
 <a id="c05"></a>
 
@@ -381,12 +368,12 @@
 
 ## 换成自己的事
 
-把购物交给 Muse，最可靠的是前半段：按型号、颜色、运费、卖家这几个条件去找和比（C08、C81）。后半段的付款，这一章里多数人留给了自己，这样做是对的。
+找货和比价可以先明确型号、颜色、总价、运费和卖家要求（[C08](#c08)、[C81](#c81)）。拿到候选后，打开商品页确认是不是同一规格、有没有货、优惠是否适用；找到报价不代表订单已经成立。
 
-购物车是个好办法。C78、C79 的做法可以照搬：让它填，你检查，你结账。它读过你的历史订单，所以知道你常买什么。
+[C78](#c78)、[C79](#c79) 把填购物车和付款分开：先让 Muse 按清单或历史订单选商品，用户再检查、结账。可以借鉴这个分工，但不同商家的登录方式、商品规格和配送规则会影响结果。过去常买的东西，这次也要确认数量和是否仍然需要。
 
-要它监测降价或补货（C40、第 16 章 C37），记得设结束日期，监测一直跑会一直耗额度。
+要它监测降价或补货（[C40](#c40)、第 16 章 [C37](outings.md#c37)），先约定检查频率和结束日期，并留意实际用量。
 
-遇到买不成的情况，先让它说原因（C77）。要执照、要本人验证、被商家拦，这些不是你的指令写得不好。
+遇到买不成的情况，先让它说原因（[C77](#c77)）。要执照、要本人验证、被商家拦，这些不是你的指令写得不好。
 
-取消服务和改套餐（C34、C82）走的都是网页聊天，不是电话。这类事做之前，自己先想清楚要不要取消，Muse 负责的是和客服周旋。
+取消服务和改套餐（[C34](#c34)、[C82](#c82)）走的都是网页聊天，不是电话。这类事做之前，自己先想清楚要不要取消，Muse 负责的是和客服周旋。

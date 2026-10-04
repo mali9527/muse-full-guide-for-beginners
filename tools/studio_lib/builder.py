@@ -167,6 +167,11 @@ def rewritten_body(root, unit, text, out_parent, units, pdf_mode=False, source_c
         if pdf_mode and s.startswith(("    ", "\t")): return s
         m = re.match(r"^(#{1,6})\s+(.+?)(\n?)$", s)
         body = map_inline(s, links)
+        # Match the unit prefix already added to local fragment links.
+        explicit = re.fullmatch(r" {0,3}<a\s+id=([\"'])([^\"']+)\1\s*></a>\s*", s)
+        if explicit:
+            anchor = unit["id"] + "-" + explicit.group(2)
+            return ("[]{#" + anchor + "}" if pdf_mode else '<a id="' + anchor + '"></a>') + ("\n" if s.endswith("\n") else "")
         if not m: return body
         key = slug(m.group(2)); n = counters.get(key, 0); counters[key] = n + 1
         anchor = unit["id"] + "-" + key + ("-" + str(n) if n else "")

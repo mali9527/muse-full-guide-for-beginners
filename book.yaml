@@ -5,7 +5,7 @@ language: zh-CN
 product: muse
 audience: 会用手机和常见App、没有编程经验的中文读者；先系统掌握Muse的基本概念与操作，再按场景查阅近期案例原文摘录及说明
 baseline:
-  product_version: v0.3结构与50条案例资料；操作章节未成稿、未实测
+  product_version: 导读与第1章初稿、114条案例正文；第2—14章待写，未实测
   checked_on: null
 repository:
   name: ''
@@ -49,6 +49,11 @@ units:
   - muse-names
   - muse-actions
   - muse-background
+  - muse-task-loop
+  - muse-approval-scope
+  - muse-fallibility
+  - muse-cloud-environment
+  - muse-artifacts
   derived_from: null
   required_checks:
   - editorial
@@ -435,5 +440,5 @@ protected_terms:
 - Muse
 - Muse Spark
 - Meta AI
-- Maximum
+- Max
 - Power

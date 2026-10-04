@@ -4,9 +4,9 @@
 ← [第 20 章 内容创作：旧材料、新作品和个人项目](creation.md) · [目录](../README.md) · [第 22 章 小生意：网站、客户、经营分析、卖东西和客服](business.md) →
 <!-- /studio:nav -->
 
-这一章收的是和钱、和机构打交道的事：简历和申请，账单和退款，保险和罚单，政府网站上的表格。这类事的共同点是材料散、表格多、要等人回。Muse 做得好的是整理材料和填表；真正拿到钱、拿到结果的，多数还在路上。
+这一章收的是和钱、和机构打交道的事：简历和申请，账单和退款，保险和罚单，政府网站上的表格。这类事的共同点是材料散、表格多、要等人回。收录的经历涉及整理材料、填写表格和提交申请；其中不少只写到提交，尚没有到账、获批或录用的结果。
 
-值得先看三条。《纽约时报》的记者把信用卡接给 Muse，它几分钟内把几百行消费记进表格，标出两个重复的订阅并取消，又用他的邮箱为一份过期的报纸试用申请退款，拿回 44.99 美元（C100）。一位网友让它查政府和州的网站，找到了 500 美元无人认领的财产，正在申请返还（C110）。一位用屏幕阅读器的用户讲了她怎样在看不见界面的情况下用 Muse，包括让 Muse 把问题反馈给 Muse 团队（C106）。
+可以先看这三种用途。一位网友把邮箱和网盘里历年的简历汇总，准备以后按岗位调整（[C21](#c21)）。一位网友让它查政府和州的网站，找到了 500 美元无人认领的财产，正在申请返还（[C110](#c110)）。一位用屏幕阅读器的用户讲了她怎样在看不见界面的情况下用 Muse，包括让 Muse 把问题反馈给 Muse 团队（[C106](#c106)）。
 
 ## 案例
 
@@ -14,23 +14,13 @@
 
 ### C100 《纽约时报》记者的三件事：重复订阅和退款、拍停车罚单付款、给牙科保险公司打电话
 
-媒体实测 · The New York Times · Eli Tan · 2026-09-22 前后；本书经 Mind and Iron 转引读到
+媒体转述 · Mind and Iron 转述 The New York Times 记者 Eli Tan 的经历 · 2026 年 9 月；未读到纽约时报原文
 
-**过程与结果。** 他把信用卡接给 Muse（他起名 Wren），让它在 Google Sheets 里跟踪消费。他看着它几分钟内建起几百行数据的表，标出两个重复的订阅并取消。接着 Muse 用他的邮箱为一份已经过期的免费报纸试用申请退款，拿回 44.99 美元。他还发现 Muse 很会填网上的表格：拍一张停车罚单的照片，Muse 就替他交罚款，付款前先问他。据转述，Muse 还替他给牙科保险公司打过电话，报会员号、回答安全问题、排队等待，接通后转给他；这一件本书只读到转述，没有原文。同一篇转述还说，他让 Muse 做的播客烦人到他自己都听不下去，买电影票和棒球票也没买成。
-
-原文（Mind and Iron 转引 Tan 的话）：
-
-> Then Muse used my email to request a refund for a free newspaper trial that had expired, saving me $44.99.
-
-译文：然后 Muse 用我的邮箱为一份已经过期的免费报纸试用申请退款，给我省下 44.99 美元。
-
-> I could take a photo of a parking ticket, and Wren would pay it for me, asking for approval before making the payment.
-
-译文：我可以拍一张停车罚单的照片，Wren 就会替我付掉，付款前先征求我的同意。
+**过程与结果。** 据 Mind and Iron 转述，Eli Tan 把信用卡接给 Muse（他起名 Wren），让它在 Google Sheets 里跟踪消费。他看着它几分钟内建起几百行数据的表，标出两个重复的订阅并取消。接着 Muse 用他的邮箱为一份已经过期的免费报纸试用申请退款，拿回 44.99 美元。他还发现 Muse 很会填网上的表格：拍一张停车罚单的照片，Muse 就替他交罚款，付款前先问他。据转述，Muse 还替他给牙科保险公司打过电话，报会员号、回答安全问题、排队等待，接通后转给他；这一件本书只读到转述，没有原文。同一篇转述还说，他让 Muse 做的播客烦人到他自己都听不下去，买电影票和棒球票也没买成。
 
 出处：[Should you use Muse?（Mind and Iron，Steven Zeitchik 转引）](https://mindandiron.substack.com/p/mind-and-iron-should-you-use-muse)；纽约时报原文 [I Gave My Life Over to Meta's A.I. Agent and Was Blown Away](https://www.nytimes.com/2026/09/22/technology/meta-muse-ai-agent.html) 本书没打开。本书读取：2026-10-04。
 
-提醒：44.99 美元是那份报纸试用的退款，不是两个重复订阅省下的钱。接信用卡给 Muse 是很大的授权。给保险公司打电话那件事，发生在 Meta 承认测试中部分电话由真人代打、后来撤回之前后，本书无法判断那通电话是谁打的，第 5 章讲过这件事。
+提醒：这里的 44.99 美元指报纸试用退款，整个故事均经媒体转述。保险电话的执行方式无法确认，不据此判断当时完全由 AI 通话。
 
 <a id="c110"></a>
 
@@ -101,7 +91,7 @@
 
 出处：[Amazeballs（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wpqdqr/amazeballs/)；[Tom's Guide 的整理](https://www.tomsguide.com/ai/i-scoured-reddit-for-muse-ai-use-cases-10-that-will-actually-save-you-time)。本书读取：2026-10-04。
 
-提醒：没有逐字引文，过程按原帖复述。和 C22 是不同的人、相近的用法。
+提醒：和 [C22](#c22) 是不同的人、相近的用法。
 
 <a id="c33"></a>
 
@@ -133,7 +123,7 @@
 
 出处：[Meta's AI agent is a cute little guy who's great at spending my money（The Verge）](https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping)，第三项任务。本书读取：2026-10-04。
 
-提醒：没有逐字引文。有些公司就是只接电话，Muse 的网页本事在这里用不上。
+提醒：有些公司就是只接电话，Muse 的网页本事在这里用不上。
 
 <a id="c102"></a>
 
@@ -189,7 +179,7 @@
 
 出处：[Muse has become my after-hours second brain（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wvbvcb/comment/pdb0j27/) 的评论。本书读取：2026-10-04。
 
-提醒：Plaid 是连接银行账户的第三方服务。把银行账户接给 Muse，是全书里最大的授权之一，第 5 章和第 10 章讲过该怎么想这件事。预算准不准，本书没看到。
+提醒：Plaid 是连接银行账户的第三方服务。连接前查看要读取哪些账户和数据、怎样撤销访问；拿到预算后对照原账单检查。
 
 <a id="c113"></a>
 
@@ -205,9 +195,9 @@
 
 译文：根据我所有不同的账户给我做了一个财务看板，显示情况怎么样、什么快到期，并标出需要注意的地方。
 
-出处：同第 15 章 C57。本书读取：2026-10-04。
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
 
-提醒：和 C112 是不同的人、相近的用法。
+提醒：和 [C112](#c112) 是不同的人、相近的用法。
 
 <a id="c103"></a>
 
@@ -219,7 +209,7 @@
 
 出处：[My Weekend with an A.I. Agent（The New Yorker）](https://www.newyorker.com/culture/infinite-scroll/my-weekend-with-an-ai-agent)。本书读取：2026-10-04。
 
-提醒：没有逐字引文。它标出来的「异常」要自己核，官方的小生意示例（第 22 章 C31）也是这个道理。
+提醒：它标出的异常要对照原账单检查；分期、退款和预授权等记录可能需要不同解释。
 
 <a id="c105"></a>
 
@@ -231,7 +221,7 @@
 
 出处：[Business Insider 的 Muse 评测（英文原文）](https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9)；[授权中文版](https://www.businessinsider.tw/article/7312)。本书读取：2026-10-04。
 
-提醒：没有逐字引文。健康数据是最敏感的一类，接之前想清楚。
+提醒：健康数据是最敏感的一类，接之前想清楚。
 
 <a id="c104"></a>
 
@@ -241,15 +231,9 @@
 
 **过程与结果。** 他把 Muse 接到自己的 Yahoo 梦幻橄榄球账号，让它找下周预测得分最高的防守组。因为只能通过弃权申领，Muse 提交了申领堪萨斯城酋长队、放弃绿湾的请求。第二天申领处理完，Muse 把堪萨斯城排进了他的首发阵容。
 
-原文：
-
-> The next day, when the claims were processed, Muse slotted Kansas City into my lineup as my active defense.
-
-译文：第二天申领处理完，Muse 把堪萨斯城排进了我的阵容，作为首发防守组。
-
 出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。
 
-提醒：作者在 Yahoo 发文，操作的也是 Yahoo 的产品。这篇原文本书经页面读取工具转录，入书前请核一次。
+提醒：作者在 Yahoo 发文，操作的也是 Yahoo 的产品。完成一次阵容调整不代表之后的比赛结果更好。
 
 <a id="c107"></a>
 
@@ -283,7 +267,7 @@
 
 译文：我不喜欢 Rocket Money，就做了一个接近它的应用，界面完全是我想要的。而且 Rocket Money 跟踪不了我的学生贷款，Muse 能，所以现在我预算做得更好了。
 
-出处：同 C107 的帖子，另一位评论者。本书读取：2026-10-04。
+出处：[What are you using Muse agent for? How's your…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wcb3cq/what_are_you_using_muse_agent_for_hows_your/) 的帖子，另一位评论者。本书读取：2026-10-04。
 
 提醒：余额是按还款额推算的，不是实时同步银行数据。
 
@@ -305,7 +289,7 @@
 
 出处：[I tried Meta's Muse agent（Taylor Arndt，Substack）](https://taylorarndt.substack.com/p/i-tried-metas-muse-agent-i-really)。本书读取：2026-10-04。
 
-提醒：这是本书里唯一一条无障碍使用的记录。她的变通办法不等于界面问题已修复。官方的问题反馈入口见第 14 章。
+提醒：这是一位屏幕阅读器用户的经历，她的变通办法不等于界面问题已经修复。
 
 <a id="c109"></a>
 
@@ -323,7 +307,7 @@
 
 出处：[Meta introduces an AI agent that can transact on…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wito8o/meta_introduces_an_ai_agent_that_can_transact_on/) 的评论。本书读取：2026-10-04。
 
-提醒：这条说明的是「准备材料」这件事 Muse 能帮上，不说明申诉渠道有效。他整理人生故事的事见第 20 章 C20。
+提醒：这条说明的是「准备材料」这件事 Muse 能帮上，不说明申诉渠道有效。他整理人生故事的事见第 20 章 [C20](creation.md#c20)。
 
 <a id="c44"></a>
 
@@ -341,7 +325,7 @@
 
 出处：[I gave Muse access to my personal data…（TechRadar）](https://www.techradar.com/ai-platforms-assistants/i-gave-muse-access-to-my-personal-data-and-now-i-know-why-personal-agents-are-probably-going-to-change-the-world)，「Muse is always busy」一节。本书读取：2026-10-01、2026-10-04。
 
-提醒：从别的助手导入背景的入口见第 11 章。导入之前自己先整理一遍，旧计划可能已经失效。
+提醒：带入旧背景前先整理日期、已经改变的计划和仍然有效的偏好，发现冲突时明确采用哪一项。
 
 ## 线索
 
@@ -349,10 +333,10 @@
 
 ## 换成自己的事
 
-这一章的事大多要交出敏感的东西：信用卡、银行账户、保险账号、社会安全号。先回头看第 5 章，再决定接哪一样。C110 的做法值得注意：Muse 做查找和填表，社会安全号和验证码由他自己来。
+这些任务可能涉及账单、银行账户、保险资料和身份信息。先限定本次要办的事，再查看需要提供哪些材料、允许读取或修改什么。[C110](#c110) 的做法值得注意：Muse 做查找和填表，社会安全号和验证码由他自己来。
 
-申请和申诉类的材料（C109、C22、C99），让它起草，你来发。它写得快，但它不替你承担后果。
+申请和申诉类的材料（[C109](#c109)、[C22](#c22)、[C99](#c99)），让它起草，你来发。它写得快，但它不替你承担后果。
 
-账单和退款（C100、C11）这一类收益看得见，但先核对它找出来的「重复」「异常」是不是真的（C103）。
+账单和退款（[C100](#c100)、[C11](shopping.md#c11)）这一类收益看得见，但先核对它找出来的「重复」「异常」是不是真的（[C103](#c103)）。
 
-打电话的功能（C33）不是人人都有，而且 Meta 承认过测试期间有真人代打。遇到只认电话的公司（C101），现阶段多半还得你自己打。
+打电话的功能（[C33](#c33)）不是人人都有，而且 Meta 承认过测试期间有真人代打。遇到只认电话的公司（[C101](#c101)），现阶段多半还得你自己打。

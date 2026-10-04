@@ -4,9 +4,9 @@
 ← [第 15 章 家庭生活：日程、资料、家务和孩子的事](household.md) · [目录](../README.md) · [第 17 章 购物与消费：找货、比价、取消服务和询价](shopping.md) →
 <!-- /studio:nav -->
 
-出门的事分两段：出门前要把信息找齐，订票订位要和各家网站打交道。前一段 Muse 做得稳，后一段常被登录、验证码和网站规则拦住。这一章两种结果都收。
+出门的事分两段：出门前要把信息找齐，订票订位要和各家网站打交道。本章既有从邮件找齐资料的经历，也有订票时被登录、验证码和网站规则拦住的经历。
 
-值得先看三条。一位记者临出门记不清演讲地点和停车，连联系人名字都拼错了，Muse 从旧邮件里把地点、停车、电话和地图找齐了（C43）。另一位记者让它给朋友发邮件问旅行想法，收到回复后整理成一份文档（C07）。订机票的两次经历放在一起看：Engadget 的记者拿到了只要直飞的选项和一个价格追踪（C61），Slate 的记者卡在验证码上，三十分钟一无所获（C62）。
+值得先看三条。一位记者临出门记不清演讲地点和停车，连联系人名字都拼错了，Muse 从旧邮件里把地点、停车、电话和地图找齐了（[C43](#c43)）。另一位记者让它给朋友发邮件问旅行想法，收到回复后整理成一份文档（[C07](#c07)）。订机票的两次经历放在一起看：Engadget 的记者拿到了只要直飞的选项和一个价格追踪（[C61](#c61)），Slate 的记者卡在验证码上，三十分钟一无所获（[C62](#c62)）。
 
 ## 案例
 
@@ -48,7 +48,7 @@
 
 出处：[Meta says its Muse AI agent can do things for you. I put it to the test（CNN，经 KESQ 转载）](https://kesq.com/money/cnn-business-consumer/2026/09/23/meta-says-its-muse-ai-agent-can-do-things-for-you-i-put-it-to-the-test/)。本书读取：2026-09-30、2026-10-04。
 
-提醒：发邮件是对外的动作，第 10 章讲过发送前的审批。
+提醒：发邮件之前，检查收件人和内容，再决定自行发送或授权发送。
 
 <a id="c61"></a>
 
@@ -60,11 +60,11 @@
 
 **过程与结果。** 她给了时间和偏好（只要直飞），Muse 给出从她所在城市出发的几个航班选项，并设了一个价格追踪。它还建议了城市的先后顺序，并提议考虑多城市联程票，这样可以从另一个机场回来。
 
-原文：
+原文短引：
 
-> I gave it some info about timing and my preferences (nonstop flights only) and it provided a few flight options from my city and set up a price tracker to monitor the cost.
+> set up a price tracker to monitor the cost.
 
-译文：我给了它一些关于时间和偏好的信息（只要直飞），它给出了从我所在城市出发的几个航班选项，并设了一个价格追踪来监测费用。
+译文：设置了价格追踪，监测费用。
 
 出处：[How to get started with Meta's new AI agent, Muse（Engadget）](https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/)，文末旅行段。本书读取：2026-10-04。
 
@@ -88,7 +88,7 @@
 
 出处：[How do I get the most use out of Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wozi3y/how_do_i_get_the_most_use_out_of_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
 
-提醒：这是周期任务，第 12 章讲过怎么设、怎么停。监测会持续消耗额度。
+提醒：这是周期任务，监测会持续消耗额度。
 
 <a id="c62"></a>
 
@@ -98,17 +98,11 @@
 
 **事情。** 他想让 Muse 替他订一张机票。
 
-**过程与结果。** 他把航空公司的登录信息放进 Muse 的保险库，Muse 到登录页就撞上了验证码。它失败了，他接手登录，再把控制权交回去，几分钟后它又被踢出浏览器。他写道，整个过程三十分钟，什么也没办成。文章里还有一件事：他让 Muse 在日历上加一个「明天上午十点」的事件，它加到了过去的时间（见第 18 章 C88）。
-
-原文：
-
-> The process took 30 minutes and achieved nothing.
-
-译文：整个过程花了三十分钟，什么都没办成。
+**过程与结果。** 他把航空公司的登录信息放进 Muse 的保险库，Muse 到登录页就撞上了验证码。它失败了，他接手登录，再把控制权交回去，几分钟后它又被踢出浏览器。他写道，整个过程三十分钟，什么也没办成。文章里还有一件事：他让 Muse 在日历上加一个「明天上午十点」的事件，它加到了过去的时间（见第 18 章 [C88](office.md#c88)）。
 
 出处：[Slate 的 Muse 评测](https://slate.com/technology/2026/09/meta-muse-ai-app-review.html)。本书读取：2026-10-04。作者在 [Bluesky 的帖子](https://bsky.app/profile/alexkirshner.com/post/3mw7frxezq22a)里也说了「三十分钟、失败」。
 
-提醒：验证码就是用来拦机器的，Muse 过不去时得你来。这篇原文本书是经页面读取工具转录的，入书前请对照原页再核一次。
+提醒：这次经历里，作者接手验证后仍没能完成订票。遇到反复验证或掉线，可以直接接手完成，不必一直重试。
 
 <a id="c63"></a>
 
@@ -140,15 +134,9 @@
 
 **过程与结果。** Muse 给了两个对的，另一个是已经关门多年的店。他指出后，Muse 道歉，说一开始用了过时的数据。他又问一家他知道有这种啤酒的店，Muse 说店的网站上没写，建议他打电话问。电话号码这件事更离谱：Muse 先给了一个号，又说换一个，他问为什么，Muse 承认第一个号是凭空编的，没有核实，还叮嘱他不要相信它给出的未经核实的号码。
 
-原文：
-
-> When I asked why the change, it said it simply made up the first phone number out of thin air and didn't confirm it.
-
-译文：我问为什么要换，它说第一个电话号码是它凭空编出来的，没有核实。
-
 出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。作者的 [LinkedIn 帖](https://www.linkedin.com/posts/daniel-howley-0b117712_metas-muse-is-an-impressively-capable-ai-activity-7508599611520098305-woJg)也提到编号码这件事。
 
-提醒：电话、地址、营业状态，自己再查一次。这篇原文本书经页面读取工具转录，入书前请对照原页核一次。
+提醒：打电话或出发前，用商家自己的页面确认电话、地址和营业状态。
 
 <a id="c65"></a>
 
@@ -158,15 +146,9 @@
 
 **过程与结果。** 他给了 Muse 一些基本想法，Muse 回了四个建议，他挑了一家，通过 Muse 在 OpenTable 上订了位。
 
-原文：
+出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。
 
-> It followed up with four suggestions, one of which I ended up booking via the agent through OpenTable.
-
-译文：它接着给了四个建议，我最后通过它在 OpenTable 上订了其中一家。
-
-出处：同 C64。本书读取：2026-10-04。
-
-提醒：同一位记者，同一篇文章，C64 是翻车，C65 是成功。
+提醒：同一位记者，同一篇文章，[C64](#c64) 是翻车，[C65](#c65) 是成功。
 
 <a id="c66"></a>
 
@@ -176,15 +158,15 @@
 
 **过程与结果。** 她要一份约会可去的地方清单，Muse 列出的两家本地店已经关门好几年了。文章开头说她订好了周五的约会晚餐，但没写完整的订位过程。
 
-原文：
+原文短引：
 
-> When I asked for a list of places to go for date night, it pulled up two options in my neighborhood that had been closed for years.
+> had been closed for years.
 
-译文：我要一份约会可去地方的清单时，它列出了我附近两家已经关门多年的店。
+译文：已经关门好几年了。
 
 出处：[CNN 的实测（经 KESQ 转载）](https://kesq.com/money/cnn-business-consumer/2026/09/23/meta-says-its-muse-ai-agent-can-do-things-for-you-i-put-it-to-the-test/)，「Things that were easier to do on my own」一节。本书读取：2026-10-04。
 
-提醒：和 C64 是不同记者的相同遭遇。
+提醒：和 [C64](#c64) 是不同记者的相同遭遇。
 
 <a id="c67"></a>
 
@@ -192,11 +174,11 @@
 
 媒体实测 · The New Yorker · Brady Brickner-Wood · 2026-09-16
 
-**过程与结果。** 他让 Muse（他起名 Harbor）订一顿晚餐，Muse 转到 Resy 网站后遇到登录和验证障碍，他自己订了；后来全家还是错过了那次预约。预约失败后他让 Muse 推荐一部晚上看的电影，Muse 给了建议，他们没看。同一篇文章里成功的那件事在第 22 章（C114）。
+**过程与结果。** 他让 Muse（他起名 Harbor）订一顿晚餐，Muse 转到 Resy 网站后遇到登录和验证障碍，他自己订了；后来全家还是错过了那次预约。预约失败后他让 Muse 推荐一部晚上看的电影，Muse 给了建议，他们没看。同一篇文章里成功的那件事在第 22 章（[C114](business.md#c114)）。
 
 出处：[My Weekend with an A.I. Agent（The New Yorker）](https://www.newyorker.com/culture/infinite-scroll/my-weekend-with-an-ai-agent)。本书读取：2026-10-04。
 
-提醒：这一条没有逐字引文，过程按原文复述。
+提醒：推荐和预订分开核对：有推荐，不等于已经订好；自己完成预约后也要留意时间。
 
 <a id="c68"></a>
 
@@ -230,9 +212,9 @@
 
 译文：它主动注意到我的租车取车时间和航班到达时间对不上。在我的邮件里找到修改链接，替我改了预约（救命了）。
 
-出处：同第 15 章 C57。本书读取：2026-10-04。
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
 
-提醒：这是「主动替你改」，不是「主动提醒你」。两者的差别第 11 章讲过。你愿不愿意它这样做，要在许可里定。
+提醒：这是「主动替你改」，不是「主动提醒你」。你需要先明确是否允许它直接修改预约，并检查已有许可。
 
 <a id="c70"></a>
 
@@ -248,7 +230,7 @@
 
 译文：最后，让它翻我的 Letterboxd 待看清单，给我推荐一部电影。电影挺不错。
 
-出处：同 C68 的帖子，另一位评论者。本书读取：2026-10-04。
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence) 的帖子，另一位评论者。本书读取：2026-10-04。
 
 提醒：他中途介入，让 Muse 换了取数据的方法。评论含推荐码。
 
@@ -260,7 +242,7 @@
 
 **事情。** 她想看《The Odyssey》的 IMAX 版，Daly City 这周的白天场。
 
-**过程与结果。** 她让 Muse 查场次，回答了它关于票数的提问，然后看着它进入影院网站的访客结账流程，付款那一步出现了 Stripe Link。她没有买，三小时的电影她现在没时间看。她说这个流程顺畅，比之前买鞋的经历好得多（买鞋见第 17 章 C72）。
+**过程与结果。** 她让 Muse 查场次，回答了它关于票数的提问，然后看着它进入影院网站的访客结账流程，付款那一步出现了 Stripe Link。她没有买，三小时的电影她现在没时间看。她说这个流程顺畅，比之前买鞋的经历好得多（买鞋见第 17 章 [C72](shopping.md#c72)）。
 
 原文：
 
@@ -288,7 +270,7 @@
 
 出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)。本书读取：2026-09-30、2026-10-04。
 
-提醒：主帖含推荐码。C64、C66 说明餐厅信息可能过时，收到通知后自己核一下。
+提醒：主帖含推荐码。[C64](#c64)、[C66](#c66) 说明餐厅信息可能过时，收到通知后自己核一下。
 
 ## 线索
 
@@ -297,10 +279,10 @@
 
 ## 换成自己的事
 
-出门前找信息，交给它最省心。C43 的做法可以照搬：说清是哪件事、大概什么时候、涉及谁，让它从邮件里找。找到之后，让它把原邮件调出来给你看一眼。
+出门前找信息，可以参考 [C43](#c43)：说清是哪件事、大概什么时候、涉及谁，并确认 Muse 能访问相关邮件。找到之后，打开原邮件核对地点、日期和联系人，尤其留意后来的变更。
 
-订票订位要分三段看：找到候选，提交，对方确认。C61、C37 停在找到候选，C65 走完了三段，C62、C67 卡在提交那一步。第 12 章讲过的这三个词，在这一章里最有用。
+订票订位要分三段看：找到候选，提交，对方确认。[C61](#c61)、[C37](#c37) 停在找到候选，[C65](#c65) 走完了三段，[C62](#c62)、[C67](#c67) 卡在提交那一步。
 
-餐厅信息过时是反复出现的问题（C64、C66）。地址、营业状态、电话，去之前自己查一次，花不了一分钟。
+餐厅信息过时是反复出现的问题（[C64](#c64)、[C66](#c66)）。出发前用商家当前页面核对地址、营业状态和电话。
 
-C69 那种它自己发现问题、自己改预约的事，省心，也要紧。改预约可能产生费用。你希望它遇到这种事先问你，还是直接办，要在第 10 章讲的许可里定好。
+[C69](#c69) 那种它自己发现问题、自己改预约的事，省心，也要紧。改预约可能产生费用。你希望它遇到这种事先问你，还是直接办，要在交办时说明，并检查相应的许可设置。

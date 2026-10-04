@@ -6,9 +6,16 @@
 
 家里的事，麻烦在于散：学校邮件、球队网站、日历、超市促销、搬家清单，各在一处。这一章收的案例，都是有人把这些散的东西交给 Muse，让它读、找、整理，或者到点提醒。
 
-值得先看三条。两位家长互不相识，各自让 Muse 做了家庭周报，一个要 HTML 打印，一个要一页 PDF（C02）。两位记者和一位网友都用它联系搬家公司或工匠，对方几分钟内就打来电话（C51、C52、C55）。三位用户各自把 Instagram、Facebook 的收藏整理成了能用的食谱清单（C46）。
+可以从三类任务看起。两位作者都分享过家庭周报，一个打印 HTML 文件，一个要一页 PDF（[C02](#c02)）。联系服务商的三次经历里，Muse 负责找公司、填询价表或发邮件，商家通过电话或短信回复（[C51](#c51)、[C52](#c52)、[C55](#c55)）。整理食谱收藏，则有一位记者和一位网友的经历，可以和官方示例对照着看（[C46](#c46)）。
 
-每条案例都附原文的关键句、译文和出处。想看全文，点出处就能过去。
+案例先用中文讲清过程和结果，再附出处；适合短引的原句另配译文。你可以先看故事，需要细节时直接打开来源。
+
+| 手头的事 | 可以先看 |
+|---|---|
+| 找人上门、搬家询价 | [搬家公司](#c51)、[清运树枝](#c52)、[木工维修](#c55) |
+| 家庭日程和资料 | [每周简报](#c02)、[球队名单](#c03)、[宠物记录](#c58) |
+| 收藏、目标和个性设置 | [整理食谱](#c46)、[设目标](#c54)、[改形象](#c28) |
+| 需要额外搭建的玩法 | [厨房信息屏](#c41)、[训练记录](#c49)、[扫地机器人](#c60) |
 
 ## 案例
 
@@ -30,7 +37,7 @@
 
 出处：[Meta says its Muse AI agent can do things for you. I put it to the test（CNN，经 KESQ 转载）](https://kesq.com/money/cnn-business-consumer/2026/09/23/meta-says-its-muse-ai-agent-can-do-things-for-you-i-put-it-to-the-test/)，「How Muse was helpful」一节。本书读取：2026-09-30、2026-10-04。
 
-提醒：不需要接入任何账号，只是对话。计划好不好，读者自己一眼能判断。
+提醒：把剩余物品、期限和每天能花的时间交代清楚，再检查计划是否安排得下。
 
 <a id="c51"></a>
 
@@ -41,12 +48,6 @@
 **事情。** 他要搬家，还没定搬家公司。
 
 **过程与结果。** 他让 Muse 比较本地搬家公司并要报价。Muse 先问了现住址、新住址、几间卧室、有没有楼梯或电梯，以及搬家公司可以联系他的邮箱和电话。然后它找到四家公司，发出询价。他写道，大约两分钟后，两家公司的电话就打过来了。
-
-原文：
-
-> Muse found four different companies in my area and sent out my request for quotes. About two minutes later, my phone was blowing up with calls from two of the movers.
-
-译文：Muse 在我附近找到四家不同的公司，发出了我的询价请求。大约两分钟后，我的电话被其中两家搬家公司打爆了。
 
 出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。作者在 [LinkedIn 帖](https://www.linkedin.com/posts/daniel-howley-0b117712_metas-muse-is-an-impressively-capable-ai-activity-7508599611520098305-woJg) 里也讲了这件事。
 
@@ -70,7 +71,7 @@
 
 出处：[What are you using Muse agent for? How's your…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wcb3cq/what_are_you_using_muse_agent_for_hows_your/) 的评论。本书读取：2026-10-04。
 
-提醒：和 C51 是不同的人、相近的用法。
+提醒：物品清单会影响报价，提交前应检查数量、体积和需要搬运的特殊物品。
 
 <a id="c52"></a>
 
@@ -82,15 +83,15 @@
 
 **过程与结果。** Muse 翻了本地的清运服务，挑出几家，向她要了地址、电话和树枝的照片，然后用这些信息在几家公司的网页表单上提交了询价。有一家很快用短信回复，约了第二天。她说这是她试的五项任务里它最有用的一次。发稿时还没确认清运完成。
 
-原文：
+原文短引：
 
-> It asked for my address, phone number, and a photo of the tree limb, and used that information to put together requests for quotes from a couple of companies using online form submissions.
+> requests for quotes from a couple of companies using online form submissions.
 
-译文：它向我要了地址、电话号码和一张树枝的照片，用这些信息通过网页表单向几家公司提交了询价请求。
+译文：通过网页表单向几家公司提交询价请求。
 
 出处：[Meta's AI agent is a cute little guy who's great at spending my money（The Verge）](https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping)，第四项任务。本书读取：2026-10-04。
 
-提醒：和 C51 一样，询价表里填的是你的真实联系方式。
+提醒：和 [C51](#c51) 一样，询价表里填的是你的真实联系方式。
 
 <a id="c55"></a>
 
@@ -124,7 +125,7 @@
 
 **事情。** 一周里全家的日程、天气、交通、本地新闻，想放在一张纸上。
 
-**过程与结果。** CaptainBroccoli 让 Muse 每周读家庭的 Google 日历，汇总天气、每天的活动、可能的交通冲突、本地球队比赛、县里的新闻，再加几个和儿子聊天的「餐桌话题」，生成 HTML 文件，他每周打印。Claire Vo 的做法相近：接入日历和邮箱后，她要一页像简报一样的 PDF，放在厨房桌上；结果里有一周安排，还标出了巴西柔术课和钢琴课时间重叠。两人互不相识，用法却相近，所以放在一条。
+**过程与结果。** CaptainBroccoli 让 Muse 每周读家庭的 Google 日历，汇总天气、每天的活动、可能的交通冲突、本地球队比赛、县里的新闻，再加几个和儿子聊天的「餐桌话题」，生成 HTML 文件，他每周打印。Claire Vo 的做法相近：接入日历和邮箱后，她要一页像简报一样的 PDF，放在厨房桌上；结果里有一周安排，还标出了巴西柔术课和钢琴课时间重叠。CaptainBroccoli 说自己受了 Claire 的启发，两种做法放在这里对照。
 
 原文（CaptainBroccoli）：
 
@@ -142,7 +143,7 @@
 
 出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)，作者的补充评论；[Claire Vo 的文字实录（ChatPRD）](https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent)，「Workflow 1: The One-Shot Family Newsletter」一节；同一期节目也在 [Lenny's Newsletter](https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent)。本书读取：2026-10-01、2026-10-04。
 
-提醒：需要接入家庭日历，Claire 还接入了邮箱。Reddit 主帖含推荐码，评论区有人质疑是营销，但没有拿出证明经历虚假的材料；本书没有核查他们的文件。CaptainBroccoli 说自己受了 Claire 的启发。
+提醒：需要接入家庭日历，Claire 还接入了邮箱。Reddit 主帖含推荐码，评论区有人质疑是营销，但没有拿出证明经历虚假的材料。
 
 <a id="c03"></a>
 <a id="c04"></a>
@@ -153,7 +154,7 @@
 
 **事情。** 他是儿子旅行足球队的领队，每周要打印球队名单带去比赛，可名单要到赛前两天才能打印，他总忘。联赛网站没有程序接口。
 
-**过程与结果。** 他给了 Muse 登录凭据，Muse 用浏览器登录联赛网站，找到名单 PDF 并取出来。他设成每周检查：有比赛就去取名单发给他。另一次，他把 TeamSnap 的凭据也给了 Muse，Muse 发现联赛网站上有一场比赛没出现在 TeamSnap 里。原帖只说发现了差异，没说自动补进日程。这两件事原来分别编为 C03 和 C04，现在合在一起。
+**过程与结果。** 他给了 Muse 登录凭据，Muse 用浏览器登录联赛网站，找到名单 PDF 并取出来。他设成每周检查：有比赛就去取名单发给他。另一次，他把 TeamSnap 的凭据也给了 Muse，Muse 发现联赛网站上有一场比赛没出现在 TeamSnap 里。原帖只说发现了差异，没说自动补进日程。这两件事原来分别编为 [C03](#c03) 和 C04，现在合在一起。
 
 原文：
 
@@ -169,7 +170,7 @@
 
 出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)。本书读取：2026-09-30、2026-10-01、2026-10-04。
 
-提醒：API 和 MCP 是程序之间连接的方式，他的意思是没有这种方式，只能像人一样登录网页。把网站凭据交给 Muse 是一项授权，第 9、10 章讲过它意味着什么。主帖含推荐码；没有连续多周运行的记录。
+提醒：API 和 MCP 是程序之间连接的方式；这个网站没有提供，于是他让 Muse 登录网页。网站凭据意味着账号访问权，应确认允许它读取和修改的范围。主帖含推荐码，未附连续多周运行的记录。
 
 <a id="c29"></a>
 
@@ -201,10 +202,6 @@
 
 **过程与结果。** 她平时用 Google 账号登录 ParentSquare，Muse 的浏览器里却没有这种登录方式，卡住了。后来是 Meta 的公关和工程团队帮她登录成功的。文章里还有三件孩子的事：安排蹦床公园的生日会，没办完，还要孩子拿主意、要打电话；追踪女童军的活动通知，Muse 读不到 WhatsApp 群里的消息；续缴女童军会员费，付款页超时，她改用电脑自己交了。
 
-原文（授权中文版）：
-
-> 我需要填寫一份 Google 表單來報名管樂團，而那份表單位於 ParentSquare 連結內。
-
 出处：[Business Insider 的 Muse 评测（英文原文）](https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9)；[授权中文版（Business Insider 台湾）](https://www.businessinsider.tw/article/7312)。本书读取：2026-10-04。
 
 提醒：学校、社团这类网站各有各的登录方式，Muse 不一定进得去。普通读者没有 Meta 工程师帮忙。
@@ -227,7 +224,7 @@
 
 出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence) 的评论。本书读取：2026-10-04。
 
-提醒：选哪家是他自己定的，Muse 负责提交。同一位作者还讲了几件事，见 C58、C59 和第 21 章。
+提醒：选哪家是他自己定的，Muse 负责提交。同一位作者还讲了几件事，见 [C58](#c58)、[C59](#c59) 和第 21 章。
 
 <a id="c58"></a>
 
@@ -245,7 +242,7 @@
 
 译文：翻遍了我以前的兽医就诊记录（就诊后的邮件），做了一份持续更新的资料，显示我猫的健康时间线，以及下次就诊该问什么。还显示下次预约是什么时候。
 
-出处：同 C57。本书读取：2026-10-04。
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
 
 提醒：这是整理记录，不是诊断。整理得对不对，要对照原邮件看。
 
@@ -263,9 +260,9 @@
 
 译文：我设置它来处理保姆的工资。它只问我她工作了多少小时，然后自动替我提交工资。
 
-出处：同 C57。本书读取：2026-10-04。
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
 
-提醒：涉及付款。第 10 章讲过，发送、购买、付款前应当看清对象和金额。
+提醒：提交工资前，核对收款人、工时、金额和这次授权包含的动作；提交并不自动说明款项已经到账。
 
 <a id="c46"></a>
 
@@ -285,9 +282,9 @@
 
 原文（Engadget）：
 
-> It came back with an organized list of recipes, grouped by type, that shows the ingredients, steps and links back to the original post.
+> It came back with an organized list of recipes, grouped by type
 
-译文：它交回一份整理好的食谱清单，按类型分组，列出食材、步骤，还链接回原帖。
+译文：它交回一份按类型分组、整理好的食谱清单。
 
 原文（wtjones）：
 
@@ -311,7 +308,7 @@
 
 出处：[Claire Vo 的文字实录（ChatPRD）](https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent)，「Workflow 2: Setting Personal Goals」一节。本书读取：2026-10-04。
 
-提醒：这是 Goals 功能的一次使用。计划好不好，家长自己判断。
+提醒：这个例子展示了设定目标和提醒的过程，文章没有提供睡眠改善的结果。
 
 <a id="c28"></a>
 
@@ -323,15 +320,9 @@
 
 **过程与结果。** 她让 Muse 把形象改成一只青绿色的可爱小龙，名字叫 Slime，因为那是孩子最喜欢的毛绒玩具的名字。文章说头像和动画都生成了。这是她自己改的形象，不是孩子使用 Muse 的记录。
 
-原文：
+出处：[Claire Vo 的文字实录（ChatPRD）](https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent)，IMAX 测试前的一段。本书读取：2026-10-01、2026-10-04。
 
-> change your avatar to a teal adorable dragon. I want your name to be Slime, because that's the name of my kid's favorite stuffy
-
-译文：把你的形象改成一只可爱的青绿色小龙。我想让你叫 Slime，因为那是我孩子最喜欢的毛绒玩具的名字。
-
-出处：同 C54，IMAX 测试前的一段。本书读取：2026-10-01、2026-10-04。
-
-提醒：形象和名字可以随时在对话里改，第 11 章讲过。改形象不改变它的权限。
+提醒：形象和名字可以在对话里提出修改。改形象不改变它的权限。
 
 <a id="c41"></a>
 
@@ -387,9 +378,9 @@
 
 译文：给我的旧扫地机器人做了一个自定义的变通连接，这样我就能直接让它控制：「扫十五分钟，然后让它回家」。
 
-出处：同 C57。本书读取：2026-10-04。
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
 
-提醒：这是自定义连接器，第 9 章提过，Meta 不审核这类连接器。不是所有扫地机器人都能这样接。
+提醒：这是自定义连接器，Meta 不审核这类连接器。不是所有扫地机器人都能这样接。
 
 ## 线索
 
@@ -401,10 +392,10 @@
 
 ## 换成自己的事
 
-家庭类的任务，最容易成功的是「读了再整理」：读日历、读邮件、读收藏，整理成一张纸、一份清单、一条时间线。这些结果你一眼能核对，错了也没有后果。C02、C46、C58 都是这一类。
+家庭里可以先挑一件范围明确的整理任务：把一周日历做成简报，把收藏变成清单，或把几封回访邮件排成时间线。[C02](#c02)、[C46](#c46)、[C58](#c58) 展示了这些做法。拿到结果后，对照原材料检查日期、遗漏和对应关系，再用它安排事情。
 
-联系服务商是另一类见效快的事。C51、C52、C55 里，Muse 做的是找到几家、填表或发邮件，然后对方打电话给你。它没有替谁打电话。你要准备好的是：愿意把电话和地址交出去，以及接电话。
+联系服务商时，Muse 可以接手查找公司、整理需求、填表或起草邮件这几步。[C51](#c51)、[C52](#c52)、[C55](#c55) 的商家通过电话或短信回复，用户再确认报价和上门安排。先想清楚愿意提供哪些联系方式，也给自己留出处理回复的时间。
 
-要它登录某个网站取东西，先想清楚两件事。一是那个网站用什么方式登录，像 C53 那样用 Google 账号登录的门户，Muse 可能进不去。二是你交出去的是什么，C03 交的是球队网站的账号密码，第 10 章讲过这是什么级别的授权。
+要它登录某个网站取东西，先想清楚两件事。一是那个网站用什么方式登录，像 [C53](#c53) 那样用 Google 账号登录的门户，Muse 可能进不去。二是你交出去的是什么，[C03](#c03) 交的是球队网站的账号密码。
 
 CaptainBroccoli 还提到一个小设置：把手机的 Action Button 设成长按就打开 Muse，因为开得快，小事也愿意交给它。这不是任务，只是降低了开口的成本。
