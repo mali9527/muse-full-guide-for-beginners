@@ -280,7 +280,7 @@ units:
   - editorial
   - facts
 - id: household
-  title: 第 15 章 家庭生活：让日程、资料和日常安排配合起来
+  title: 第 15 章 家庭生活：日程、资料、家务和孩子的事
   path: manuscript/household.md
   section: deep
   depth: 1
@@ -293,7 +293,7 @@ units:
   facts: []
   derived_from: null
 - id: outings
-  title: 第 16 章 旅行与出门：行程、票务和出门前的信息
+  title: 第 16 章 旅行与出门：行程、票务、餐厅和出门前的信息
   path: manuscript/outings.md
   section: deep
   depth: 1
@@ -357,7 +357,7 @@ units:
   facts: []
   derived_from: null
 - id: career
-  title: 第 21 章 求职与个人事务：简历、申请和个人背景
+  title: 第 21 章 个人事务：求职、账单、保险和申请
   path: manuscript/career.md
   section: deep
   depth: 1
@@ -370,7 +370,7 @@ units:
   facts: []
   derived_from: null
 - id: business
-  title: 第 22 章 小生意：网站、客户、经营分析和客服
+  title: 第 22 章 小生意：网站、客户、经营分析、卖东西和客服
   path: manuscript/business.md
   section: deep
   depth: 1

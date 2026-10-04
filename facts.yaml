@@ -109,7 +109,7 @@
   status: confirmed
   critical: false
 - id: muse-plans
-  claim: 免费有用量上限；本次读到Power为20美元/月、Maximum为100美元/月。
+  claim: 免费有用量上限；官方订阅帮助页写Power为20美元/月（每周5亿Muse tokens）、Max为100美元/月（每周30亿）；早期报道把Max写作Maximum。
   scope:
     product: muse
     evidence: 无地区路径英文帮助页；权益依地区和账号而异；不据此断言Max已正式更名

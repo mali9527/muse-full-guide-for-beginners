@@ -1,5 +1,247 @@
-# 第 22 章 小生意：网站、客户、经营分析和客服
+# 第 22 章 小生意：网站、客户、经营分析、卖东西和客服
 
 <!-- studio:nav -->
-← [第 21 章 求职与个人事务：简历、申请和个人背景](career.md) · [目录](../README.md) · [附录 入口、费用和常见问题](reference.md) →
+← [第 21 章 个人事务：求职、账单、保险和申请](career.md) · [目录](../README.md) · [附录 入口、费用和常见问题](reference.md) →
 <!-- /studio:nav -->
+
+做小生意的人用 Muse，和个人用户的差别在于：事情有重复性，出错有成本。这一章的案例里，研究、改网站、更新商品这类事做成了不少；对外发消息、谈价格的事，有人成功，也有人出了事故。
+
+值得先看三条。一位二手服装店主让 Muse 把 Depop 上的商品搬到 eBay，中间反复遇到人机验证，标题起得笼统，约一小时搬完，之后卖出了四件（C114）。一位网站主接入 Squarespace 后，Muse 给了修改建议，还真的搭出了博客页和周边商店，他之后自己微调（C35）。另一位卖家让 Muse 代管一天 Marketplace 的出售，Muse 谈成价格、给了买家住址、约了上门取货，他事后才知道（C115）。
+
+## 案例
+
+<a id="c114"></a>
+
+### C114 把 Depop 的二手衣物搬到 eBay：一小时，几次人机验证，标题太笼统，后来卖出四件
+
+媒体实测 · The New Yorker · Brady Brickner-Wood · 2026-09-16
+
+**事情。** 他在 Depop 上开一家小的二手服装店，几个月来一直想把商品也放到 eBay 上，一直拖着。
+
+**过程与结果。** 他让 Muse（他起名 Harbor）把商品复制到 eBay。中间几次撞上人机验证，Muse 起的标题也太笼统（一件叫「男式衬衫」，一件叫「帽子」）。大约一小时后搬完了，他松了一口气。实验结束时他在 eBay 上卖出了四件，其中一件 T 恤卖了 15 美元。
+
+原文：
+
+> By the end of my experiment, I’ve sold four items on eBay.
+
+译文：到我的实验结束时，我在 eBay 上卖出了四件。
+
+出处：[My Weekend with an A.I. Agent（The New Yorker）](https://www.newyorker.com/culture/infinite-scroll/my-weekend-with-an-ai-agent)。本书读取：2026-10-04。
+
+提醒：验证码要他自己过。搬完之后商品标题要自己改。同一篇里没做成的事见第 16 章 C67。
+
+<a id="c35"></a>
+
+### C35 接入 Squarespace 两天，它搭出了博客页和周边商店
+
+网友分享 · Reddit r/MetaAI · jinkstr86 · 发表日期未确认
+
+**过程与结果。** 他起初很怀疑，用了两天后改变了看法。他把 Muse 接入了 Gmail 和 Squarespace，Muse 帮他改网站代码，给了可以修的建议，还真的搭出了新的博客页和周边商店。他仍然要进去做细节调整。他喜欢能看着它在网站上操作、随时接管。
+
+原文：
+
+> I was impressed that it actually will do the task, in my case it built out my new blog page and merch shop.
+> I still had to come in behind to fine tune, but for the most part it did a great job! I love how you can see it working and navigating the site and can even take over.
+
+译文：让我印象深刻的是它真的会去做这件事，在我这里，它搭出了我新的博客页和周边商店。我之后还是得进去微调，但大体上它做得很好！我喜欢你能看着它在网站上工作和导航，甚至可以接管。
+
+出处：[Really enjoying Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wl76t5/really_enjoying_muse/)。本书读取：2026-10-01、2026-10-04。Tom's Guide 的[十个用法整理](https://www.tomsguide.com/ai/i-scoured-reddit-for-muse-ai-use-cases-10-that-will-actually-save-you-time)也选了这条。
+
+提醒：没有公开的网站地址可以核查。接管浏览器的操作第 7 章讲过。
+
+<a id="c36"></a>
+
+### C36 让它筛查本地可能需要咨询的小店：排班乱、没网站、不懂技术的
+
+网友分享 · Reddit r/MetaAI · Equal_Age2155 · 发表日期未确认
+
+**事情。** 他做企业咨询，侧重 AI 自动化，刚起步。
+
+**过程与结果。** 他关注本地的店主，找那些抱怨自己生意的人。他让 Muse 筛查本地可能适合咨询的企业：排班流程有漏洞的、没有网站的、不懂技术的雇主。主帖说当天有了第一位客户，但没法证明这位客户来自 Muse 筛出来的线索。
+
+原文：
+
+> I had Muse scan for local businesses that may be a good fit for consulting (gaps in scheduling process, no website, low tech employers).
+
+译文：我让 Muse 筛查可能适合提供咨询的本地企业（排班流程有漏洞、没有网站、不懂技术的雇主）。
+
+出处：[Muse success story（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1whmvkg/muse_success_story/)，作者回答评论的部分。本书读取：2026-10-01、2026-10-04。
+
+提醒：他做的是 AI 相关的咨询生意，有直接的商业关联。Muse 做的是筛，接触客户是他自己。
+
+<a id="c24"></a>
+
+### C24 三百多条 Marketplace 商品，让它续期旧商品、加新商品、在同城比价
+
+网友分享 · Reddit r/MetaAI · Ska4ka · 发表日期未确认
+
+**过程与结果。** 他在 Facebook Marketplace 上卖东西，有三百多条商品。Muse 帮他给旧商品续期，加新商品，在同城找类似商品比价，再建议更合适的价格。帖子没写销量变化。同一个帖子里，另一位卖家说自己试了好几次，仍然没法让 Muse 回复「还在售吗」的询问；还有一位说自己成功回复过商品询问。
+
+原文：
+
+> I have over 300 listings, Muse been helping me to add new listings, run price comparison in my city against similar items and suggest a better price.
+
+译文：我有三百多条商品。Muse 一直在帮我加新商品，在我的城市里和类似商品比价，然后建议更合适的价格。
+
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence) 的评论。本书读取：2026-10-01、2026-10-04。
+
+提醒：几位卖家的结果不一致。改价和回复买家是写入动作，第 10 章讲过分别授权。
+
+<a id="c115"></a>
+
+### C115 让它代管一天 Marketplace 的出售，它谈成价、给了住址、约了上门取货，他事后才知道
+
+媒体报道 · Android Authority · Shimul Sood · 2026-09-28
+
+**事情。** 内容创作者 Matt Robb 让 Muse 替他代管 Facebook Marketplace 上一件东西的出售。
+
+**过程与结果。** 据他发布的截图，Muse 和一位买家谈了价、同意了价格、分享了他的住址、安排了取货，他全程不知道有人已经被约到家里来。买家到了他的楼下等。他之后告诉 Muse，以后任何取货都要先问他。Meta 的 David Singleton 表示正在调查，并说以往类似报告里发现智能体遵循了用户的授权；这不是对这一件事的结论。
+
+原文：
+
+> The buyer eventually showed up at his building and waited,
+
+译文：买家最终到了他的楼下等着，
+
+出处：[Android Authority 的报道](https://www.androidauthority.com/meta-muse-ai-privacy-issues-3715963/)。本书读取：2026-10-04。Robb 本人在 Threads 上的原帖本书没有打开。
+
+提醒：这件事的授权情况没有查清，用户和 Meta 的说法不一致。它说明的是：最低价、能透露什么信息、什么时候见面，要逐项单独授权，第 10 章讲过。
+
+<a id="c25"></a>
+
+### C25 让它评估并修改网店里的一件 T 恤，逐项批准后自己点发布
+
+网友分享 · Reddit r/MetaAI · NinjaTEK7 · 发表日期未确认 · 需要技术条件
+
+**过程与结果。** 他让 Muse 评估并更新他 Printify 店里的一件 T 恤。Muse 挑了几种颜色，对定价给了意见，然后更新了商品；每一次通过接口的修改他都逐项批准，最后在 Printify 网站上自己点了发布，商品上线。他打算接着给一张图让 Muse 从头做一个新杯子，那是下一步，还没做。
+
+原文：
+
+> It picked a few different colors and commented on pricing etc then updated the listing. I approved each code push on API and afterwards clicked Publish on the Printify website and it went live.
+
+译文：它挑了几种不同的颜色，对定价等给了意见，然后更新了商品。每一次通过 API 的代码推送我都批准了，之后在 Printify 网站上点了 Publish，商品就上线了。
+
+出处：[What are you using Muse agent for? How's your…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wcb3cq/what_are_you_using_muse_agent_for_hows_your/) 的评论。本书读取：2026-09-30、2026-10-04。
+
+提醒：他在评论里带了自己商店的链接。「逐项批准，自己发布」是这条最值得学的地方。
+
+<a id="c26"></a>
+
+### C26 交代一项竞争者研究，关掉 App，回来时简报已经做好
+
+创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
+
+**过程与结果。** 她给 Muse 一项竞争者研究的任务，几乎立刻关掉了应用。后来重新打开，竞争者简报已经完成，她认为稍作编辑就能用。本书没有看过那份简报。
+
+原文：
+
+> I gave Muse a competitor research assignment and closed the application almost immediately, well before it had finished.
+
+译文：我给了 Muse 一项竞争者研究的任务，几乎立刻就关掉了应用，远在它完成之前。
+
+出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 10。本书读取：2026-09-30、2026-10-04。
+
+提醒：关掉 App 它还在干，第 7 章讲过。
+
+<a id="c116"></a>
+
+### C116 用已有的企业背景写周报、定内容计划
+
+创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
+
+**过程与结果。** 同一位作者的两项测试。一是让 Muse 用她已有的 Meta 企业背景生成周报，她认为相关、具体，只需少量修改。二是让它制定内容计划，Muse 利用业务背景选出适合她受众的话题，她认可规划，认为做成成品的部分较弱。都是她的自评。
+
+出处：同 C26，测试 5 和测试 6。本书读取：2026-10-04。
+
+提醒：没有逐字引文。「规划好、成品弱」在她的多项测试里反复出现。
+
+<a id="c23"></a>
+
+### C23 为零售店持续查陈列设备、展示柜、店面设计趋势和竞争者
+
+网友分享 · Reddit r/MetaAI · Most_Apricot5133 · 发表日期未确认
+
+**过程与结果。** 他用 Muse 为自己的零售生意做研究：海外的陈列设备、珠宝展示柜、店面设计趋势、竞争者和买家信号。他觉得有用的地方是它会一直往下挖来源，而不是给一个快答案。他还在测试，没有展示报告或采购决定。
+
+原文：
+
+> The useful part is that it can keep digging through sources instead of giving me one quick answer.
+
+译文：有用的地方在于，它能一直往下挖来源，而不是给我一个快答案。
+
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1ws1c5q/top_three_use_cases_for_muse/)。本书读取：2026-09-30、2026-10-04。
+
+提醒：主帖含推荐码，并说明推荐双方都有好处。
+
+<a id="c30"></a>
+<a id="c31"></a>
+
+### C30 官方给小生意的两个示例：拿今年的销售、营销和社交数据做明年的增长计划；月末找出不对劲的开支
+
+官方示例 · Meta 小生意公告 · 2026-09-29
+
+**过程与结果。** Meta 在 Muse for Small Business 的公告里给了几个提示语示例。一个是把今年的销售、营销活动和社交账号表现放在一起分析，做一份实现明年目标的增长计划。另一个是先问这个月的财务表现，再让它找出看起来不对劲的开支。公告说发布、发送、花钱之前都要用户批准。没有具体商家的结果。原来的 C31 讲的就是第二个示例，现在合在这里。
+
+原文：
+
+> Analyze this year’s sales, campaigns, and social
+
+译文：分析今年的销售、营销活动和社交表现。
+
+> Find any expenses that look off.
+
+译文：找出任何看起来不对劲的开支。
+
+出处：[The Future Is for Everyone: Muse for Small Business（Meta）](https://about.fb.com/news/2026/09/introducing-muse-small-business/)，「What Small Businesses are Getting Done with Muse」一节。本书读取：2026-10-01、2026-10-04。
+
+提醒：这是厂商的示例，不是有人做成的记录。「看起来不对劲」的开支要自己核，一位记者的个人账单里被标出的「重复扣款」其实是分期（第 21 章 C103）。
+
+<a id="c47"></a>
+
+### C47 给它四十一个自建的工具，让它读工单、回复客户、写内部备注、改状态
+
+网友分享 · Reddit r/MetaAI · ALAPKO_Attila · 发表日期未确认 · 需要技术条件
+
+**过程与结果。** 他是 ALAPKO 公司的所有者。他给 Muse（他起名 Mabel）接了四十一个连到公司内部系统的专用工具。公开的演示视频用的是虚构的客户、设备和工单，但他说软件、集成、权限、工具调用、流程和审计记录都和他们实际使用的生产系统一样。演示里他给一条指令，大约三十四秒后，Mabel 读了工单和客户背景，推断原因，认领工单，给客户回了排障步骤，写了一条内部工程备注，并把工单改到相应状态。有人建议他统计解决率和重开率，他说要有足够的真实工单量才有意义。
+
+原文：
+
+> The customer, workstation and ticket are fake; the ALAPKO software, Muse integration, permissions, tool calls, workflow and audit trail are the same production system we actually use.
+
+译文：客户、工作站和工单是假的；ALAPKO 软件、Muse 集成、权限、工具调用、工作流和审计记录，和我们实际使用的生产系统是同一套。
+
+出处：[I stopped using Muse like a chatbot and gave her…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrj13v/i_stopped_using_muse_like_a_chatbot_and_gave_her/)。本书读取：2026-10-01、2026-10-04。
+
+提醒：这是自家系统的演示，演示数据是合成的。本书没有看视频。
+
+<a id="c117"></a>
+
+### C117 内置的打电话功能不肯替他打，他接了 ElevenLabs 的电话号码
+
+网友分享 · Reddit r/MetaAI · hariboyolo · 发表日期未确认 · 需要技术条件
+
+**过程与结果。** 他说 Muse 的打电话功能不肯替他打，于是给 Muse 一个 ElevenLabs 的电话号码，把 ElevenLabs 的 API 密钥交给 Muse，让它通过那边打电话。帖子没有具体的通话任务和录音。
+
+原文：
+
+> I haven’t had luck with phone calls with muse because it refuses to do it for me. Elevenlabs has its own phone thing built in just gotta give Elevenlabs api key to muse
+
+译文：我用 Muse 打电话一直没成功，它拒绝替我打。ElevenLabs 自带电话功能，只要把 ElevenLabs 的 API 密钥给 Muse 就行。
+
+出处：[What's the coolest thing you've done with Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wjyjxu/whats_the_coolest_thing_youve_done_with_muse/) 的评论和作者补充。本书读取：2026-10-04。
+
+提醒：这是自建接入，和 C50 那种内置的测试功能不是一回事。交出第三方服务的 API 密钥，也是一种授权。
+
+## 线索
+
+- 用每天早上的消息管理一家水管维修公司的任务。[Jon O'Neill 在 X 上的原帖](https://x.com/HouseHackerJon/status/2102036626478420315)，[聚合站的转述](https://shipwithmuse.live/builds/plumbing-company-run-by-a-muse-agent)。本书没打开原帖，工单、客户消息和员工沟通分别做到哪一步不清楚。
+
+## 换成自己的事
+
+小生意里最先能交出去的是研究和整理：竞争者、供应商、设计趋势（C23、C26），还有用自己的数据写周报（C116）。这些出错的代价低。
+
+改商品、改网站是写入动作。C25 的做法是范本：每一步批准，最后自己点发布。C35 也是搭完自己微调。
+
+对外谈价、约见面，是这一章里风险最高的事。C115 的事故和 C24 里几位卖家不一致的结果都说明：先定好最低价、能透露什么、什么时候见人，让它每一步来问你，或者干脆这一步自己来。
+
+卖东西和搬商品（C114、C24）里反复出现的是人机验证和笼统的标题。验证码由你过，标题你改。
