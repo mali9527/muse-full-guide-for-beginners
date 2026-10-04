@@ -1,5 +1,5 @@
 - unit: now
-  source_commit: 7e041d2318c7aeb7a7592d5f5671072007d98a78
+  source_commit: fffe5c2a8aaed7e350afcd64223d64bd37699155
   paths:
   - manuscript/now.md
   - book.yaml
@@ -13,7 +13,7 @@
   limitations: 仅概念稿与阅读路径。产品说明依据官方相关正文；引用案例未独立复现。
   reason: 按零基础读者逐段检查概念顺序、术语、前置、示例与来源边界。
 - unit: now
-  source_commit: 7e041d2318c7aeb7a7592d5f5671072007d98a78
+  source_commit: fffe5c2a8aaed7e350afcd64223d64bd37699155
   paths:
   - manuscript/now.md
   - book.yaml
@@ -27,7 +27,7 @@
   limitations: 仅概念稿与阅读路径。产品说明依据官方相关正文；引用案例未独立复现。
   reason: 按本单元实际断言反查当次官方阅读及书稿结构；不覆盖全部案例事实。
 - unit: now
-  source_commit: 7e041d2318c7aeb7a7592d5f5671072007d98a78
+  source_commit: fffe5c2a8aaed7e350afcd64223d64bd37699155
   paths:
   - manuscript/now.md
   - book.yaml
@@ -41,7 +41,7 @@
   limitations: 没有 Muse 账号、设备操作或真人试读记录。
   reason: 未执行实际操作，不能用文档阅读代替。
 - unit: now
-  source_commit: 7e041d2318c7aeb7a7592d5f5671072007d98a78
+  source_commit: fffe5c2a8aaed7e350afcd64223d64bd37699155
   paths:
   - manuscript/now.md
   - book.yaml
