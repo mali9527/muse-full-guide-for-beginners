@@ -5,8 +5,8 @@ language: zh-CN
 product: muse
 audience: 熟悉电脑、手机与常用系统功能，但没有Muse使用经验的中文读者；不预设编程与AI专业知识，陌生概念首次通俗解释；先认识背景与价值，再学操作、查案例，原理后置
 baseline:
-  product_version: 官方资料逐章覆盖，108条案例；写前准备完成，第2—14章仍为细纲与骨架，未实测
-  checked_on: null
+  product_version: 完整中文文字初稿：26单元、108条案例；依据官方资料和公开经历写作，未实测
+  checked_on: '2026-10-04'
 repository:
   name: ''
   default_branch: main
@@ -79,6 +79,8 @@ units:
   - muse-iphone
   - muse-language
   - muse-plans
+  - muse-connect-path
+  - muse-disconnect-retention
   derived_from: null
 - id: start
   title: 第 3 章 先完成一件小事：把几份通知整理成出行单
@@ -96,6 +98,8 @@ units:
   - muse-task-loop
   - muse-fallibility
   - muse-interface-paths
+  - muse-artifacts
+  - muse-approval-scope
   derived_from: null
 - id: interface
   title: 第 4 章 用到哪里看哪里：对话、任务、文件和设置
@@ -150,6 +154,7 @@ units:
   - muse-actions
   - muse-artifacts
   - muse-file-types
+  - muse-connect-path
   derived_from: null
 - id: results
   title: 第 7 章 把成果用起来：检查、修改、保存与分享
@@ -169,6 +174,7 @@ units:
   - muse-interactive-artifacts
   - muse-artifact-sharing
   - muse-file-types
+  - muse-data-export-reset
   derived_from: null
 - id: progress
   title: 第 8 章 任务没做完时：看进度、补信息、接手和停止
@@ -186,6 +192,7 @@ units:
   - muse-background
   - muse-approval-scope
   - muse-browser-takeover
+  - muse-credential-entry
   derived_from: null
 - id: connect
   title: 第 9 章 让 Muse 查自己的资料：邮箱、日历与其他账号
@@ -227,6 +234,7 @@ units:
   - muse-approval-scope
   - muse-purchase-confirmation
   - muse-permission-modes
+  - muse-fallibility
   derived_from: null
 - id: memory
   title: 第 11 章 让 Muse 逐渐了解你：偏好、记忆与主动建议
@@ -245,6 +253,7 @@ units:
   - muse-memory-import
   - muse-delete-versus-forget
   - muse-memory-files
+  - muse-proactivity-control
   derived_from: null
 - id: ongoing
   title: 第 12 章 按时继续做：提醒、定期任务与长期目标
@@ -282,6 +291,10 @@ units:
   - muse-entry
   - muse-mac-status
   - muse-announced-surfaces
+  - muse-iphone
+  - muse-language
+  - muse-glasses-status
+  - muse-charm-status
   derived_from: null
 - id: maintenance
   title: 第 14 章 日常使用遇到问题：额度、通知、失败与重置
@@ -304,6 +317,9 @@ units:
   - muse-data-export-reset
   - muse-subscription-cancel
   - muse-training-control
+  - muse-subscription-management
+  - muse-goals-upcoming
+  - muse-delete-versus-forget
   derived_from: null
 - id: choose
   title: 选一个自己的案例
@@ -334,6 +350,8 @@ units:
   - scheduled-files
   facts:
   - muse-interactive-artifacts
+  - muse-auto-meta-connectors
+  - muse-memory-files
   derived_from: null
 - id: outings
   title: 第 16 章 旅行与出门：行程、票务、餐厅和出门前的信息
@@ -346,7 +364,8 @@ units:
   - travel-planning
   - shared-document
   - local-search
-  facts: []
+  facts:
+  - muse-human-calls
   derived_from: null
 - id: shopping
   title: 第 17 章 购物与消费：找货、比价、取消服务和询价
@@ -359,7 +378,9 @@ units:
   - price-compare
   - used-goods
   - subscriptions
-  facts: []
+  facts:
+  - muse-human-calls
+  - muse-amazon-block
   derived_from: null
 - id: office
   title: 第 18 章 邮件与工作：找重点、备会议、盯期限
@@ -372,7 +393,9 @@ units:
   - email
   - meeting-prep
   - draft-approval
-  facts: []
+  facts:
+  - muse-memory-files
+  - muse-approval-scope
   derived_from: null
 - id: learning
   title: 第 19 章 学习与资料：研究、持续跟进和个人播客
@@ -410,7 +433,8 @@ units:
   - resume
   - application
   - human-review
-  facts: []
+  facts:
+  - muse-human-calls
   derived_from: null
 - id: business
   title: 第 22 章 小生意：网站、客户、经营分析、卖东西和客服
@@ -425,6 +449,8 @@ units:
   - competitor-brief
   facts:
   - muse-custom-connectors
+  - muse-business-status
+  - muse-approval-scope
   derived_from: null
 - id: principles
   title: 选读 Muse 如何工作：模型、工具与后台任务
@@ -448,6 +474,7 @@ units:
   - muse-cloud-environment
   - muse-approval-scope
   - muse-browser-takeover
+  - muse-fallibility
   derived_from: null
   required_checks:
   - editorial
@@ -472,6 +499,14 @@ units:
   - muse-registration-card
   - muse-android-mac-minimum
   - muse-subscription-cancel
+  - muse-entry
+  - muse-iphone
+  - muse-language
+  - muse-mac-status
+  - muse-announced-surfaces
+  - muse-glasses-status
+  - muse-charm-status
+  - muse-subscription-management
   derived_from: null
   required_checks:
   - editorial
@@ -506,5 +541,5 @@ protected_terms:
 - Muse
 - Muse Spark
 - Meta AI
-- Max
+- Maximum
 - Power

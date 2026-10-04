@@ -331,7 +331,7 @@
 
 媒体实测 · Yahoo Finance · Daniel Howley · 2026-09-23 前后
 
-**过程与结果。** 他把 Muse 接到自己的 Yahoo 梦幻橄榄球账号，让它找下周预测得分最高的防守组。因为只能通过弃权申领，Muse 提交了申领堪萨斯城酋长队、放弃绿湾的请求。第二天申领处理完，Muse 把堪萨斯城排进了他的首发阵容。
+**过程与结果。** 梦幻橄榄球是一种用真实球员或球队表现计分的虚拟组队游戏。他把 Muse 接到自己的 Yahoo 游戏账号，让它找下周预测得分最高的防守组。因为需要先提出申请、等待联盟按规则分配，这一步叫弃权申领，Muse 提交了申领堪萨斯城酋长队、放弃绿湾的请求。第二天申领处理完，Muse 把堪萨斯城排进了他的首发阵容。
 
 出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。
 
@@ -349,4 +349,4 @@
 
 查订阅和账单（[C11](shopping.md#c11)）这一类结果容易比较，但先核对它找出来的「重复」「异常」是不是真的（[C103](#c103)）。
 
-打电话的功能（[C33](#c33)）不是人人都有，而且 Meta 承认过测试期间有真人代打。遇到只认电话的公司（[C101](#c101)），现阶段多半还得你自己打。
+电话案例 [C33](#c33) 只能支持作者报告的经历。Reuters 在 9 月 22 日报道，Meta 员工测试中部分通话由真人承包人员代打，相关做法因披露问题被撤回；这不能判定本书某条网友案例的实际通话者。使用前查看当前功能与披露，网站只接受电话而你的账号无法完成时，再由本人处理（[C101](#c101)）。[Reuters 报道](https://www.investing.com/news/stock-market-news/exclusivemeta-testing-a-human-concierge-for-its-new-personal-ai-agent-muse-4911301)

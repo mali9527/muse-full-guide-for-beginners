@@ -158,7 +158,7 @@
 
 > I'm trying some new work shoes at home before I buy a new pair with my company discount so it built me a little comparison sheet to rate different aspects of my choices as an Artifact.
 
-译文：我在家试几双新工作鞋，打算用公司折扣买一双，于是它给我做了一张小比较表，作为一个 Artifact，从几个方面给我的选项打分。
+译文：我在家试几双新工作鞋，打算用公司折扣买一双，于是它给我做了一张小比较表，作为一个 Artifact（可单独使用的成果），从几个方面给我的选项打分。
 
 出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/comment/pck528s/) 的评论。本书读取：2026-10-04。
 
@@ -384,7 +384,7 @@
 
 出处：[What's the coolest thing you've done with Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wjyjxu/whats_the_coolest_thing_youve_done_with_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
 
-提醒：作者自称有测试资格；不能据此判断所有账号都能使用同样的电话功能。
+提醒：作者自称有测试资格，不能据此判断所有账号都能使用，也不能仅凭声音判断通话由谁执行；相关背景见[第 21 章章末](career.md#换成自己的事)。
 
 ## 线索
 
@@ -398,7 +398,7 @@
 
 [C78](#c78)、[C79](#c79) 把填购物车和付款分开：先让 Muse 按清单或历史订单选商品，用户再检查、结账。可以借鉴这个分工，但不同商家的登录方式、商品规格和配送规则会影响结果。过去常买的东西，这次也要确认数量和是否仍然需要。
 
-要它监测降价或补货（[C40](#c40)、第 16 章 [C37](../cases/条目调整记录.md#c37)），先约定检查频率和结束日期，并留意实际用量。
+要它监测降价或补货（[C40](#c40)、第 16 章的航班价格追踪 [C61](outings.md#c61)），先约定检查频率和结束日期，并留意实际用量。
 
 遇到买不成的情况，先让它说原因（[C77](#c77)）。要执照、要本人验证、被商家拦，这些不是你的指令写得不好。
 

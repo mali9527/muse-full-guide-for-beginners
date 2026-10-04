@@ -36,6 +36,7 @@
     "standards/branding.md": "3c464d5eb2882dc153cf1612774ec35d7e12c339a08d6c08dd2bb5a8326b7843",
     "standards/pdf.md": "4b38281de3cefd5da091a8d9688d3760c6dff2d3d2089d513f02413e0e5e1f35",
     "standards/social-posts.md": "f6130157f23f13379216433ae7d8be138c444859e2bc151492710779f203864b",
-    "tests/test_case_anchors.py": "bfac372ad37d73396b894a079856400d7b7da05bc38073b9c6ae4b843a0e09e2"
+    "tests/test_case_anchors.py": "bfac372ad37d73396b894a079856400d7b7da05bc38073b9c6ae4b843a0e09e2",
+    "standards/reader-writing.md": "054d8eb797f9dcdfbc06e035cb0c4a2ea606317b655afc3732051a21a9297d2c"
   }
 }

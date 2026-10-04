@@ -268,8 +268,8 @@
     evidence: 2026-09-22 Reuters原稿转载；不推断全部用户电话执行者，也不判定当前代打功能状态
   sources:
   - url: https://www.investing.com/news/stock-market-news/exclusivemeta-testing-a-human-concierge-for-its-new-personal-ai-agent-muse-4911301
-    checked_on: '2026-09-30'
-  checked_on: '2026-09-30'
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
   category: stable
   ttl_days: null
   status: confirmed
@@ -568,7 +568,7 @@
   claim: 官方提供Download your Muse data；Reset Muse永久删除其资料、对话、文件和活动任务。
   scope:
     product: muse
-    evidence: Muse数据下载与Accounts Center账号信息导出分别说明，重置前先保全所需成果。
+    evidence: Muse数据下载与Accounts Center账号信息导出分别说明，重置前先保全所需成果。 官方同时列消息长按删除、侧聊三点菜单、Library文件编辑删除和System files。
   sources:
   - url: https://www.meta.com/help/artificial-intelligence/2225571704857152/
     checked_on: '2026-10-04'
@@ -581,7 +581,7 @@
   claim: 官方资料区分Goals目标、Upcoming待执行任务和Library文件，可通过相应入口或对话管理。
   scope:
     product: muse
-    evidence: 入口位置会变化；建立目标不是每次执行均成功的证据。
+    evidence: 官方文本确认；提醒可从对话修改或删除并在Upcoming核对，目标在Goals三点菜单删除；未测试关联任务连带行为。
   sources:
   - url: https://www.meta.com/help/artificial-intelligence/2225571704857152/
     checked_on: '2026-10-04'
@@ -708,6 +708,45 @@
     checked_on: '2026-10-04'
   checked_on: '2026-10-04'
   category: startup
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-proactivity-control
+  claim: 官方设计说明允许用户要求增加、减少或关闭主动建议。
+  scope:
+    product: muse
+    evidence: 2026-10-04官方文字回读，未在Muse账号实测。
+  sources:
+  - url: https://introducing.muse.ai/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-subscription-management
+  claim: 官方订阅管理页在Settings的Usage下提供Manage subscription，显示订阅状态、续订日期和付款方式；须用原购买平台、设备类型和账号管理。
+  scope:
+    product: muse
+    evidence: 2026-10-04官方文字回读，未在Muse账号实测。
+  sources:
+  - url: https://www.meta.com/en-gb/help/subscriptions/28510110068583598/
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
+  ttl_days: 14
+  status: confirmed
+  critical: false
+- id: muse-credential-entry
+  claim: 官方安全说明中，用户名和密码通过专用界面进入独立凭据存储；不能把普通聊天等同于该专用入口。
+  scope:
+    product: muse
+    evidence: 2026-10-04官方文字回读，未在Muse账号实测。
+  sources:
+  - url: https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse
+    checked_on: '2026-10-04'
+  checked_on: '2026-10-04'
+  category: permission
   ttl_days: 14
   status: confirmed
   critical: false
