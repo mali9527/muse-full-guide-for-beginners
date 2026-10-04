@@ -1,5 +1,5 @@
 - unit: principles
-  source_commit: 626327ff65ca3c823e594c8c72a632c0c21c3e8e
+  source_commit: 966f553f18eea851315a123b603cae5f9739f94e
   paths: &id001
   - manuscript/principles.md
   - book.yaml
@@ -10,10 +10,10 @@
   engine: codex
   author_engine: codex
   platforms: []
-  limitations: 限当前成稿的阅读路径和既有来源范围；案例只重排，未全量回读或复现；第2—14章未成稿。
-  reason: 正文仅更新运行操作章号，核对第8章职责及既有原理说明不充当操作前置。
+  limitations: 仅复核本单元现有正文及变更后的引用关系。案例集逐条取舍另有研究记录；未复现Muse操作，未试读，第2—14章仍为骨架。
+  reason: 通读书后原理选读，模型、工具、权限与云端工作的说明依附具体任务，未前移为基本操作门槛。
 - unit: principles
-  source_commit: 626327ff65ca3c823e594c8c72a632c0c21c3e8e
+  source_commit: 966f553f18eea851315a123b603cae5f9739f94e
   paths: *id001
   kind: facts
   result: pass
@@ -21,10 +21,10 @@
   engine: codex
   author_engine: codex
   platforms: []
-  limitations: 限当前成稿的阅读路径和既有来源范围；案例只重排，未全量回读或复现；第2—14章未成稿。
-  reason: 正文仅更新运行操作章号，核对第8章职责及既有原理说明不充当操作前置。
+  limitations: 仅复核本单元现有正文及变更后的引用关系。案例集逐条取舍另有研究记录；未复现Muse操作，未试读，第2—14章仍为骨架。
+  reason: 逐项反查原理选读中的产品、模型、工具、后台任务及批准范围；本轮重读发布、设计和批准帮助，Muse Spark说明沿用既有已读官方来源，未新增模型结论。
 - unit: principles
-  source_commit: 626327ff65ca3c823e594c8c72a632c0c21c3e8e
+  source_commit: 966f553f18eea851315a123b603cae5f9739f94e
   paths: *id001
   kind: operations
   result: unknown
@@ -35,7 +35,7 @@
   limitations: 没有 Muse 账号、设备操作或真人试读记录。
   reason: 未执行实际操作，不能用文档阅读代替。
 - unit: principles
-  source_commit: 626327ff65ca3c823e594c8c72a632c0c21c3e8e
+  source_commit: 966f553f18eea851315a123b603cae5f9739f94e
   paths: *id001
   kind: trial
   result: unknown

@@ -5,7 +5,7 @@
   engine: codex
   author_engine: codex
   platforms: []
-  source_commit: 626327ff65ca3c823e594c8c72a632c0c21c3e8e
+  source_commit: 966f553f18eea851315a123b603cae5f9739f94e
   paths:
   - manuscript/choose.md
   - book.yaml
@@ -18,8 +18,8 @@
   - manuscript/creation.md
   - manuscript/career.md
   - manuscript/business.md
-  limitations: 限当前成稿的阅读路径和既有来源范围；案例只重排，未全量回读或复现；第2—14章未成稿。
-  reason: 通读任务与结果入口、操作对照和来源说明，核对114条、分组链接与未成稿状态；不新增能力结论。
+  limitations: 仅复核本单元现有正文及变更后的引用关系。案例集逐条取舍另有研究记录；未复现Muse操作，未试读，第2—14章仍为骨架。
+  reason: 通读案例入口，核对八类结果入口、章内任务分组与操作回查；108条数量及来源区分准确。
 - unit: choose
   kind: facts
   result: pass
@@ -27,7 +27,7 @@
   engine: codex
   author_engine: codex
   platforms: []
-  source_commit: 626327ff65ca3c823e594c8c72a632c0c21c3e8e
+  source_commit: 966f553f18eea851315a123b603cae5f9739f94e
   paths:
   - manuscript/choose.md
   - book.yaml
@@ -40,8 +40,8 @@
   - manuscript/creation.md
   - manuscript/career.md
   - manuscript/business.md
-  limitations: 限当前成稿的阅读路径和既有来源范围；案例只重排，未全量回读或复现；第2—14章未成稿。
-  reason: 通读任务与结果入口、操作对照和来源说明，核对114条、分组链接与未成稿状态；不新增能力结论。
+  limitations: 仅复核本单元现有正文及变更后的引用关系。案例集逐条取舍另有研究记录；未复现Muse操作，未试读，第2—14章仍为骨架。
+  reason: 核对案例索引、编号、分组和结果限制；移出12条、新增6条后的入口仍指向有效案例，不以多条同作者案例代替独立认可。
 - unit: choose
   kind: operations
   result: unknown
@@ -49,7 +49,7 @@
   engine: codex
   author_engine: codex
   platforms: []
-  source_commit: 626327ff65ca3c823e594c8c72a632c0c21c3e8e
+  source_commit: 966f553f18eea851315a123b603cae5f9739f94e
   paths:
   - manuscript/choose.md
   - book.yaml
@@ -71,7 +71,7 @@
   engine: codex
   author_engine: codex
   platforms: []
-  source_commit: 626327ff65ca3c823e594c8c72a632c0c21c3e8e
+  source_commit: 966f553f18eea851315a123b603cae5f9739f94e
   paths:
   - manuscript/choose.md
   - book.yaml
