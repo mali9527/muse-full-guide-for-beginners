@@ -515,7 +515,8 @@ outputs:
   combined: 全书.md
   readme: README.md
   pdf:
-    enabled: false
+    enabled: true
+    subtitle: 完整图文公开预览版
     font: Sarasa Gothic SC
     code_font: Sarasa Mono SC
     paper: a5
