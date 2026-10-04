@@ -6,9 +6,18 @@
 
 出门的事分两段：出门前要把信息找齐，订票订位要和各家网站打交道。本章既有从邮件找齐资料的经历，也有订票时被登录、验证码和网站规则拦住的经历。
 
-值得先看三条。一位记者临出门记不清演讲地点和停车，连联系人名字都拼错了，Muse 从旧邮件里把地点、停车、电话和地图找齐了（[C43](#c43)）。另一位记者让它给朋友发邮件问旅行想法，收到回复后整理成一份文档（[C07](#c07)）。订机票的两次经历放在一起看：Engadget 的记者拿到了只要直飞的选项和一个价格追踪（[C61](#c61)），Slate 的记者卡在验证码上，三十分钟一无所获（[C62](#c62)）。
+可以从三类任务看起。一位记者临出门记不清演讲地点和停车，连联系人名字都拼错了，Muse 从旧邮件里把地点、停车、电话和地图找齐了（[C43](#c43)）。另一位记者让它给朋友发邮件问旅行想法，收到回复后整理成一份文档（[C07](#c07)）。订机票的两次经历放在一起看：Engadget 的记者拿到了只要直飞的选项和一个价格追踪（[C61](#c61)），Slate 的记者卡在验证码上，三十分钟一无所获（[C62](#c62)）。
 
-## 案例
+| 你想处理的事 | 从这里开始 |
+|---|---|
+| [出门前把信息找齐](#travel-materials) | [找齐出门信息（C43）](#c43) |
+| [机票、租车与价格跟进](#travel-tickets) | [找航班（C61）](#c61) |
+| [餐厅预订与周边去处](#travel-dining) | [预订晚餐（C65）](#c65) |
+| [电影推荐与场次](#travel-movies) | [电影推荐（C70）](#c70) |
+
+<a id="travel-materials"></a>
+
+## 出门前把信息找齐
 
 <a id="c43"></a>
 
@@ -50,6 +59,10 @@
 
 提醒：发邮件之前，检查收件人和内容，再决定自行发送或授权发送。
 
+<a id="travel-tickets"></a>
+
+## 机票、租车与价格跟进
+
 <a id="c61"></a>
 
 ### C61 只要直飞的航班，它给了几个选项，还设了价格追踪
@@ -90,20 +103,6 @@
 
 提醒：这是周期任务，监测会持续消耗额度。
 
-<a id="c62"></a>
-
-### C62 订机票卡在验证码上，三十分钟一无所获
-
-媒体实测 · Slate · Alex Kirshner · 2026-09-23
-
-**事情。** 他想让 Muse 替他订一张机票。
-
-**过程与结果。** 他把航空公司的登录信息放进 Muse 的保险库，Muse 到登录页就撞上了验证码。它失败了，他接手登录，再把控制权交回去，几分钟后它又被踢出浏览器。他写道，整个过程三十分钟，什么也没办成。文章里还有一件事：他让 Muse 在日历上加一个「明天上午十点」的事件，它加到了过去的时间（见第 18 章 [C88](office.md#c88)）。
-
-出处：[Slate 的 Muse 评测](https://slate.com/technology/2026/09/meta-muse-ai-app-review.html)。本书读取：2026-10-04。作者在 [Bluesky 的帖子](https://bsky.app/profile/alexkirshner.com/post/3mw7frxezq22a)里也说了「三十分钟、失败」。
-
-提醒：这次经历里，作者接手验证后仍没能完成订票。遇到反复验证或掉线，可以直接接手完成，不必一直重试。
-
 <a id="c63"></a>
 
 ### C63 查去拉斯维加斯的航班，建了每日监价，最后还是自己查
@@ -124,6 +123,54 @@
 
 提醒：作者整篇的评价偏负面。这件事里，查价和监控建成了，订票没成，两段要分开看。
 
+<a id="c62"></a>
+
+### C62 订机票卡在验证码上，三十分钟一无所获
+
+媒体实测 · Slate · Alex Kirshner · 2026-09-23
+
+**事情。** 他想让 Muse 替他订一张机票。
+
+**过程与结果。** 他把航空公司的登录信息放进 Muse 的保险库，Muse 到登录页就撞上了验证码。它失败了，他接手登录，再把控制权交回去，几分钟后它又被踢出浏览器。他写道，整个过程三十分钟，什么也没办成。文章里还有一件事：他让 Muse 在日历上加一个「明天上午十点」的事件，它加到了过去的时间（见第 18 章 [C88](office.md#c88)）。
+
+出处：[Slate 的 Muse 评测](https://slate.com/technology/2026/09/meta-muse-ai-app-review.html)。本书读取：2026-10-04。作者在 [Bluesky 的帖子](https://bsky.app/profile/alexkirshner.com/post/3mw7frxezq22a)里也说了「三十分钟、失败」。
+
+提醒：这次经历里，作者接手验证后仍没能完成订票。遇到反复验证或掉线，可以直接接手完成，不必一直重试。
+
+<a id="c69"></a>
+
+### C69 它发现租车取车时间和航班到达对不上，自己改了预约
+
+网友分享 · Reddit r/MetaAI · Bluehens96 · 2026-10-02
+
+**过程与结果。** Muse 主动发现他的租车取车时间和航班到达时间不一致，在邮件里找到修改预约的链接，替他改了。他说这救了他。帖子没说改的时候有没有逐步确认、有没有产生费用。
+
+原文：
+
+> He proactively noticed that my rental car pick up time does not match my flight arrival time. Checked for the modification link in my email and updated my reservation for me (lifesaver)
+
+译文：它主动注意到我的租车取车时间和航班到达时间对不上。在我的邮件里找到修改链接，替我改了预约（救命了）。
+
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
+
+提醒：这是「主动替你改」，不是「主动提醒你」。你需要先明确是否允许它直接修改预约，并检查已有许可。
+
+<a id="travel-dining"></a>
+
+## 餐厅预订与周边去处
+
+<a id="c65"></a>
+
+### C65 订一顿约会晚餐，四个建议里挑一个，通过 OpenTable 订了
+
+媒体实测 · Yahoo Finance · Daniel Howley · 2026-09-23 前后
+
+**过程与结果。** 他给了 Muse 一些基本想法，Muse 回了四个建议，他挑了一家，通过 Muse 在 OpenTable 上订了位。
+
+出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。
+
+提醒：同一位记者，同一篇文章，[C64](#c64) 是翻车，[C65](#c65) 是成功。
+
 <a id="c64"></a>
 
 ### C64 找供应无麸质啤酒的餐厅，它推荐了一家关了几年的店，还编了一个电话
@@ -137,18 +184,6 @@
 出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。作者的 [LinkedIn 帖](https://www.linkedin.com/posts/daniel-howley-0b117712_metas-muse-is-an-impressively-capable-ai-activity-7508599611520098305-woJg)也提到编号码这件事。
 
 提醒：打电话或出发前，用商家自己的页面确认电话、地址和营业状态。
-
-<a id="c65"></a>
-
-### C65 订一顿约会晚餐，四个建议里挑一个，通过 OpenTable 订了
-
-媒体实测 · Yahoo Finance · Daniel Howley · 2026-09-23 前后
-
-**过程与结果。** 他给了 Muse 一些基本想法，Muse 回了四个建议，他挑了一家，通过 Muse 在 OpenTable 上订了位。
-
-出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。
-
-提醒：同一位记者，同一篇文章，[C64](#c64) 是翻车，[C65](#c65) 是成功。
 
 <a id="c66"></a>
 
@@ -198,23 +233,27 @@
 
 提醒：打电话功能不是所有账号都有，其他评论者说自己没有。「六成」是他自己的说法，没有样本。主帖含推荐码。
 
-<a id="c69"></a>
+<a id="c06"></a>
 
-### C69 它发现租车取车时间和航班到达对不上，自己改了预约
+### C06 让它定期留意家附近有没有新开的餐厅
 
-网友分享 · Reddit r/MetaAI · Bluehens96 · 2026-10-02
+网友分享 · Reddit r/MetaAI · CaptainBroccoli · 发表日期未确认
 
-**过程与结果。** Muse 主动发现他的租车取车时间和航班到达时间不一致，在邮件里找到修改预约的链接，替他改了。他说这救了他。帖子没说改的时候有没有逐步确认、有没有产生费用。
+**过程与结果。** 他让 Muse 定期上网查，有新餐厅开业就告诉他，因为他们喜欢支持本地新店。帖子没有给出具体餐厅或通知的样子。有评论者质疑：产品才出来几天，哪有那么多新开的餐厅可以追踪。
 
 原文：
 
-> He proactively noticed that my rental car pick up time does not match my flight arrival time. Checked for the modification link in my email and updated my reservation for me (lifesaver)
+> New Restaurants in My Neighborhood - Not as exciting, but Muse checks the web for me periodically and tells me if there are any new restaurants opening up around me. We always like to support new local businesses!
 
-译文：它主动注意到我的租车取车时间和航班到达时间对不上。在我的邮件里找到修改链接，替我改了预约（救命了）。
+译文：我家附近的新餐厅。没那么刺激，但 Muse 会定期替我上网查，告诉我附近有没有新开的餐厅。我们一直喜欢支持本地新店！
 
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
+出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)。本书读取：2026-09-30、2026-10-04。
 
-提醒：这是「主动替你改」，不是「主动提醒你」。你需要先明确是否允许它直接修改预约，并检查已有许可。
+提醒：主帖含推荐码。[C64](#c64)、[C66](#c66) 说明餐厅信息可能过时，收到通知后自己核一下。
+
+<a id="travel-movies"></a>
+
+## 电影推荐与场次
 
 <a id="c70"></a>
 
@@ -253,24 +292,6 @@
 出处：[Claire Vo 的文字实录（ChatPRD）](https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent)，「Test 2: Buying IMAX Tickets」一节。本书读取：2026-10-01、2026-10-04。
 
 提醒：到结账为止，没有付款。节目有赞助商，不是 Meta。
-
-<a id="c06"></a>
-
-### C06 让它定期留意家附近有没有新开的餐厅
-
-网友分享 · Reddit r/MetaAI · CaptainBroccoli · 发表日期未确认
-
-**过程与结果。** 他让 Muse 定期上网查，有新餐厅开业就告诉他，因为他们喜欢支持本地新店。帖子没有给出具体餐厅或通知的样子。有评论者质疑：产品才出来几天，哪有那么多新开的餐厅可以追踪。
-
-原文：
-
-> New Restaurants in My Neighborhood - Not as exciting, but Muse checks the web for me periodically and tells me if there are any new restaurants opening up around me. We always like to support new local businesses!
-
-译文：我家附近的新餐厅。没那么刺激，但 Muse 会定期替我上网查，告诉我附近有没有新开的餐厅。我们一直喜欢支持本地新店！
-
-出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)。本书读取：2026-09-30、2026-10-04。
-
-提醒：主帖含推荐码。[C64](#c64)、[C66](#c66) 说明餐厅信息可能过时，收到通知后自己核一下。
 
 ## 线索
 

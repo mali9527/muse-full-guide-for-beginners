@@ -8,14 +8,98 @@
 
 值得先看三条。Tom's Guide 的记者用七种购物要求试了一遍，三种有用，他把结果一条条写了出来（[C08](#c08)）。几位网友把超市的购物车交给了它：有人拍一张手写清单，有人让它按历史订单每周填好常购品，自己只管结账（[C78](#c78)、[C79](#c79)）。一位记者让它买一个七美元的咖啡机配件，它找到了、放进购物车，下单还是她自己完成的（[C74](#c74)）。
 
-| 手头的事 | 可以先看 |
+| 你想处理的事 | 从这里开始 |
 |---|---|
-| 找型号、找配件、比较替代品 | [七种购物要求](#c08)、[咖啡机配件](#c74)、[停产商品](#c81) |
-| 日常买菜 | [手写清单](#c78)、[常购品](#c79) |
-| 订阅和客服 | [检查订阅](#c11)、[取消宽带](#c34)、[修改套餐](#c82) |
-| 整理旧卡、持续盯货 | [礼品卡余额](#c80)、[到货提醒](#c40) |
+| [日常买菜与定期采购](#shopping-groceries) | [手写购物清单（C78）](#c78) |
+| [找货、比价与下单](#shopping-products) | [购物评测（C08）](#c08) |
+| [持续找货与到货提醒](#shopping-watch) | [持续找器材（C10）](#c10) |
+| [订阅、旧卡与服务询价](#shopping-services) | [订阅检查（C11）](#c11) |
 
-## 案例
+<a id="shopping-groceries"></a>
+
+## 日常买菜与定期采购
+
+<a id="c78"></a>
+
+### C78 指给它历史订单，拍一张手写清单，它把超市提货购物车填好了
+
+网友分享 · Reddit r/MetaAI · Jmboz · 发表日期未确认
+
+**过程与结果。** 他头天晚上设置的：把 Muse 指向他过去的订单，说明一些偏好，让它领优惠券，再拍了一张家里手写的购物清单。他说 Muse 全做对了，他检查了一遍购物车，然后结账。帖子没说是哪家超市、花了多少。
+
+原文：
+
+> I set it up last night to load my grocery pickup cart. I pointed it at my past orders, explained some preferences and asked it to clip coupons, then took a photo of our hand written grocery list. It honestly nailed it, I looked it over then checked out
+
+译文：我昨晚设置它来装我的超市提货购物车。我把它指向我过去的订单，说明了一些偏好，让它领优惠券，然后拍了一张我们手写的购物清单。它真的全做对了，我看了一遍就结账了。
+
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/comment/pchyqf8/) 的评论。本书读取：2026-10-04。
+
+提醒：结账是他自己点的。给它看历史订单，意味着它能读你的购物账号。
+
+<a id="c79"></a>
+
+### C79 让它从所有历史订单里整理出常购品，每周日填好 Kroger 的购物车
+
+网友分享 · Reddit r/MetaAI · SkyHookofKsp · 2026-10-02
+
+**过程与结果。** 他让 Muse 调出他全部历史订单，整理成一份常购品清单，然后每周日登录 Kroger 填好购物车，之后由他接手。
+
+原文：
+
+> Grocery Cart filling. I had it pull my all-time list of orders, put together a list of staples, and it fills the cart every sunday and I take it from there.
+
+译文：填购物车。我让它调出我的全部订单，整理出一份常购品清单，然后它每周日把购物车填好，后面我自己来。
+
+> Just Kroger. I have it login and fill my cart from there.
+
+译文：就 Kroger。我让它登录，在那里填我的购物车。
+
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/comment/pdcf981/) 的评论。本书读取：2026-10-04。
+
+提醒：和 [C78](#c78) 是不同的人、不同的做法：一个靠照片，一个靠历史订单。两人都把付款留给自己。
+
+<a id="c05"></a>
+
+### C05 把超市每周促销册下载下来，用邮件发给他，标出值得看的优惠
+
+网友分享 · Reddit r/MetaAI · CaptainBroccoli · 发表日期未确认
+
+**过程与结果。** 他妻子每周看超市促销册找特价。现在 Muse 替他下载促销册，用邮件发给他，并在邮件正文里标出它认为最值的优惠。帖子没写实际买了什么、省了多少。
+
+原文：
+
+> Grocery Weekly Circular - My wife reads the weekly circular coupons each week to figure out what’s on sale at the grocery store. Muse now downloads and emails the circular for me, and in the body of the email, highlights what it thinks are the best deals in the circular.
+
+译文：超市每周促销册。我妻子每周看促销册优惠券，弄清超市什么在打折。现在 Muse 替我下载促销册并用邮件发给我，在邮件正文里标出它认为促销册里最划算的优惠。
+
+出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)。本书读取：2026-09-30、2026-10-04。
+
+提醒：主帖含推荐码。
+
+<a id="c76"></a>
+
+### C76 每月订饼干、按周期提前两天送到：周期数据连不上，订单又多出配送费
+
+媒体实测 · Business Insider · Katie Notopoulos · 2026-09-19
+
+**事情。** 她想让 Muse 每月从 Walmart+ 订饼干，在她经期前两天送到。
+
+**过程与结果。** 苹果的经期数据同步不到 Muse，她手机上另一款经期应用也连不上。Muse 能开始建 Walmart 订单，她说只能选免运费，Muse 却理解得太死，没注意到订单里多出了一堆当日配送费。她让它取消任务，不下单。
+
+原文短引：
+
+> I told it to cancel the task and not place the order.
+
+译文：我让它取消任务，不要下单。
+
+出处：[Business Insider 的 Muse 评测（英文原文）](https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9)；[授权中文版](https://www.businessinsider.tw/article/7312)。本书读取：2026-10-04。
+
+提醒：检查最终总额和费用明细。「免运费」不等于没有配送或其他附加费用。
+
+<a id="shopping-products"></a>
+
+## 找货、比价与下单
 
 <a id="c08"></a>
 <a id="c09"></a>
@@ -37,6 +121,66 @@
 出处：[I tried turning Meta's Muse AI into my personal shopper — only 3 of 7 prompts actually worked（Tom's Guide）](https://www.tomsguide.com/ai/i-tried-turning-metas-muse-ai-into-my-personal-shopper-only-3-of-7-prompts-actually-worked)。本书读取：2026-09-30、2026-10-04。
 
 提醒：手柄和游戏都是「找到」，没有写买成。页面有购物链接佣金声明。
+
+<a id="c74"></a>
+
+### C74 一个七美元的咖啡机配件，它找到了、放进购物车，下单她自己完成
+
+媒体实测 · The Verge · Allison Johnson · 2026-09-23
+
+**事情。** 她的 Breville 咖啡机用了六年，几年前清洗蒸汽棒时弄坏了里面的小硅胶垫圈。
+
+**过程与结果。** 她在对话里说了要什么，Muse 找到了配件，放进购物车。订单是她自己完成的，预计五到七个工作日到。同一篇里她还让 Muse 比价后买了咖啡机的清洁耗材，收到了确认邮件；让它做露营炊具和火炉的购买方案，约 500 美元，她改成分批买。
+
+原文：
+
+> I had to finish up the order myself,
+
+译文：订单得我自己来完成。
+
+出处：[Meta's AI agent is a cute little guy who's great at spending my money（The Verge）](https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping)，第二项任务及后文。本书读取：2026-10-04。
+
+提醒：文章标题说它「很会花我的钱」，正文里的结账多数还是她自己点的。
+
+<a id="c81"></a>
+
+### C81 一位网友的三次购物：拿停产充电器的图找替代品，给试穿的工作鞋做比较表，用旧商品页找停产内衣的替代
+
+网友分享 · Reddit r/MetaAI · max4 · 发表日期未确认
+
+**过程与结果。** 他想买一款已停产的 Apple Watch 充电器，只给了一张参考图，Muse 按外形找替代品，还去 eBay 搜了二手的。他在家试穿几双工作鞋，准备用公司折扣买一双，Muse 给他做了一张比较表，按几个方面打分。他想找一款停产内衣的替代品，给了旧的亚马逊商品页（在亚马逊封锁之前）、纤维成分和他喜欢那款的穿着感受，Muse 去搜了类似的。三件事都没写最后买了什么。
+
+原文：
+
+> It searched for alternatives to the form factor of an Apple Watch charger I want to buy just based off a reference picture of a discontinued product that it also searched eBay for to see if I could buy what I really wanted used.
+
+译文：它只凭一张停产产品的参考图，就搜了我想买的 Apple Watch 充电器的同外形替代品，还去 eBay 搜了，看我能不能买到我真正想要的那款二手货。
+
+> I'm trying some new work shoes at home before I buy a new pair with my company discount so it built me a little comparison sheet to rate different aspects of my choices as an Artifact.
+
+译文：我在家试几双新工作鞋，打算用公司折扣买一双，于是它给我做了一张小比较表，作为一个 Artifact，从几个方面给我的选项打分。
+
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/comment/pck528s/) 的评论。本书读取：2026-10-04。
+
+提醒：这位网友的评论含推荐码。三件事都是找和比，没有一件写到买。
+
+<a id="c75"></a>
+
+### C75 找一把耐用划算的露台伞，结果「还行」
+
+创作者分享 · Substack（The Automated Operator） · Alex Willen · 2026-09-22
+
+**过程与结果。** 旧伞坏了，他让 Muse 挑一把耐用、划算的替代品。第一轮结果缺价格和比较依据，他追问后有改善。他对展示和推荐的方式仍不满意，文章没写最后买了哪把。
+
+原文：
+
+> The results were… okay.
+
+译文：结果嘛……还行。
+
+出处：[Meta's Muse is surprisingly unimpressive（The Automated Operator）](https://theautomatedoperator.substack.com/p/metas-muse-is-surprisingly-unimpressive)。本书读取：2026-10-04。
+
+提醒：他认为 Muse 应先问伞放在哪里。可以在找商品之前说明用途、尺寸和使用环境，减少不合适的候选。
 
 <a id="c71"></a>
 
@@ -80,64 +224,6 @@
 
 提醒：这里是记者对当时购买流程的描述；不要把登录完成当成付款完成，应继续检查订单确认。
 
-<a id="c74"></a>
-
-### C74 一个七美元的咖啡机配件，它找到了、放进购物车，下单她自己完成
-
-媒体实测 · The Verge · Allison Johnson · 2026-09-23
-
-**事情。** 她的 Breville 咖啡机用了六年，几年前清洗蒸汽棒时弄坏了里面的小硅胶垫圈。
-
-**过程与结果。** 她在对话里说了要什么，Muse 找到了配件，放进购物车。订单是她自己完成的，预计五到七个工作日到。同一篇里她还让 Muse 比价后买了咖啡机的清洁耗材，收到了确认邮件；让它做露营炊具和火炉的购买方案，约 500 美元，她改成分批买。
-
-原文：
-
-> I had to finish up the order myself,
-
-译文：订单得我自己来完成。
-
-出处：[Meta's AI agent is a cute little guy who's great at spending my money（The Verge）](https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping)，第二项任务及后文。本书读取：2026-10-04。
-
-提醒：文章标题说它「很会花我的钱」，正文里的结账多数还是她自己点的。
-
-<a id="c75"></a>
-
-### C75 找一把耐用划算的露台伞，结果「还行」
-
-创作者分享 · Substack（The Automated Operator） · Alex Willen · 2026-09-22
-
-**过程与结果。** 旧伞坏了，他让 Muse 挑一把耐用、划算的替代品。第一轮结果缺价格和比较依据，他追问后有改善。他对展示和推荐的方式仍不满意，文章没写最后买了哪把。
-
-原文：
-
-> The results were… okay.
-
-译文：结果嘛……还行。
-
-出处：[Meta's Muse is surprisingly unimpressive（The Automated Operator）](https://theautomatedoperator.substack.com/p/metas-muse-is-surprisingly-unimpressive)。本书读取：2026-10-04。
-
-提醒：他认为 Muse 应先问伞放在哪里。可以在找商品之前说明用途、尺寸和使用环境，减少不合适的候选。
-
-<a id="c76"></a>
-
-### C76 每月订饼干、按周期提前两天送到：周期数据连不上，订单又多出配送费
-
-媒体实测 · Business Insider · Katie Notopoulos · 2026-09-19
-
-**事情。** 她想让 Muse 每月从 Walmart+ 订饼干，在她经期前两天送到。
-
-**过程与结果。** 苹果的经期数据同步不到 Muse，她手机上另一款经期应用也连不上。Muse 能开始建 Walmart 订单，她说只能选免运费，Muse 却理解得太死，没注意到订单里多出了一堆当日配送费。她让它取消任务，不下单。
-
-原文短引：
-
-> I told it to cancel the task and not place the order.
-
-译文：我让它取消任务，不要下单。
-
-出处：[Business Insider 的 Muse 评测（英文原文）](https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9)；[授权中文版](https://www.businessinsider.tw/article/7312)。本书读取：2026-10-04。
-
-提醒：检查最终总额和费用明细。「免运费」不等于没有配送或其他附加费用。
-
 <a id="c77"></a>
 
 ### C77 一位记者的三次购物边界：买洗发水要执照，Target 结账要本人，Marketplace 砍价它做不到
@@ -149,6 +235,50 @@
 出处：[CNN 的实测（经 KESQ 转载）](https://kesq.com/money/cnn-business-consumer/2026/09/23/meta-says-its-muse-ai-agent-can-do-things-for-you-i-put-it-to-the-test/)，「How Muse was helpful」和「Things that were easier to do on my own」两节。本书读取：2026-09-30、2026-10-04。
 
 提醒：「办不成但说清了为什么」也是有用的结果。砍价那件事，用户的体验和 Meta 的说法不一致，两边都写在这里。
+
+<a id="shopping-watch"></a>
+
+## 持续找货与到货提醒
+
+<a id="c10"></a>
+
+### C10 持续在二手市场找健身器材，写进表格，卖掉的就删掉
+
+网友分享 · Reddit r/MetaAI · hunglowbungalow · 发表日期未确认
+
+**过程与结果。** 他让 Muse 在 Facebook Marketplace 上找打五折以上的健身器材，加进一张表，卖掉的就移除。联系卖家目前还是他自己来。有评论者提醒：没登录时读不到 Marketplace 页面，「卖掉了」和「读不到」可能被混为一谈。
+
+原文：
+
+> It’s checking marketplace for good deals (above 50% off retail) on gym equipment, adding to a spreadsheet and removing if sold. I handle messaging for now
+
+译文：它在 Marketplace 上查健身器材的好价（比零售价低一半以上），加进表格，卖掉的就删掉。发消息目前由我来。
+
+出处：[What are you using Muse agent for? How's your…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wcb3cq/what_are_you_using_muse_agent_for_hows_your/) 的评论。本书读取：2026-09-30、2026-10-04。
+
+提醒：读不到商品页不一定表示已售出，移除记录前要检查原因。
+
+<a id="c40"></a>
+
+### C40 每天扫一遍优惠，缺货几周的设备到货时买到了
+
+网友分享 · Reddit r/MetaAI · NewAccountOSU · 发表日期未确认
+
+**过程与结果。** 他让 Muse 每天扫一遍优惠。他提到刚买到缺货数周的 Nvidia Shield Pro，价格写作「MSRB」（应是指原价 MSRP，原文如此）。帖子没说由谁结账。
+
+原文：
+
+> Do a daily scan on deals (just got an Nvidia Shield Pro Streaming at MSRB after being sold out for weeks!).
+
+译文：每天扫一遍优惠（刚以 MSRB 买到缺货几周的 Nvidia Shield Pro 流媒体设备！）。
+
+出处：[How do I get the most use out of Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wozi3y/how_do_i_get_the_most_use_out_of_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
+
+提醒：这里没有说明由谁结账。找到补货信息和获准购买是两步。
+
+<a id="shopping-services"></a>
+
+## 订阅、旧卡与服务询价
 
 <a id="c11"></a>
 
@@ -208,46 +338,6 @@
 
 提醒：他自己的经历只有在线聊天；打电话是转述朋友的话。
 
-<a id="c78"></a>
-
-### C78 指给它历史订单，拍一张手写清单，它把超市提货购物车填好了
-
-网友分享 · Reddit r/MetaAI · Jmboz · 发表日期未确认
-
-**过程与结果。** 他头天晚上设置的：把 Muse 指向他过去的订单，说明一些偏好，让它领优惠券，再拍了一张家里手写的购物清单。他说 Muse 全做对了，他检查了一遍购物车，然后结账。帖子没说是哪家超市、花了多少。
-
-原文：
-
-> I set it up last night to load my grocery pickup cart. I pointed it at my past orders, explained some preferences and asked it to clip coupons, then took a photo of our hand written grocery list. It honestly nailed it, I looked it over then checked out
-
-译文：我昨晚设置它来装我的超市提货购物车。我把它指向我过去的订单，说明了一些偏好，让它领优惠券，然后拍了一张我们手写的购物清单。它真的全做对了，我看了一遍就结账了。
-
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/comment/pchyqf8/) 的评论。本书读取：2026-10-04。
-
-提醒：结账是他自己点的。给它看历史订单，意味着它能读你的购物账号。
-
-<a id="c79"></a>
-
-### C79 让它从所有历史订单里整理出常购品，每周日填好 Kroger 的购物车
-
-网友分享 · Reddit r/MetaAI · SkyHookofKsp · 2026-10-02
-
-**过程与结果。** 他让 Muse 调出他全部历史订单，整理成一份常购品清单，然后每周日登录 Kroger 填好购物车，之后由他接手。
-
-原文：
-
-> Grocery Cart filling. I had it pull my all-time list of orders, put together a list of staples, and it fills the cart every sunday and I take it from there.
-
-译文：填购物车。我让它调出我的全部订单，整理出一份常购品清单，然后它每周日把购物车填好，后面我自己来。
-
-> Just Kroger. I have it login and fill my cart from there.
-
-译文：就 Kroger。我让它登录，在那里填我的购物车。
-
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/comment/pdcf981/) 的评论。本书读取：2026-10-04。
-
-提醒：和 [C78](#c78) 是不同的人、不同的做法：一个靠照片，一个靠历史订单。两人都把付款留给自己。
-
 <a id="c80"></a>
 
 ### C80 抽屉里十五年攒下的礼品卡，拍照上传，它查余额并记进表格
@@ -266,64 +356,6 @@
 
 提醒：礼品卡的卡号和密码拍照上传，等于把卡交给了它。查不到的那部分，还是要自己打电话。
 
-<a id="c81"></a>
-
-### C81 一位网友的三次购物：拿停产充电器的图找替代品，给试穿的工作鞋做比较表，用旧商品页找停产内衣的替代
-
-网友分享 · Reddit r/MetaAI · max4 · 发表日期未确认
-
-**过程与结果。** 他想买一款已停产的 Apple Watch 充电器，只给了一张参考图，Muse 按外形找替代品，还去 eBay 搜了二手的。他在家试穿几双工作鞋，准备用公司折扣买一双，Muse 给他做了一张比较表，按几个方面打分。他想找一款停产内衣的替代品，给了旧的亚马逊商品页（在亚马逊封锁之前）、纤维成分和他喜欢那款的穿着感受，Muse 去搜了类似的。三件事都没写最后买了什么。
-
-原文：
-
-> It searched for alternatives to the form factor of an Apple Watch charger I want to buy just based off a reference picture of a discontinued product that it also searched eBay for to see if I could buy what I really wanted used.
-
-译文：它只凭一张停产产品的参考图，就搜了我想买的 Apple Watch 充电器的同外形替代品，还去 eBay 搜了，看我能不能买到我真正想要的那款二手货。
-
-> I'm trying some new work shoes at home before I buy a new pair with my company discount so it built me a little comparison sheet to rate different aspects of my choices as an Artifact.
-
-译文：我在家试几双新工作鞋，打算用公司折扣买一双，于是它给我做了一张小比较表，作为一个 Artifact，从几个方面给我的选项打分。
-
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/comment/pck528s/) 的评论。本书读取：2026-10-04。
-
-提醒：这位网友的评论含推荐码。三件事都是找和比，没有一件写到买。
-
-<a id="c10"></a>
-
-### C10 持续在二手市场找健身器材，写进表格，卖掉的就删掉
-
-网友分享 · Reddit r/MetaAI · hunglowbungalow · 发表日期未确认
-
-**过程与结果。** 他让 Muse 在 Facebook Marketplace 上找打五折以上的健身器材，加进一张表，卖掉的就移除。联系卖家目前还是他自己来。有评论者提醒：没登录时读不到 Marketplace 页面，「卖掉了」和「读不到」可能被混为一谈。
-
-原文：
-
-> It’s checking marketplace for good deals (above 50% off retail) on gym equipment, adding to a spreadsheet and removing if sold. I handle messaging for now
-
-译文：它在 Marketplace 上查健身器材的好价（比零售价低一半以上），加进表格，卖掉的就删掉。发消息目前由我来。
-
-出处：[What are you using Muse agent for? How's your…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wcb3cq/what_are_you_using_muse_agent_for_hows_your/) 的评论。本书读取：2026-09-30、2026-10-04。
-
-提醒：读不到商品页不一定表示已售出，移除记录前要检查原因。
-
-<a id="c40"></a>
-
-### C40 每天扫一遍优惠，缺货几周的设备到货时买到了
-
-网友分享 · Reddit r/MetaAI · NewAccountOSU · 发表日期未确认
-
-**过程与结果。** 他让 Muse 每天扫一遍优惠。他提到刚买到缺货数周的 Nvidia Shield Pro，价格写作「MSRB」（应是指原价 MSRP，原文如此）。帖子没说由谁结账。
-
-原文：
-
-> Do a daily scan on deals (just got an Nvidia Shield Pro Streaming at MSRB after being sold out for weeks!).
-
-译文：每天扫一遍优惠（刚以 MSRB 买到缺货几周的 Nvidia Shield Pro 流媒体设备！）。
-
-出处：[How do I get the most use out of Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wozi3y/how_do_i_get_the_most_use_out_of_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
-
-提醒：这里没有说明由谁结账。找到补货信息和获准购买是两步。
-
 <a id="c50"></a>
 
 ### C50 用打电话功能向汽修店询价，留下录音和文字记录
@@ -341,24 +373,6 @@
 出处：[What's the coolest thing you've done with Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wjyjxu/whats_the_coolest_thing_youve_done_with_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
 
 提醒：作者自称有测试资格；不能据此判断所有账号都能使用同样的电话功能。
-
-<a id="c05"></a>
-
-### C05 把超市每周促销册下载下来，用邮件发给他，标出值得看的优惠
-
-网友分享 · Reddit r/MetaAI · CaptainBroccoli · 发表日期未确认
-
-**过程与结果。** 他妻子每周看超市促销册找特价。现在 Muse 替他下载促销册，用邮件发给他，并在邮件正文里标出它认为最值的优惠。帖子没写实际买了什么、省了多少。
-
-原文：
-
-> Grocery Weekly Circular - My wife reads the weekly circular coupons each week to figure out what’s on sale at the grocery store. Muse now downloads and emails the circular for me, and in the body of the email, highlights what it thinks are the best deals in the circular.
-
-译文：超市每周促销册。我妻子每周看促销册优惠券，弄清超市什么在打折。现在 Muse 替我下载促销册并用邮件发给我，在邮件正文里标出它认为促销册里最划算的优惠。
-
-出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)。本书读取：2026-09-30、2026-10-04。
-
-提醒：主帖含推荐码。
 
 ## 线索
 

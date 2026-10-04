@@ -8,13 +8,15 @@
 
 值得先看三条。一位记者只说了一句「看看有没有我漏掉的要紧事」，Muse 找出一封公关邮件并起草回复，初稿里擅自答应了会面，他删掉后才授权发送（[C83](#c83)）。一位创作者没指定是哪封邮件，Muse 自己找到了对的那串往来和日历邀请，准备好会前要问的问题（[C13](#c13)）。一位网友讲了她的日常：Muse 盯着邮件、新客户和工作预约，会出错，所以她把它当实习生，发出去的东西都先过她的手（[C89](#c89)）。
 
-| 手头的事 | 可以先看 |
+| 你想处理的事 | 从这里开始 |
 |---|---|
-| 找漏办事项、准备回复 | [找邮件并改草稿](#c83)、[选择上门日期](#c12) |
-| 会前准备、日程提醒 | [查会议背景](#c13)、[主动提醒](#c14)、[交稿期限](#c45) |
-| 日常使用和容易出错的地方 | [本人审阅再发送](#c89)、[把已回复判成未回](#c84)、[持续使用后漏项](#c90) |
+| [处理收件箱与准备回复](#work-inbox) | [查漏并改回复（C83）](#c83) |
+| [会前准备与日程安排](#work-calendar) | [会议背景（C13）](#c13) |
+| [持续跟进与个人背景](#work-ongoing) | [每日邮件摘要（C87）](#c87) |
 
-## 案例
+<a id="work-inbox"></a>
+
+## 处理收件箱与准备回复
 
 <a id="c83"></a>
 
@@ -54,6 +56,54 @@
 
 提醒：上门日期由他选择，草稿仍在等待批准；不能据此推断邮件已经发出。
 
+<a id="c15"></a>
+
+### C15 从收件箱里挑出要跟进的事，删垃圾邮件，退订不看的订阅，起草回复
+
+网友分享 · Reddit r/MetaAI · DesignSpartan · 发表日期未确认
+
+**过程与结果。** 他说自己让 Muse 梳理收件箱：找出需要跟进的重要往来，删掉垃圾邮件，退订他很少打开的推送，给重要的来信起草回复。帖子没有给某一封邮件的前后对照。
+
+原文：
+
+> Email triage. Tell muse to comb through and pull important threads that need to be followed up, delete spam and unsubscribe from junk I rarely open, and draft replies to important inbound.
+
+译文：邮件分流。让 Muse 梳理一遍，找出需要跟进的重要往来，删掉垃圾邮件，退订我很少打开的垃圾推送，给重要的来信起草回复。
+
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-09-30、2026-10-04。
+
+提醒：删信、退订、发送是三种不同的动作，主帖含推荐码。
+
+<a id="c84"></a>
+
+### C84 整理待办邮件时，它把一封已经回复过的判成没回
+
+创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
+
+**过程与结果。** 同一位作者的另一项测试：让 Muse 整理需要处理的邮件。Muse 把一封她已经回复过的邮件判成了未回复，还把一件已经完成的 Zapier 工作当成待办。她质疑后，Muse 解释了错误。没有真的重复发信。
+
+出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 2。本书读取：2026-10-04。
+
+提醒：「它说没回」和「真的没回」要分开核对。
+
+<a id="c85"></a>
+
+### C85 催一下迟迟不报价的园艺公司，它写了一封邮件，她又自己把语气缓了缓
+
+媒体实测 · The Verge · Allison Johnson · 2026-09-23
+
+**事情。** 她一直在和一家本地园艺公司通邮件，等对方给院子改造报价。
+
+**过程与结果。** 她让 Muse（她起名 Marley）帮她催一下。Muse 申请访问她的 Gmail，查了这件事的进度，确认报价已经超期，写了一封短邮件。邮件发出，对方道歉回复。她后来还是自己把语气缓和了一下。
+
+出处：[Meta's AI agent is a cute little guy who's great at spending my money（The Verge）](https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping)，第一项任务。本书读取：2026-10-04。
+
+提醒：催款、催货这类邮件的语气，发之前自己看一眼。
+
+<a id="work-calendar"></a>
+
+## 会前准备与日程安排
+
 <a id="c13"></a>
 
 ### C13 开会前，它自己找到对的邮件和日历邀请，准备好要问的问题
@@ -73,18 +123,6 @@
 出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 1。本书读取：2026-09-30、2026-10-04。
 
 提醒：她的网站经营 AI 教学业务。十分是她自己打的。
-
-<a id="c84"></a>
-
-### C84 整理待办邮件时，它把一封已经回复过的判成没回
-
-创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
-
-**过程与结果。** 同一位作者的另一项测试：让 Muse 整理需要处理的邮件。Muse 把一封她已经回复过的邮件判成了未回复，还把一件已经完成的 Zapier 工作当成待办。她质疑后，Muse 解释了错误。没有真的重复发信。
-
-出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 2。本书读取：2026-10-04。
-
-提醒：「它说没回」和「真的没回」要分开核对。
 
 <a id="c14"></a>
 
@@ -116,23 +154,33 @@
 
 提醒：这句话是 Muse 想要促成的事，不是「已经按时交稿」的证明。
 
-<a id="c15"></a>
+<a id="c88"></a>
 
-### C15 从收件箱里挑出要跟进的事，删垃圾邮件，退订不看的订阅，起草回复
+### C88 让它在日历上加「明天上午十点」的事，它加到了过去
 
-网友分享 · Reddit r/MetaAI · DesignSpartan · 发表日期未确认
+媒体实测 · Slate · Alex Kirshner · 2026-09-23
 
-**过程与结果。** 他说自己让 Muse 梳理收件箱：找出需要跟进的重要往来，删掉垃圾邮件，退订他很少打开的推送，给重要的来信起草回复。帖子没有给某一封邮件的前后对照。
+**过程与结果。** 他让 Muse 在日历上加一个明天上午十点的事件，Muse 却把事件加到了过去。文章和作者在 Bluesky 上的描述，对错到了哪个时间说法不同；这里保留两处一致的结果：事件日期没有按要求设置。
 
-原文：
+出处：[Slate 的 Muse 评测](https://slate.com/technology/2026/09/meta-muse-ai-app-review.html)；[作者的 Bluesky 帖](https://bsky.app/profile/alexkirshner.com/post/3mw7frxezq22a)。本书读取：2026-10-04。
 
-> Email triage. Tell muse to comb through and pull important threads that need to be followed up, delete spam and unsubscribe from junk I rarely open, and draft replies to important inbound.
+提醒：加完日历，检查日期、时区和时间，特别是任务里使用了「明天」之类的相对日期时。
 
-译文：邮件分流。让 Muse 梳理一遍，找出需要跟进的重要往来，删掉垃圾邮件，退订我很少打开的垃圾推送，给重要的来信起草回复。
+<a id="work-ongoing"></a>
 
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-09-30、2026-10-04。
+## 持续跟进与个人背景
 
-提醒：删信、退订、发送是三种不同的动作，主帖含推荐码。
+<a id="c87"></a>
+
+### C87 每天一份重要邮件摘要
+
+媒体实测 · Business Insider · Katie Notopoulos · 2026-09-19
+
+**过程与结果。** 她让 Muse 每天给她一份重要邮件的摘要，她说这件事做得好。同一篇里孩子的事见第 15 章 [C53](household.md#c53)。
+
+出处：[Business Insider 的 Muse 评测（英文原文）](https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9)；[授权中文版](https://www.businessinsider.tw/article/7312)。本书读取：2026-10-04。
+
+提醒：这是她那篇评测里为数不多的顺利任务。
 
 <a id="c89"></a>
 
@@ -151,32 +199,6 @@
 出处：[Is there anything else on this sub other than…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrv3dh/is_there_anything_else_on_this_sub_other_than/) 的评论。本书读取：2026-10-02、2026-10-04。
 
 提醒：指令里的「先问我」表达使用要求；还要检查已有许可，尤其有没有对整个任务或某个服务持续放行。
-
-<a id="c85"></a>
-
-### C85 催一下迟迟不报价的园艺公司，它写了一封邮件，她又自己把语气缓了缓
-
-媒体实测 · The Verge · Allison Johnson · 2026-09-23
-
-**事情。** 她一直在和一家本地园艺公司通邮件，等对方给院子改造报价。
-
-**过程与结果。** 她让 Muse（她起名 Marley）帮她催一下。Muse 申请访问她的 Gmail，查了这件事的进度，确认报价已经超期，写了一封短邮件。邮件发出，对方道歉回复。她后来还是自己把语气缓和了一下。
-
-出处：[Meta's AI agent is a cute little guy who's great at spending my money（The Verge）](https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping)，第一项任务。本书读取：2026-10-04。
-
-提醒：催款、催货这类邮件的语气，发之前自己看一眼。
-
-<a id="c87"></a>
-
-### C87 每天一份重要邮件摘要
-
-媒体实测 · Business Insider · Katie Notopoulos · 2026-09-19
-
-**过程与结果。** 她让 Muse 每天给她一份重要邮件的摘要，她说这件事做得好。同一篇里孩子的事见第 15 章 [C53](household.md#c53)。
-
-出处：[Business Insider 的 Muse 评测（英文原文）](https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9)；[授权中文版](https://www.businessinsider.tw/article/7312)。本书读取：2026-10-04。
-
-提醒：这是她那篇评测里为数不多的顺利任务。
 
 <a id="c86"></a>
 
@@ -197,18 +219,6 @@
 出处：[I tried Meta's Muse agent（Taylor Arndt，Substack）](https://taylorarndt.substack.com/p/i-tried-metas-muse-agent-i-really)。本书读取：2026-10-04。
 
 提醒：接通一次与长期保持连接是两回事；根据邮件推断出的个人背景，也需要本人检查和纠正。
-
-<a id="c88"></a>
-
-### C88 让它在日历上加「明天上午十点」的事，它加到了过去
-
-媒体实测 · Slate · Alex Kirshner · 2026-09-23
-
-**过程与结果。** 他让 Muse 在日历上加一个明天上午十点的事件，Muse 却把事件加到了过去。文章和作者在 Bluesky 上的描述，对错到了哪个时间说法不同；这里保留两处一致的结果：事件日期没有按要求设置。
-
-出处：[Slate 的 Muse 评测](https://slate.com/technology/2026/09/meta-muse-ai-app-review.html)；[作者的 Bluesky 帖](https://bsky.app/profile/alexkirshner.com/post/3mw7frxezq22a)。本书读取：2026-10-04。
-
-提醒：加完日历，检查日期、时区和时间，特别是任务里使用了「明天」之类的相对日期时。
 
 <a id="c90"></a>
 

@@ -8,27 +8,16 @@
 
 值得先看三条。一位二手服装店主让 Muse 把 Depop 上的商品搬到 eBay，中间反复遇到人机验证，标题起得笼统，约一小时搬完，之后卖出了四件（[C114](#c114)）。一位网站主接入 Squarespace 后，Muse 给了修改建议，还真的搭出了博客页和周边商店，他之后自己微调（[C35](#c35)）。另一位卖家让 Muse 代管一天 Marketplace 的出售，Muse 谈成价格、给了买家住址、约了上门取货，他事后才知道（[C115](#c115)）。
 
-## 案例
+| 你想处理的事 | 从这里开始 |
+|---|---|
+| [维护网站与网店](#business-site) | [网站与商店（C35）](#c35) |
+| [找客户与整理经营资料](#business-research) | [潜在客户（C36）](#c36) |
+| [商品上架与出售](#business-selling) | [商品跨平台上架（C114）](#c114) |
+| [需要自建工具的客服用法](#business-extra) | [自建客服演示（C47）](#c47) |
 
-<a id="c114"></a>
+<a id="business-site"></a>
 
-### C114 把 Depop 的二手衣物搬到 eBay：一小时，几次人机验证，标题太笼统，后来卖出四件
-
-媒体实测 · The New Yorker · Brady Brickner-Wood · 2026-09-16
-
-**事情。** 他在 Depop 上开一家小的二手服装店，几个月来一直想把商品也放到 eBay 上，一直拖着。
-
-**过程与结果。** 他让 Muse（他起名 Harbor）把商品复制到 eBay。中间几次撞上人机验证，Muse 起的标题也太笼统（一件叫「男式衬衫」，一件叫「帽子」）。大约一小时后搬完了，他松了一口气。实验结束时他在 eBay 上卖出了四件，其中一件 T 恤卖了 15 美元。
-
-原文：
-
-> By the end of my experiment, I’ve sold four items on eBay.
-
-译文：到我的实验结束时，我在 eBay 上卖出了四件。
-
-出处：[My Weekend with an A.I. Agent（The New Yorker）](https://www.newyorker.com/culture/infinite-scroll/my-weekend-with-an-ai-agent)。本书读取：2026-10-04。
-
-提醒：验证码要他自己过。搬完之后商品标题要自己改。同一篇里没做成的事见第 16 章 [C67](outings.md#c67)。
+## 维护网站与网店
 
 <a id="c35"></a>
 
@@ -49,6 +38,28 @@
 
 提醒：修改自己的网站时，先看改动影响哪些页面，再检查实际显示和链接是否正常。
 
+<a id="c25"></a>
+
+### C25 让它评估并修改网店里的一件 T 恤，逐项批准后自己点发布
+
+网友分享 · Reddit r/MetaAI · NinjaTEK7 · 发表日期未确认 · 需要技术条件
+
+**过程与结果。** 他让 Muse 评估并更新他 Printify 店里的一件 T 恤。Muse 挑了几种颜色，对定价给了意见，然后更新了商品；每一次通过接口的修改他都逐项批准，最后在 Printify 网站上自己点了发布，商品上线。他打算接着给一张图让 Muse 从头做一个新杯子，那是下一步，还没做。
+
+原文：
+
+> It picked a few different colors and commented on pricing etc then updated the listing. I approved each code push on API and afterwards clicked Publish on the Printify website and it went live.
+
+译文：它挑了几种不同的颜色，对定价等给了意见，然后更新了商品。每一次通过 API 的代码推送我都批准了，之后在 Printify 网站上点了 Publish，商品就上线了。
+
+出处：[What are you using Muse agent for? How's your…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wcb3cq/what_are_you_using_muse_agent_for_hows_your/) 的评论。本书读取：2026-09-30、2026-10-04。
+
+提醒：他在评论里带了自己商店的链接。「逐项批准，自己发布」是这条最值得学的地方。
+
+<a id="business-research"></a>
+
+## 找客户与整理经营资料
+
 <a id="c36"></a>
 
 ### C36 让它筛查本地可能需要咨询的小店：排班乱、没网站、不懂技术的
@@ -68,6 +79,101 @@
 出处：[Muse success story（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1whmvkg/muse_success_story/)，作者回答评论的部分。本书读取：2026-10-01、2026-10-04。
 
 提醒：他做的是 AI 相关的咨询生意，有直接的商业关联。Muse 做的是筛，接触客户是他自己。
+
+<a id="c26"></a>
+
+### C26 交代一项竞争者研究，关掉 App，回来时简报已经做好
+
+创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
+
+**过程与结果。** 她给 Muse 一项竞争者研究的任务，几乎立刻关掉了应用。后来重新打开，竞争者简报已经完成，她认为稍作编辑就能用。本书没有看过那份简报。
+
+原文短引：
+
+> closed the application almost immediately
+
+译文：几乎立刻关掉了应用。
+
+出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 10。本书读取：2026-09-30、2026-10-04。
+
+提醒：关闭 App 后，这项研究仍在后台进行。需要停止任务时，应明确停止或取消，不能只关闭窗口。
+
+<a id="c23"></a>
+
+### C23 为零售店持续查陈列设备、展示柜、店面设计趋势和竞争者
+
+网友分享 · Reddit r/MetaAI · Most_Apricot5133 · 发表日期未确认
+
+**过程与结果。** 他用 Muse 为自己的零售生意做研究：海外的陈列设备、珠宝展示柜、店面设计趋势、竞争者和买家信号。他觉得有用的地方是它会一直往下挖来源，而不是给一个快答案。他还在测试，没有展示报告或采购决定。
+
+原文：
+
+> The useful part is that it can keep digging through sources instead of giving me one quick answer.
+
+译文：有用的地方在于，它能一直往下挖来源，而不是给我一个快答案。
+
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1ws1c5q/top_three_use_cases_for_muse/)。本书读取：2026-09-30、2026-10-04。
+
+提醒：主帖含推荐码，并说明推荐双方都有好处。
+
+<a id="c116"></a>
+
+### C116 用已有的企业背景写周报、定内容计划
+
+创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
+
+**过程与结果。** 同一位作者的两项测试。一是让 Muse 用她已有的 Meta 企业背景生成周报，她认为相关、具体，只需少量修改。二是让它制定内容计划，Muse 利用业务背景选出适合她受众的话题，她认可规划，认为做成成品的部分较弱。都是她的自评。
+
+出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 5 和测试 6。本书读取：2026-10-04。
+
+提醒：「规划好、成品弱」在她的多项测试里反复出现。
+
+<a id="c30"></a>
+<a id="c31"></a>
+
+### C30 官方给小生意的两个示例：拿今年的销售、营销和社交数据做明年的增长计划；月末找出不对劲的开支
+
+官方示例 · Meta 小生意公告 · 2026-09-29
+
+**过程与结果。** Meta 在 Muse for Small Business 的公告里给了几个提示语示例。一个是把今年的销售、营销活动和社交账号表现放在一起分析，做一份实现明年目标的增长计划。另一个是先问这个月的财务表现，再让它找出看起来不对劲的开支。公告说发布、发送、花钱之前都要用户批准。没有具体商家的结果。原来的 C31 讲的就是第二个示例，现在合在这里。
+
+原文：
+
+> Analyze this year’s sales, campaigns, and social
+
+译文：分析今年的销售、营销活动和社交表现。
+
+> Find any expenses that look off.
+
+译文：找出任何看起来不对劲的开支。
+
+出处：[The Future Is for Everyone: Muse for Small Business（Meta）](https://about.fb.com/news/2026/09/introducing-muse-small-business/)，「What Small Businesses are Getting Done with Muse」一节。本书读取：2026-10-01、2026-10-04。
+
+提醒：这是厂商的示例，不是有人做成的记录。「看起来不对劲」的开支要自己核，一位记者的个人账单里被标出的「重复扣款」其实是分期（第 21 章 [C103](career.md#c103)）。
+
+<a id="business-selling"></a>
+
+## 商品上架与出售
+
+<a id="c114"></a>
+
+### C114 把 Depop 的二手衣物搬到 eBay：一小时，几次人机验证，标题太笼统，后来卖出四件
+
+媒体实测 · The New Yorker · Brady Brickner-Wood · 2026-09-16
+
+**事情。** 他在 Depop 上开一家小的二手服装店，几个月来一直想把商品也放到 eBay 上，一直拖着。
+
+**过程与结果。** 他让 Muse（他起名 Harbor）把商品复制到 eBay。中间几次撞上人机验证，Muse 起的标题也太笼统（一件叫「男式衬衫」，一件叫「帽子」）。大约一小时后搬完了，他松了一口气。实验结束时他在 eBay 上卖出了四件，其中一件 T 恤卖了 15 美元。
+
+原文：
+
+> By the end of my experiment, I’ve sold four items on eBay.
+
+译文：到我的实验结束时，我在 eBay 上卖出了四件。
+
+出处：[My Weekend with an A.I. Agent（The New Yorker）](https://www.newyorker.com/culture/infinite-scroll/my-weekend-with-an-ai-agent)。本书读取：2026-10-04。
+
+提醒：验证码要他自己过。搬完之后商品标题要自己改。同一篇里没做成的事见第 16 章 [C67](outings.md#c67)。
 
 <a id="c24"></a>
 
@@ -107,94 +213,9 @@
 
 提醒：这件事的授权情况没有查清，用户和 Meta 的说法不一致。交办这类任务时，要明确最低价、联系方式的使用范围和见面安排，并检查已有许可；报价或约见之前保留自己的确认步骤。
 
-<a id="c25"></a>
+<a id="business-extra"></a>
 
-### C25 让它评估并修改网店里的一件 T 恤，逐项批准后自己点发布
-
-网友分享 · Reddit r/MetaAI · NinjaTEK7 · 发表日期未确认 · 需要技术条件
-
-**过程与结果。** 他让 Muse 评估并更新他 Printify 店里的一件 T 恤。Muse 挑了几种颜色，对定价给了意见，然后更新了商品；每一次通过接口的修改他都逐项批准，最后在 Printify 网站上自己点了发布，商品上线。他打算接着给一张图让 Muse 从头做一个新杯子，那是下一步，还没做。
-
-原文：
-
-> It picked a few different colors and commented on pricing etc then updated the listing. I approved each code push on API and afterwards clicked Publish on the Printify website and it went live.
-
-译文：它挑了几种不同的颜色，对定价等给了意见，然后更新了商品。每一次通过 API 的代码推送我都批准了，之后在 Printify 网站上点了 Publish，商品就上线了。
-
-出处：[What are you using Muse agent for? How's your…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wcb3cq/what_are_you_using_muse_agent_for_hows_your/) 的评论。本书读取：2026-09-30、2026-10-04。
-
-提醒：他在评论里带了自己商店的链接。「逐项批准，自己发布」是这条最值得学的地方。
-
-<a id="c26"></a>
-
-### C26 交代一项竞争者研究，关掉 App，回来时简报已经做好
-
-创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
-
-**过程与结果。** 她给 Muse 一项竞争者研究的任务，几乎立刻关掉了应用。后来重新打开，竞争者简报已经完成，她认为稍作编辑就能用。本书没有看过那份简报。
-
-原文短引：
-
-> closed the application almost immediately
-
-译文：几乎立刻关掉了应用。
-
-出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 10。本书读取：2026-09-30、2026-10-04。
-
-提醒：关闭 App 后，这项研究仍在后台进行。需要停止任务时，应明确停止或取消，不能只关闭窗口。
-
-<a id="c116"></a>
-
-### C116 用已有的企业背景写周报、定内容计划
-
-创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
-
-**过程与结果。** 同一位作者的两项测试。一是让 Muse 用她已有的 Meta 企业背景生成周报，她认为相关、具体，只需少量修改。二是让它制定内容计划，Muse 利用业务背景选出适合她受众的话题，她认可规划，认为做成成品的部分较弱。都是她的自评。
-
-出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 5 和测试 6。本书读取：2026-10-04。
-
-提醒：「规划好、成品弱」在她的多项测试里反复出现。
-
-<a id="c23"></a>
-
-### C23 为零售店持续查陈列设备、展示柜、店面设计趋势和竞争者
-
-网友分享 · Reddit r/MetaAI · Most_Apricot5133 · 发表日期未确认
-
-**过程与结果。** 他用 Muse 为自己的零售生意做研究：海外的陈列设备、珠宝展示柜、店面设计趋势、竞争者和买家信号。他觉得有用的地方是它会一直往下挖来源，而不是给一个快答案。他还在测试，没有展示报告或采购决定。
-
-原文：
-
-> The useful part is that it can keep digging through sources instead of giving me one quick answer.
-
-译文：有用的地方在于，它能一直往下挖来源，而不是给我一个快答案。
-
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1ws1c5q/top_three_use_cases_for_muse/)。本书读取：2026-09-30、2026-10-04。
-
-提醒：主帖含推荐码，并说明推荐双方都有好处。
-
-<a id="c30"></a>
-<a id="c31"></a>
-
-### C30 官方给小生意的两个示例：拿今年的销售、营销和社交数据做明年的增长计划；月末找出不对劲的开支
-
-官方示例 · Meta 小生意公告 · 2026-09-29
-
-**过程与结果。** Meta 在 Muse for Small Business 的公告里给了几个提示语示例。一个是把今年的销售、营销活动和社交账号表现放在一起分析，做一份实现明年目标的增长计划。另一个是先问这个月的财务表现，再让它找出看起来不对劲的开支。公告说发布、发送、花钱之前都要用户批准。没有具体商家的结果。原来的 C31 讲的就是第二个示例，现在合在这里。
-
-原文：
-
-> Analyze this year’s sales, campaigns, and social
-
-译文：分析今年的销售、营销活动和社交表现。
-
-> Find any expenses that look off.
-
-译文：找出任何看起来不对劲的开支。
-
-出处：[The Future Is for Everyone: Muse for Small Business（Meta）](https://about.fb.com/news/2026/09/introducing-muse-small-business/)，「What Small Businesses are Getting Done with Muse」一节。本书读取：2026-10-01、2026-10-04。
-
-提醒：这是厂商的示例，不是有人做成的记录。「看起来不对劲」的开支要自己核，一位记者的个人账单里被标出的「重复扣款」其实是分期（第 21 章 [C103](career.md#c103)）。
+## 需要自建工具的客服用法
 
 <a id="c47"></a>
 

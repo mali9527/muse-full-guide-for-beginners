@@ -8,7 +8,15 @@
 
 值得先看两条。一位创作者让它研究一个主题并交出带来源的报告，中途追问进度，得知它正在读来源、已经攒了七条一手资料笔记，最后报告做成了 PDF（[C16](#c16)）。另一位博主研究买哪台 Mac，Muse 发现有一项信息现在查不到，自己建了一个周期任务继续补（[C18](#c18)）。
 
-## 案例
+| 你想处理的事 | 从这里开始 |
+|---|---|
+| [围绕一个主题查资料](#research-topic) | [带来源的报告（C16）](#c16) |
+| [持续查找与定期简报](#research-ongoing) | [继续补资料（C18）](#c18) |
+| [把资料变成语音与播客](#research-audio) | [语音简报（C93）](#c93) |
+
+<a id="research-topic"></a>
+
+## 围绕一个主题查资料
 
 <a id="c16"></a>
 
@@ -30,6 +38,28 @@
 
 提醒：这份研究有一段等待时间。可以询问正在查哪些问题、还有哪些缺口，而不只催一句「做完了吗」。
 
+<a id="c17"></a>
+
+### C17 写文章前，让它找一手和二手资料并整理好
+
+网友分享 · Reddit r/MetaAI · DesignSpartan · 发表日期未确认
+
+**过程与结果。** 他说自己用 Muse 的深度研究为文章和内容备料：它梳理资料，找来源，找相关的一手和二手资料，整理好，由他审阅，或者再导进 Google 的 NotebookLM。帖子没有附研究结果。
+
+原文：
+
+> Research for my essays and content. Basically using the power of deep research it combs though, finds sources, combs though for relevant primary and secondary sources and organized it all for me to either take and review or for me to then pair with Google notebook lm.
+
+译文：给我的文章和内容做研究。基本上就是用深度研究的能力，它梳理一遍，找来源，再梳理出相关的一手和二手资料，全部整理好，我要么直接拿来审阅，要么再配合 Google 的 NotebookLM 用。（原文有拼写错误，照录。）
+
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-09-30、2026-10-04。
+
+提醒：主帖含推荐码。资料好不好，要看他审阅后的判断，帖子里没有。
+
+<a id="research-ongoing"></a>
+
+## 持续查找与定期简报
+
 <a id="c18"></a>
 
 ### C18 研究买哪台 Mac，没答案的部分，它自己建了周期任务继续补
@@ -50,24 +80,6 @@
 
 提醒：周期任务需要检查要追踪的问题、执行频率和结束条件。
 
-<a id="c17"></a>
-
-### C17 写文章前，让它找一手和二手资料并整理好
-
-网友分享 · Reddit r/MetaAI · DesignSpartan · 发表日期未确认
-
-**过程与结果。** 他说自己用 Muse 的深度研究为文章和内容备料：它梳理资料，找来源，找相关的一手和二手资料，整理好，由他审阅，或者再导进 Google 的 NotebookLM。帖子没有附研究结果。
-
-原文：
-
-> Research for my essays and content. Basically using the power of deep research it combs though, finds sources, combs though for relevant primary and secondary sources and organized it all for me to either take and review or for me to then pair with Google notebook lm.
-
-译文：给我的文章和内容做研究。基本上就是用深度研究的能力，它梳理一遍，找来源，再梳理出相关的一手和二手资料，全部整理好，我要么直接拿来审阅，要么再配合 Google 的 NotebookLM 用。（原文有拼写错误，照录。）
-
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-09-30、2026-10-04。
-
-提醒：主帖含推荐码。资料好不好，要看他审阅后的判断，帖子里没有。
-
 <a id="c92"></a>
 
 ### C92 让它每小时汇总科技新闻的标题和链接
@@ -79,6 +91,32 @@
 出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。
 
 提醒：建立定时任务后，仍需检查是否按时送达，以及链接是否对应所说的新闻。
+
+<a id="c39"></a>
+
+### C39 注册家谱网站的试用期，让它日夜不停地查家族史，再试着做成播客或视频
+
+网友分享 · Reddit r/MetaAI · noaccess · 发表日期未确认
+
+**过程与结果。** 他的办法是注册 Ancestry 和 newspapers.com 这类历史资料网站的七天或十四天试用，让 Muse 不停地建家谱，再用发现的内容做电影或播客。他说 Muse 会同时开四个浏览器窗口查。进展是：播客和视频缺少好的故事和画面，他需要找更好的提示词。这是进行中的项目。
+
+原文：
+
+> sign up for the 7 or 14 day trials of ancestry and other historical data sites like newspapers.com and tell it to work around the clock building out your family tree. then make a movie or podcast from what it discovered. at least thats my project at the moment
+
+译文：注册 Ancestry 和 newspapers.com 这类历史资料网站的七天或十四天试用，让它日夜不停地建你的家谱。然后用它发现的东西做一部电影或一期播客。至少这是我目前在做的项目。
+
+> yeah it will have 4 browsers going at once plugging away. i need to find some better prompts for the podcast or video. those two things lack a good story and visuals
+
+译文：对，它会同时开四个浏览器一起干。我得为播客或视频找些更好的提示词。这两样目前缺少好的故事和画面。
+
+出处：[How do I get the most use out of Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wozi3y/how_do_i_get_the_most_use_out_of_muse/)。本书读取：2026-10-01、2026-10-04。
+
+提醒：先查所用网站的试用期和续费规则，再安排检索。持续任务也要检查频率、范围和用量。
+
+<a id="research-audio"></a>
+
+## 把资料变成语音与播客
 
 <a id="c93"></a>
 
@@ -118,28 +156,6 @@
 出处：[How do I get the most use out of Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wozi3y/how_do_i_get_the_most_use_out_of_muse/) 的评论。本书读取：2026-10-01、2026-10-04。
 
 提醒：先试听内容、节奏和来源是否适合自己，再决定是否每天生成；同时留意用量。
-
-<a id="c39"></a>
-
-### C39 注册家谱网站的试用期，让它日夜不停地查家族史，再试着做成播客或视频
-
-网友分享 · Reddit r/MetaAI · noaccess · 发表日期未确认
-
-**过程与结果。** 他的办法是注册 Ancestry 和 newspapers.com 这类历史资料网站的七天或十四天试用，让 Muse 不停地建家谱，再用发现的内容做电影或播客。他说 Muse 会同时开四个浏览器窗口查。进展是：播客和视频缺少好的故事和画面，他需要找更好的提示词。这是进行中的项目。
-
-原文：
-
-> sign up for the 7 or 14 day trials of ancestry and other historical data sites like newspapers.com and tell it to work around the clock building out your family tree. then make a movie or podcast from what it discovered. at least thats my project at the moment
-
-译文：注册 Ancestry 和 newspapers.com 这类历史资料网站的七天或十四天试用，让它日夜不停地建你的家谱。然后用它发现的东西做一部电影或一期播客。至少这是我目前在做的项目。
-
-> yeah it will have 4 browsers going at once plugging away. i need to find some better prompts for the podcast or video. those two things lack a good story and visuals
-
-译文：对，它会同时开四个浏览器一起干。我得为播客或视频找些更好的提示词。这两样目前缺少好的故事和画面。
-
-出处：[How do I get the most use out of Muse?（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wozi3y/how_do_i_get_the_most_use_out_of_muse/)。本书读取：2026-10-01、2026-10-04。
-
-提醒：先查所用网站的试用期和续费规则，再安排检索。持续任务也要检查频率、范围和用量。
 
 ## 线索
 

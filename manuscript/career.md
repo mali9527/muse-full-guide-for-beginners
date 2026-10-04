@@ -8,41 +8,17 @@
 
 可以先看这三种用途。一位网友把邮箱和网盘里历年的简历汇总，准备以后按岗位调整（[C21](#c21)）。一位网友让它查政府和州的网站，找到了 500 美元无人认领的财产，正在申请返还（[C110](#c110)）。一位用屏幕阅读器的用户讲了她怎样在看不见界面的情况下用 Muse，包括让 Muse 把问题反馈给 Muse 团队（[C106](#c106)）。
 
-## 案例
+| 你想处理的事 | 从这里开始 |
+|---|---|
+| [简历与求职](#personal-career) | [总简历（C21）](#c21) |
+| [账单与资金事项](#personal-money) | [支出资料（C112）](#c112) |
+| [客服、保险与预约](#personal-services) | [客服接通后本人接手（C33）](#c33) |
+| [账号申诉与个人资料](#personal-records) | [申诉材料（C109）](#c109) |
+| [按个人需要扩展用法](#personal-adapt) | [屏幕阅读器（C106）](#c106) |
 
-<a id="c100"></a>
+<a id="personal-career"></a>
 
-### C100 《纽约时报》记者的三件事：重复订阅和退款、拍停车罚单付款、给牙科保险公司打电话
-
-媒体转述 · Mind and Iron 转述 The New York Times 记者 Eli Tan 的经历 · 2026 年 9 月；未读到纽约时报原文
-
-**过程与结果。** 据 Mind and Iron 转述，Eli Tan 把信用卡接给 Muse（他起名 Wren），让它在 Google Sheets 里跟踪消费。他看着它几分钟内建起几百行数据的表，标出两个重复的订阅并取消。接着 Muse 用他的邮箱为一份已经过期的免费报纸试用申请退款，拿回 44.99 美元。他还发现 Muse 很会填网上的表格：拍一张停车罚单的照片，Muse 就替他交罚款，付款前先问他。据转述，Muse 还替他给牙科保险公司打过电话，报会员号、回答安全问题、排队等待，接通后转给他；这一件本书只读到转述，没有原文。同一篇转述还说，他让 Muse 做的播客烦人到他自己都听不下去，买电影票和棒球票也没买成。
-
-出处：[Should you use Muse?（Mind and Iron，Steven Zeitchik 转引）](https://mindandiron.substack.com/p/mind-and-iron-should-you-use-muse)；纽约时报原文 [I Gave My Life Over to Meta's A.I. Agent and Was Blown Away](https://www.nytimes.com/2026/09/22/technology/meta-muse-ai-agent.html) 本书没打开。本书读取：2026-10-04。
-
-提醒：这里的 44.99 美元指报纸试用退款，整个故事均经媒体转述。保险电话的执行方式无法确认，不据此判断当时完全由 AI 通话。
-
-<a id="c110"></a>
-
-### C110 让它查政府和州的网站，找到 500 美元无人认领的财产
-
-网友分享 · Reddit r/MetaAI · NewAccountOSU · 发表日期未确认
-
-**过程与结果。** 他让 Muse 搜索政府和各州的网站，确实找到了 500 美元属于他的无人认领财产，正在申请返还。他补充说自己不用读网页、不用打字，只需要完成验证码和提交社会安全号，比自己做快。另一位网友说自己做同样的事反复卡在人机验证，最后放弃了。
-
-原文：
-
-> I used it to search government and state websites and it legitimately found 500$ of unclaimed property that I’m now in the process of getting refunded.
-
-译文：我用它搜索政府和州的网站，它确实找到了 500 美元的无人认领财产，我现在正在办返还。
-
-> Just complete the captchas or submitting SSNs. Found it faster than if I manually did so.
-
-译文：只需要完成验证码或者提交社会安全号。比我手动做要快。
-
-出处：[It was great… until it wasn't（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/) 的评论。本书读取：2026-10-04。
-
-提醒：钱还没到账。社会安全号这类信息是他自己填的，不是交给 Muse 填。
+## 简历与求职
 
 <a id="c21"></a>
 
@@ -92,6 +68,96 @@
 出处：[Amazeballs（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wpqdqr/amazeballs/)；[Tom's Guide 的整理](https://www.tomsguide.com/ai/i-scoured-reddit-for-muse-ai-use-cases-10-that-will-actually-save-you-time)。本书读取：2026-10-04。
 
 提醒：和 [C22](#c22) 是不同的人、相近的用法。
+
+<a id="personal-money"></a>
+
+## 账单与资金事项
+
+<a id="c112"></a>
+
+### C112 连接银行账户，十分钟做出支出表、到期提醒和预算
+
+网友分享 · Reddit r/MetaAI · rickestrickster · 2026-10-01
+
+**过程与结果。** 他说 Muse 通过 Plaid 同步了他的银行账户，分析了所有固定账单和消费，做成一张表；之后在账单快到期时提醒他，并告诉他账户里的钱够不够付；然后做了预算。他说全程十分钟。有人问连接银行账户有没有安全问题，页面上没看到回答。
+
+原文：
+
+> It created an expense tracker by using plaid to sync my bank accounts, it analyzed all recurring bills and spending to create a spreadsheet. Then reminds me when an upcoming bill is due and if I have enough money in my accounts to cover those bills. Then created a budget. All in 10 minutes.
+
+译文：它用 Plaid 同步了我的银行账户，做了一个支出跟踪表，分析了所有固定账单和消费，做成表格。然后在账单快到期时提醒我，告诉我账户里的钱够不够付。然后做了预算。全部只用了十分钟。
+
+出处：[Muse has become my after-hours second brain（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wvbvcb/comment/pdb0j27/) 的评论。本书读取：2026-10-04。
+
+提醒：Plaid 是连接银行账户的第三方服务。连接前查看要读取哪些账户和数据、怎样撤销访问；拿到预算后对照原账单检查。
+
+<a id="c113"></a>
+
+### C113 把几个账户汇成一个财务看板，隔几天看一眼
+
+网友分享 · Reddit r/MetaAI · Bluehens96 · 2026-10-02
+
+**过程与结果。** 他让 Muse 根据他不同的账户做了一个财务看板，显示总体情况、什么快到期、有什么该留意的。他说自己隔几天看一次。帖子没有讲发现过什么具体问题。
+
+原文：
+
+> Built me a financial dashboard based on all my different accounts to show me how things are looking, what’s coming due, and flagging any concerns
+
+译文：根据我所有不同的账户给我做了一个财务看板，显示情况怎么样、什么快到期，并标出需要注意的地方。
+
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
+
+提醒：和 [C112](#c112) 是不同的人、相近的用法。
+
+<a id="c103"></a>
+
+### C103 挑一张信用卡，再用账单做预算，标出的「重复扣款」其实是分期
+
+媒体实测 · The New Yorker · Brady Brickner-Wood · 2026-09-16
+
+**过程与结果。** 他让 Muse（他起名 Harbor）帮他挑信用卡，Muse 给了建议，他没写换卡。他又让 Muse 用信用卡账单做预算，Muse 标出了疑似重复扣款，他后来确认那是分期付款，不是错误。
+
+出处：[My Weekend with an A.I. Agent（The New Yorker）](https://www.newyorker.com/culture/infinite-scroll/my-weekend-with-an-ai-agent)。本书读取：2026-10-04。
+
+提醒：它标出的异常要对照原账单检查；分期、退款和预授权等记录可能需要不同解释。
+
+<a id="c110"></a>
+
+### C110 让它查政府和州的网站，找到 500 美元无人认领的财产
+
+网友分享 · Reddit r/MetaAI · NewAccountOSU · 发表日期未确认
+
+**过程与结果。** 他让 Muse 搜索政府和各州的网站，确实找到了 500 美元属于他的无人认领财产，正在申请返还。他补充说自己不用读网页、不用打字，只需要完成验证码和提交社会安全号，比自己做快。另一位网友说自己做同样的事反复卡在人机验证，最后放弃了。
+
+原文：
+
+> I used it to search government and state websites and it legitimately found 500$ of unclaimed property that I’m now in the process of getting refunded.
+
+译文：我用它搜索政府和州的网站，它确实找到了 500 美元的无人认领财产，我现在正在办返还。
+
+> Just complete the captchas or submitting SSNs. Found it faster than if I manually did so.
+
+译文：只需要完成验证码或者提交社会安全号。比我手动做要快。
+
+出处：[It was great… until it wasn't（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/) 的评论。本书读取：2026-10-04。
+
+提醒：钱还没到账。社会安全号这类信息是他自己填的，不是交给 Muse 填。
+
+<a id="c100"></a>
+
+### C100 《纽约时报》记者的三件事：重复订阅和退款、拍停车罚单付款、给牙科保险公司打电话
+
+媒体转述 · Mind and Iron 转述 The New York Times 记者 Eli Tan 的经历 · 2026 年 9 月；未读到纽约时报原文
+
+**过程与结果。** 据 Mind and Iron 转述，Eli Tan 把信用卡接给 Muse（他起名 Wren），让它在 Google Sheets 里跟踪消费。他看着它几分钟内建起几百行数据的表，标出两个重复的订阅并取消。接着 Muse 用他的邮箱为一份已经过期的免费报纸试用申请退款，拿回 44.99 美元。他还发现 Muse 很会填网上的表格：拍一张停车罚单的照片，Muse 就替他交罚款，付款前先问他。据转述，Muse 还替他给牙科保险公司打过电话，报会员号、回答安全问题、排队等待，接通后转给他；这一件本书只读到转述，没有原文。同一篇转述还说，他让 Muse 做的播客烦人到他自己都听不下去，买电影票和棒球票也没买成。
+
+出处：[Should you use Muse?（Mind and Iron，Steven Zeitchik 转引）](https://mindandiron.substack.com/p/mind-and-iron-should-you-use-muse)；纽约时报原文 [I Gave My Life Over to Meta's A.I. Agent and Was Blown Away](https://www.nytimes.com/2026/09/22/technology/meta-muse-ai-agent.html) 本书没打开。本书读取：2026-10-04。
+
+提醒：这里的 44.99 美元指报纸试用退款，整个故事均经媒体转述。保险电话的执行方式无法确认，不据此判断当时完全由 AI 通话。
+
+<a id="personal-services"></a>
+
+## 客服、保险与预约
 
 <a id="c33"></a>
 
@@ -163,54 +229,6 @@
 
 提醒：需要 Muse 能读他的 Chewy 订单和保险 App。评论区含推荐码，主帖没有。
 
-<a id="c112"></a>
-
-### C112 连接银行账户，十分钟做出支出表、到期提醒和预算
-
-网友分享 · Reddit r/MetaAI · rickestrickster · 2026-10-01
-
-**过程与结果。** 他说 Muse 通过 Plaid 同步了他的银行账户，分析了所有固定账单和消费，做成一张表；之后在账单快到期时提醒他，并告诉他账户里的钱够不够付；然后做了预算。他说全程十分钟。有人问连接银行账户有没有安全问题，页面上没看到回答。
-
-原文：
-
-> It created an expense tracker by using plaid to sync my bank accounts, it analyzed all recurring bills and spending to create a spreadsheet. Then reminds me when an upcoming bill is due and if I have enough money in my accounts to cover those bills. Then created a budget. All in 10 minutes.
-
-译文：它用 Plaid 同步了我的银行账户，做了一个支出跟踪表，分析了所有固定账单和消费，做成表格。然后在账单快到期时提醒我，告诉我账户里的钱够不够付。然后做了预算。全部只用了十分钟。
-
-出处：[Muse has become my after-hours second brain（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wvbvcb/comment/pdb0j27/) 的评论。本书读取：2026-10-04。
-
-提醒：Plaid 是连接银行账户的第三方服务。连接前查看要读取哪些账户和数据、怎样撤销访问；拿到预算后对照原账单检查。
-
-<a id="c113"></a>
-
-### C113 把几个账户汇成一个财务看板，隔几天看一眼
-
-网友分享 · Reddit r/MetaAI · Bluehens96 · 2026-10-02
-
-**过程与结果。** 他让 Muse 根据他不同的账户做了一个财务看板，显示总体情况、什么快到期、有什么该留意的。他说自己隔几天看一次。帖子没有讲发现过什么具体问题。
-
-原文：
-
-> Built me a financial dashboard based on all my different accounts to show me how things are looking, what’s coming due, and flagging any concerns
-
-译文：根据我所有不同的账户给我做了一个财务看板，显示情况怎么样、什么快到期，并标出需要注意的地方。
-
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
-
-提醒：和 [C112](#c112) 是不同的人、相近的用法。
-
-<a id="c103"></a>
-
-### C103 挑一张信用卡，再用账单做预算，标出的「重复扣款」其实是分期
-
-媒体实测 · The New Yorker · Brady Brickner-Wood · 2026-09-16
-
-**过程与结果。** 他让 Muse（他起名 Harbor）帮他挑信用卡，Muse 给了建议，他没写换卡。他又让 Muse 用信用卡账单做预算，Muse 标出了疑似重复扣款，他后来确认那是分期付款，不是错误。
-
-出处：[My Weekend with an A.I. Agent（The New Yorker）](https://www.newyorker.com/culture/infinite-scroll/my-weekend-with-an-ai-agent)。本书读取：2026-10-04。
-
-提醒：它标出的异常要对照原账单检查；分期、退款和预授权等记录可能需要不同解释。
-
 <a id="c105"></a>
 
 ### C105 查静息心率，预约年度体检，卡在保险资料更新
@@ -223,17 +241,27 @@
 
 提醒：健康数据是最敏感的一类，接之前想清楚。
 
-<a id="c104"></a>
+<a id="personal-records"></a>
 
-### C104 接入梦幻橄榄球账号，让它换一个防守组，第二天自动上阵
+## 账号申诉与个人资料
 
-媒体实测 · Yahoo Finance · Daniel Howley · 2026-09-23 前后
+<a id="c109"></a>
 
-**过程与结果。** 他把 Muse 接到自己的 Yahoo 梦幻橄榄球账号，让它找下周预测得分最高的防守组。因为只能通过弃权申领，Muse 提交了申领堪萨斯城酋长队、放弃绿湾的请求。第二天申领处理完，Muse 把堪萨斯城排进了他的首发阵容。
+### C109 账号被封后，让它起草全部申诉材料，每一封都他自己看过才发；账号没有恢复
 
-出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。
+网友分享 · Reddit r/MetaAI · Massive_Reporter6264 · 发表日期未确认
 
-提醒：作者在 Yahoo 发文，操作的也是 Yahoo 的产品。完成一次阵容调整不代表之后的比赛结果更好。
+**过程与结果。** 他的 Meta 账号被封。Muse 替他起草了 App 内申诉的策略和指南，写了申诉邮件、投诉邮件、更正分类的申诉、个人陈述、新闻稿、人工复核请求，还有给州总检察长、商业改进局、参议员、众议员的信，给记者的线索，以及给 Meta 安全团队的正式信函 PDF。十几封邮件都是他的口吻，发出前他都读过。他在同一条评论里明确说，账号没有恢复。
+
+原文：
+
+> A dozen-plus sends, all in my voice, all read by me before they went anywhere.
+
+译文：发了十几封，都是我的口吻，每一封发出去之前我都读过。
+
+出处：[Meta introduces an AI agent that can transact on…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wito8o/meta_introduces_an_ai_agent_that_can_transact_on/) 的评论。本书读取：2026-10-04。
+
+提醒：这条说明的是「准备材料」这件事 Muse 能帮上，不说明申诉渠道有效。他整理人生故事的事见第 20 章 [C20](creation.md#c20)。
 
 <a id="c107"></a>
 
@@ -253,23 +281,27 @@
 
 提醒：Optery 是一个帮人从数据经纪商删除信息的服务。这件事本身要交出邮箱，想一想值不值。
 
-<a id="c108"></a>
+<a id="c44"></a>
 
-### C108 不喜欢现成的记账应用，让它做了一个能跟踪学生贷款的
+### C44 导入另一个助手的个人背景后，它发现旅行计划的旧信息和新邮件对不上
 
-网友分享 · Reddit r/MetaAI · kazrafggf · 发表日期未确认 · 需要技术条件
+媒体实测 · TechRadar · Lance Ulanoff · 2026-09-28
 
-**过程与结果。** 他不喜欢 Rocket Money，让 Muse 做了一个接近的应用，界面完全按他的意思；Rocket Money 跟踪不了他的学生贷款，这个能，他说预算做得更好了。有人问贷款信息怎么来的，他说登录过一次，之后按每月还款额更新余额。
+**过程与结果。** 他把 Gemini 生成的个人背景摘要复制给 Muse。Muse 发现旧摘要里写的是去葡萄牙，近期的邮件却指向意大利，于是问他。他解释旧计划已经变了，这次去意大利。是 Muse 发现了冲突，由他确认。
 
 原文：
 
-> I didn't like rocket money so I built an app close to it with the exact UI I want Also rocket money couldn't track my student loans but Muse can so now I can budget better
+> One is outdated. We settled on Italy.
 
-译文：我不喜欢 Rocket Money，就做了一个接近它的应用，界面完全是我想要的。而且 Rocket Money 跟踪不了我的学生贷款，Muse 能，所以现在我预算做得更好了。
+译文：其中一个过时了。我们最终定了意大利。
 
-出处：[What are you using Muse agent for? How's your…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wcb3cq/what_are_you_using_muse_agent_for_hows_your/) 的帖子，另一位评论者。本书读取：2026-10-04。
+出处：[I gave Muse access to my personal data…（TechRadar）](https://www.techradar.com/ai-platforms-assistants/i-gave-muse-access-to-my-personal-data-and-now-i-know-why-personal-agents-are-probably-going-to-change-the-world)，「Muse is always busy」一节。本书读取：2026-10-01、2026-10-04。
 
-提醒：余额是按还款额推算的，不是实时同步银行数据。
+提醒：带入旧背景前先整理日期、已经改变的计划和仍然有效的偏好，发现冲突时明确采用哪一项。
+
+<a id="personal-adapt"></a>
+
+## 按个人需要扩展用法
 
 <a id="c106"></a>
 
@@ -291,41 +323,35 @@
 
 提醒：这是一位屏幕阅读器用户的经历，她的变通办法不等于界面问题已经修复。
 
-<a id="c109"></a>
+<a id="c108"></a>
 
-### C109 账号被封后，让它起草全部申诉材料，每一封都他自己看过才发；账号没有恢复
+### C108 不喜欢现成的记账应用，让它做了一个能跟踪学生贷款的
 
-网友分享 · Reddit r/MetaAI · Massive_Reporter6264 · 发表日期未确认
+网友分享 · Reddit r/MetaAI · kazrafggf · 发表日期未确认 · 需要技术条件
 
-**过程与结果。** 他的 Meta 账号被封。Muse 替他起草了 App 内申诉的策略和指南，写了申诉邮件、投诉邮件、更正分类的申诉、个人陈述、新闻稿、人工复核请求，还有给州总检察长、商业改进局、参议员、众议员的信，给记者的线索，以及给 Meta 安全团队的正式信函 PDF。十几封邮件都是他的口吻，发出前他都读过。他在同一条评论里明确说，账号没有恢复。
-
-原文：
-
-> A dozen-plus sends, all in my voice, all read by me before they went anywhere.
-
-译文：发了十几封，都是我的口吻，每一封发出去之前我都读过。
-
-出处：[Meta introduces an AI agent that can transact on…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wito8o/meta_introduces_an_ai_agent_that_can_transact_on/) 的评论。本书读取：2026-10-04。
-
-提醒：这条说明的是「准备材料」这件事 Muse 能帮上，不说明申诉渠道有效。他整理人生故事的事见第 20 章 [C20](creation.md#c20)。
-
-<a id="c44"></a>
-
-### C44 导入另一个助手的个人背景后，它发现旅行计划的旧信息和新邮件对不上
-
-媒体实测 · TechRadar · Lance Ulanoff · 2026-09-28
-
-**过程与结果。** 他把 Gemini 生成的个人背景摘要复制给 Muse。Muse 发现旧摘要里写的是去葡萄牙，近期的邮件却指向意大利，于是问他。他解释旧计划已经变了，这次去意大利。是 Muse 发现了冲突，由他确认。
+**过程与结果。** 他不喜欢 Rocket Money，让 Muse 做了一个接近的应用，界面完全按他的意思；Rocket Money 跟踪不了他的学生贷款，这个能，他说预算做得更好了。有人问贷款信息怎么来的，他说登录过一次，之后按每月还款额更新余额。
 
 原文：
 
-> One is outdated. We settled on Italy.
+> I didn't like rocket money so I built an app close to it with the exact UI I want Also rocket money couldn't track my student loans but Muse can so now I can budget better
 
-译文：其中一个过时了。我们最终定了意大利。
+译文：我不喜欢 Rocket Money，就做了一个接近它的应用，界面完全是我想要的。而且 Rocket Money 跟踪不了我的学生贷款，Muse 能，所以现在我预算做得更好了。
 
-出处：[I gave Muse access to my personal data…（TechRadar）](https://www.techradar.com/ai-platforms-assistants/i-gave-muse-access-to-my-personal-data-and-now-i-know-why-personal-agents-are-probably-going-to-change-the-world)，「Muse is always busy」一节。本书读取：2026-10-01、2026-10-04。
+出处：[What are you using Muse agent for? How's your…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wcb3cq/what_are_you_using_muse_agent_for_hows_your/) 的帖子，另一位评论者。本书读取：2026-10-04。
 
-提醒：带入旧背景前先整理日期、已经改变的计划和仍然有效的偏好，发现冲突时明确采用哪一项。
+提醒：余额是按还款额推算的，不是实时同步银行数据。
+
+<a id="c104"></a>
+
+### C104 接入梦幻橄榄球账号，让它换一个防守组，第二天自动上阵
+
+媒体实测 · Yahoo Finance · Daniel Howley · 2026-09-23 前后
+
+**过程与结果。** 他把 Muse 接到自己的 Yahoo 梦幻橄榄球账号，让它找下周预测得分最高的防守组。因为只能通过弃权申领，Muse 提交了申领堪萨斯城酋长队、放弃绿湾的请求。第二天申领处理完，Muse 把堪萨斯城排进了他的首发阵容。
+
+出处：[Meta's Muse is an impressively capable AI agent, despite some hiccups（Yahoo Finance）](https://finance.yahoo.com/technology/article/metas-muse-is-an-impressively-capable-ai-agent-despite-some-hiccups-173310662.html)。本书读取：2026-10-04。
+
+提醒：作者在 Yahoo 发文，操作的也是 Yahoo 的产品。完成一次阵容调整不代表之后的比赛结果更好。
 
 ## 线索
 

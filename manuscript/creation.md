@@ -4,43 +4,20 @@
 ← [第 19 章 学习与资料：研究、持续跟进和个人播客](learning.md) · [目录](../README.md) · [第 21 章 个人事务：求职、账单、保险和申请](career.md) →
 <!-- /studio:nav -->
 
-这一章的材料比别的章少，案例也更分散：有人让它决定下一条发什么，有人让它把十几年的帖子写成自己的故事，有人让它陪着写书，也有人让它做游戏、改表盘。真正发布出去的内容几乎没有，多数停在草稿和自用。
+这一章从你已有的材料出发：旧帖子可以整理成个人故事，以往的内容数据可以用来准备下一条作品。后面再看网页、游戏和表盘等个人项目。每个案例写清交出了什么，是否已经发布，以及作者还做了哪些修改。
 
-值得先看两条。一位创作者让 Muse 根据以往帖子的表现决定下一条发什么形式，它比较了数据、挑了观众很久没见的形式、用她的口吻写了文案，到发布那步她停了手（[C19](#c19)）。一位用户账号被封后拿到了数据导出，让 Muse 从 2008 年以来的近五千条帖子里整理出自己的人生故事（[C20](#c20)）。
+值得先看两条。一位创作者让 Muse 根据以往帖子的表现决定下一条发什么形式，它比较了数据、挑了观众很久没见的形式、用她的口吻写了文案，发布环节停在登录（[C19](#c19)）。一位用户账号被封后拿到了数据导出，让 Muse 从 2008 年以来的近五千条帖子里整理出自己的人生故事（[C20](#c20)）。
 
-## 案例
+| 你想处理的事 | 从这里开始 |
+|---|---|
+| [旧材料与长篇写作](#create-writing) | [旧帖与个人故事（C20）](#c20) |
+| [发布前的内容准备](#create-content) | [下一条内容（C19）](#c19) |
+| [网页与互动项目](#create-project) | [网页初稿（C94）](#c94) |
+| [已有内容的迁移](#create-migration) | [歌单迁移（C98）](#c98) |
 
-<a id="c19"></a>
+<a id="create-writing"></a>
 
-### C19 根据过去帖子的表现，决定下一条发什么，写好文案，停在登录
-
-创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
-
-**事情。** 她想知道 Facebook 主页下一条该发什么形式。
-
-**过程与结果。** 她说 Muse 没有瞎猜：它比较了她最近几种形式的实际表现，注意到哪一种她的观众很久没看到了，选了那一种，然后用她的口吻写了文案和评论模板。到发布那一步需要登录，她停了手，因为不想在测试里扩大授权。她对图片建议的评价不高。
-
-原文短引：
-
-> Nothing was published.
-
-译文：没有发布任何内容。
-
-出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，附加测试。本书读取：2026-09-30、2026-10-04。
-
-提醒：读主页数据需要 Muse 连到她的 Meta 账号。文案写好和发布出去是两回事。
-
-<a id="c94"></a>
-
-### C94 表格重建的结果她无法确认，网页四十秒生成但只是初稿
-
-创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
-
-**过程与结果。** 同一位作者的两项测试。一是让 Muse 重建一份表格：它先复述了输入，重建后疑似返回了原文件，她继续尝试仍不足以信任，于是停下。二是让它生成一个网页：大约四十秒出了 HTML，她认为只是初稿，而且之后不容易找到输出文件。两件都没有采用。
-
-出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 9 和附加网页测试。本书读取：2026-10-04。
-
-提醒：到 Library（资料库）检查实际生成的文件，打开确认内容，不能只凭对话中的完成提示。
+## 旧材料与长篇写作
 
 <a id="c20"></a>
 
@@ -80,6 +57,48 @@
 
 提醒：每天一章是她自己定的节奏。提醒能帮助跟进计划，书的内容和质量仍由作者判断。
 
+<a id="create-content"></a>
+
+## 发布前的内容准备
+
+<a id="c19"></a>
+
+### C19 根据过去帖子的表现，决定下一条发什么，写好文案，停在登录
+
+创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
+
+**事情。** 她想知道 Facebook 主页下一条该发什么形式。
+
+**过程与结果。** 她说 Muse 没有瞎猜：它比较了她最近几种形式的实际表现，注意到哪一种她的观众很久没看到了，选了那一种，然后用她的口吻写了文案和评论模板。到发布那一步需要登录，她停了手，因为不想在测试里扩大授权。她对图片建议的评价不高。
+
+原文短引：
+
+> Nothing was published.
+
+译文：没有发布任何内容。
+
+出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，附加测试。本书读取：2026-09-30、2026-10-04。
+
+提醒：读主页数据需要 Muse 连到她的 Meta 账号。文案写好和发布出去是两回事。
+
+<a id="c32"></a>
+
+### C32 调用已有的 Canva 模板，把一个想法做成符合品牌的材料
+
+官方示例 · Meta 小生意公告里的 Canva 引语 · Cameron Adams · 2026-09-29
+
+**过程与结果。** Canva 的联合创始人在 Meta 的公告里说：把已有的工作背景、品牌、Canva 模板和工具接进来，Muse 能把一个初步的想法做成符合品牌、可编辑、可分享的材料，用于展示文稿和副业。没有公开某个用户的成品。
+
+原文：
+
+> on-brand, editable and ready to share
+
+译文：符合品牌、可以编辑、可以分享。
+
+出处：[The Future Is for Everyone: Muse for Small Business（Meta）](https://about.fb.com/news/2026/09/introducing-muse-small-business/)，「Built to Work With the Tools…」一节。本书读取：2026-10-01、2026-10-04。
+
+提醒：这是合作方的推广说法，不是实测。
+
 <a id="c95"></a>
 
 ### C95 做一个七页的 Instagram 轮播图，它一直说看不到照片和要求
@@ -99,41 +118,21 @@
 
 提醒：多个文件一起交给它时，先确认它读到了哪些，再处理缺失的部分。
 
-<a id="c98"></a>
+<a id="create-project"></a>
 
-### C98 把 Spotify 的喜欢歌曲迁到 YouTube Music，它顺带加了几千首她不要的歌
+## 网页与互动项目
 
-网友分享 · Reddit r/MetaAI · violettindigo · 发表日期未确认
+<a id="c94"></a>
 
-**过程与结果。** 她让 Muse 把 Spotify 上所有喜欢的歌放进 YouTube Music，它做了，但还把 Barbra Streisand、One Direction、The 1975 和另外几个不是她选的歌手的每一首歌都加了进去，现场版、重制版、歌词视频，全都有。她花了两小时清理，说推荐算法被毁了。帖子没说最后清干净没有。
+### C94 表格重建的结果她无法确认，网页四十秒生成但只是初稿
 
-原文：
+创作者分享 · AI Agents Library · Diana · 2026-09-27，10 月 1 日更新
 
-> I had it put all my liked songs from Spotify on to YT Music and it did. It also added every Babra Streisand, One Direction, 1975 and a couple other not-my-choice artists. Every. Single. Song. Live, remastered, lyric videos, all of it. Ive spent the last 2 hours trying to fix it as it DESTROYED my algorithm.
+**过程与结果。** 同一位作者的两项测试。一是让 Muse 重建一份表格：它先复述了输入，重建后疑似返回了原文件，她继续尝试仍不足以信任，于是停下。二是让它生成一个网页：大约四十秒出了 HTML，她认为只是初稿，而且之后不容易找到输出文件。两件都没有采用。
 
-译文：我让它把我 Spotify 上所有喜欢的歌放到 YT Music 上，它做了。它还把 Barbra Streisand、One Direction、1975 和另外几个不是我选的歌手的歌全加了进去。每。一。首。现场版、重制版、歌词视频，全都有。我花了两个小时想修好，它把我的算法毁了。（原文拼写照录。）
+出处：[Meta Muse review（AI Agents Library）](https://www.aiagentslibrary.com/blog/meta-muse-review/)，测试 9 和附加网页测试。本书读取：2026-10-04。
 
-出处：[It was great… until it wasn't（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/)，另一位评论者。本书读取：2026-10-04。
-
-提醒：批量写入别人的平台之前，先让它用一小批试，做错的东西不一定收得回来。
-
-<a id="c32"></a>
-
-### C32 调用已有的 Canva 模板，把一个想法做成符合品牌的材料
-
-官方示例 · Meta 小生意公告里的 Canva 引语 · Cameron Adams · 2026-09-29
-
-**过程与结果。** Canva 的联合创始人在 Meta 的公告里说：把已有的工作背景、品牌、Canva 模板和工具接进来，Muse 能把一个初步的想法做成符合品牌、可编辑、可分享的材料，用于展示文稿和副业。没有公开某个用户的成品。
-
-原文：
-
-> on-brand, editable and ready to share
-
-译文：符合品牌、可以编辑、可以分享。
-
-出处：[The Future Is for Everyone: Muse for Small Business（Meta）](https://about.fb.com/news/2026/09/introducing-muse-small-business/)，「Built to Work With the Tools…」一节。本书读取：2026-10-01、2026-10-04。
-
-提醒：这是合作方的推广说法，不是实测。
+提醒：到 Library（资料库）检查实际生成的文件，打开确认内容，不能只凭对话中的完成提示。
 
 <a id="c96"></a>
 
@@ -189,6 +188,28 @@
 出处：[My AI assistant built me a custom Pixel watch…（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wuoxdz/my_ai_assistant_built_me_a_custom_pixel_watch/) 的作者回复。本书读取：2026-10-04。
 
 提醒：这是开发者的用法。普通读者看的是他的检查方法：改一处，就核对没改的地方有没有被动。主帖标题含推荐码。
+
+<a id="create-migration"></a>
+
+## 已有内容的迁移
+
+<a id="c98"></a>
+
+### C98 把 Spotify 的喜欢歌曲迁到 YouTube Music，它顺带加了几千首她不要的歌
+
+网友分享 · Reddit r/MetaAI · violettindigo · 发表日期未确认
+
+**过程与结果。** 她让 Muse 把 Spotify 上所有喜欢的歌放进 YouTube Music，它做了，但还把 Barbra Streisand、One Direction、The 1975 和另外几个不是她选的歌手的每一首歌都加了进去，现场版、重制版、歌词视频，全都有。她花了两小时清理，说推荐算法被毁了。帖子没说最后清干净没有。
+
+原文：
+
+> I had it put all my liked songs from Spotify on to YT Music and it did. It also added every Babra Streisand, One Direction, 1975 and a couple other not-my-choice artists. Every. Single. Song. Live, remastered, lyric videos, all of it. Ive spent the last 2 hours trying to fix it as it DESTROYED my algorithm.
+
+译文：我让它把我 Spotify 上所有喜欢的歌放到 YT Music 上，它做了。它还把 Barbra Streisand、One Direction、1975 和另外几个不是我选的歌手的歌全加了进去。每。一。首。现场版、重制版、歌词视频，全都有。我花了两个小时想修好，它把我的算法毁了。（原文拼写照录。）
+
+出处：[It was great… until it wasn't（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/)，另一位评论者。本书读取：2026-10-04。
+
+提醒：批量写入别人的平台之前，先让它用一小批试，做错的东西不一定收得回来。
 
 ## 换成自己的事
 

@@ -10,14 +10,166 @@
 
 案例先用中文讲清过程和结果，再附出处；适合短引的原句另配译文。你可以先看故事，需要细节时直接打开来源。
 
-| 手头的事 | 可以先看 |
+| 你想处理的事 | 从这里开始 |
 |---|---|
-| 找人上门、搬家询价 | [搬家公司](#c51)、[清运树枝](#c52)、[木工维修](#c55) |
-| 家庭日程和资料 | [每周简报](#c02)、[球队名单](#c03)、[宠物记录](#c58) |
-| 收藏、目标和个性设置 | [整理食谱](#c46)、[设目标](#c54)、[改形象](#c28) |
-| 需要额外搭建的玩法 | [厨房信息屏](#c41)、[训练记录](#c49)、[扫地机器人](#c60) |
+| [全家的日程与孩子的事](#family-schedule) | [家庭周报（C02）](#c02) |
+| [食谱、回访邮件与家庭资料](#family-materials) | [食谱整理（C46）](#c46) |
+| [搬家、找人上门与预约](#family-services) | [搬家安排（C01）](#c01) |
+| [家庭目标与日常安排](#family-routines) | [家庭目标（C54）](#c54) |
+| [需要额外搭建的玩法](#family-extra) | [厨房信息屏（C41）](#c41) |
 
-## 案例
+<a id="family-schedule"></a>
+
+## 全家的日程与孩子的事
+
+<a id="c02"></a>
+
+### C02 做一份全家能一起看的每周简报
+
+网友分享 · Reddit r/MetaAI · CaptainBroccoli · 发表日期未确认；创作者分享 · ChatPRD · Claire Vo · 2026-09-16
+
+**事情。** 一周里全家的日程、天气、交通、本地新闻，想放在一张纸上。
+
+**过程与结果。** CaptainBroccoli 让 Muse 每周读家庭的 Google 日历，汇总天气、每天的活动、可能的交通冲突、本地球队比赛、县里的新闻，再加几个和儿子聊天的「餐桌话题」，生成 HTML 文件，他每周打印。Claire Vo 的做法相近：接入日历和邮箱后，她要一页像简报一样的 PDF，放在厨房桌上；结果里有一周安排，还标出了巴西柔术课和钢琴课时间重叠。CaptainBroccoli 说自己受了 Claire 的启发，两种做法放在这里对照。
+
+原文（CaptainBroccoli）：
+
+> One more thing I forgot - a family weekly newsletter. Muse reads our family Google Calendar each week to summarize the weather, family events each day, any potential transportation conflicts, when our local sports teams are playing, local news from our county,  and also includes fun “table topics” to chat about with our son!
+>
+> It creates this as an HTML file that I print each week!
+
+译文：还有一件忘了说的，家庭周报。Muse 每周读我们家的 Google 日历，汇总天气、每天的家庭活动、可能的交通冲突、本地球队什么时候比赛、我们县的新闻，还加上和儿子聊天用的有趣「餐桌话题」。它做成 HTML 文件，我每周打印。
+
+原文（Claire Vo）：
+
+> Y'all, the PDF it generated was beautiful.
+
+译文：各位，它生成的那份 PDF 真漂亮。
+
+出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)，作者的补充评论；[Claire Vo 的文字实录（ChatPRD）](https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent)，「Workflow 1: The One-Shot Family Newsletter」一节；同一期节目也在 [Lenny's Newsletter](https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent)。本书读取：2026-10-01、2026-10-04。
+
+提醒：需要接入家庭日历，Claire 还接入了邮箱。Reddit 主帖含推荐码，评论区有人质疑是营销，但没有拿出证明经历虚假的材料。
+
+<a id="c03"></a>
+<a id="c04"></a>
+
+### C03 比赛前取回孩子球队的名单，还发现赛程表漏了一场
+
+网友分享 · Reddit r/MetaAI · CaptainBroccoli · 发表日期未确认
+
+**事情。** 他是儿子旅行足球队的领队，每周要打印球队名单带去比赛，可名单要到赛前两天才能打印，他总忘。联赛网站没有程序接口。
+
+**过程与结果。** 他给了 Muse 登录凭据，Muse 用浏览器登录联赛网站，找到名单 PDF 并取出来。他设成每周检查：有比赛就去取名单发给他。另一次，他把 TeamSnap 的凭据也给了 Muse，Muse 发现联赛网站上有一场比赛没出现在 TeamSnap 里。原帖只说发现了差异，没说自动补进日程。这两件事原来分别编为 [C03](#c03) 和 C04，现在合在一起。
+
+原文：
+
+> There’s no API or MCP for the soccer league’s website, but Muse was able to browse the site with Chrome, sign in with the credentials I gave it, and navigate to and print the team sheet PDF for me.
+>
+> I set this on a schedule so it checks each week if there’s a match coming up and if there is, it gets the team sheet for me and sends it to me instead of me searching for it myself. I cannot express to you what a big deal this is.
+
+译文：联赛网站没有 API 或 MCP，但 Muse 能用 Chrome 打开网站，用我给的凭据登录，找到并输出球队名单 PDF。我设成定时任务，它每周检查有没有比赛，有就替我取名单发给我，不用我自己去找。我没法形容这件事对我有多重要。
+
+> So I gave Muse my TeamSnap credentials and it was able to confirm that there was a match on the league website that wasn’t on TeamSnap, which was super helpful to keep things aligned.
+
+译文：于是我把 TeamSnap 的凭据给了 Muse，它确认联赛网站上有一场比赛在 TeamSnap 里没有，这对保持两边一致非常有帮助。
+
+出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)。本书读取：2026-09-30、2026-10-01、2026-10-04。
+
+提醒：API 和 MCP 是程序之间连接的方式；这个网站没有提供，于是他让 Muse 登录网页。网站凭据意味着账号访问权，应确认允许它读取和修改的范围。主帖含推荐码，未附连续多周运行的记录。
+
+<a id="c29"></a>
+
+### C29 开学季的一组委托，和只剩十二小时的试训报名
+
+官方员工经历 · Meta 设计文章 · Mona Sarantakos、Christine Awad · 2026 年 9 月
+
+**事情。** 开学前，学校邮件和学区网站上的事一波接一波。
+
+**过程与结果。** 文章作者是 Meta 产品团队成员。她让 Muse 盯着学校邮件和学区网站，把关键日期放进家庭日历，把要买的用品装进购物车，找打折的卫衣，还订了庆祝开学的晚餐。藏在那些邮件里的，有儿子运动队试训的报名，只剩十二小时就截止。她登机前收到 Muse 的消息，打电话给丈夫，丈夫在截止前四小时交了表。
+
+原文：
+
+> my son's sports tryout, closing in twelve hours
+
+译文：我儿子的运动队试训，离截止只剩十二小时。
+
+出处：[How We Designed Muse（introducing.muse.ai）](https://introducing.muse.ai/)，「Muse Is an Agent That Can Actually Do Things」一节。本书读取：2026-10-01、2026-10-04。
+
+提醒：作者是 Meta 员工，这是官方文章，不是独立用户的分享。用品只写到放进购物车，最后交表的是她丈夫。
+
+<a id="c53"></a>
+
+### C53 学校门户登录不上，后来靠 Meta 的人帮忙才进去
+
+媒体实测 · Business Insider · Katie Notopoulos · 2026-09-19
+
+**事情。** 她要给孩子报名管乐团，报名表是一份 Google 表单，链接放在学校用的 ParentSquare 门户里。
+
+**过程与结果。** 她平时用 Google 账号登录 ParentSquare，Muse 的浏览器里却没有这种登录方式，卡住了。后来是 Meta 的公关和工程团队帮她登录成功的。文章里还有三件孩子的事：安排蹦床公园的生日会，没办完，还要孩子拿主意、要打电话；追踪女童军的活动通知，Muse 读不到 WhatsApp 群里的消息；续缴女童军会员费，付款页超时，她改用电脑自己交了。
+
+出处：[Business Insider 的 Muse 评测（英文原文）](https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9)；[授权中文版（Business Insider 台湾）](https://www.businessinsider.tw/article/7312)。本书读取：2026-10-04。
+
+提醒：学校、社团这类网站各有各的登录方式，Muse 不一定进得去。普通读者没有 Meta 工程师帮忙。
+
+<a id="family-materials"></a>
+
+## 食谱、回访邮件与家庭资料
+
+<a id="c46"></a>
+
+### C46 把收藏的食谱变成买菜清单和能搜的菜谱
+
+官方示例 · Meta 发布公告 · 2026-09-08；媒体实测 · Engadget · Karissa Bell · 2026-09-12；网友分享 · Reddit r/MetaAI · wtjones · 发表日期未确认
+
+**事情。** 在 Instagram 和 Facebook 上收藏了一堆食谱视频和帖子，真要做饭时找不到。
+
+**过程与结果。** Meta 的发布公告举的例子是：把收藏的食谱短视频变成买菜清单，建议聚餐菜单，记住朋友的忌口。Engadget 的记者真试了：她让 Muse（她给它起名 boo）把 Facebook 和 Instagram 上的全部收藏过一遍，挑出食谱，整理成按类型分组、带食材和步骤、能搜索的清单，每条还链接回原帖；她用同样的办法把收藏的餐厅帖子按城市整理成了指南。Reddit 上的 wtjones 做的事相近：让它把 Instagram 收藏的视频分类，再用收藏的食谱做了一本菜谱书。
+
+原文（官方）：
+
+> It can turn a recipe reel the person saved on Instagram into a grocery list
+
+译文：它可以把用户在 Instagram 收藏的食谱短视频变成买菜清单。
+
+原文（Engadget）：
+
+> It came back with an organized list of recipes, grouped by type
+
+译文：它交回一份按类型分组、整理好的食谱清单。
+
+原文（wtjones）：
+
+> I had it take all of my Instagram saved videos and categorize them for me. I also had it build me a recipe book from my saved Instagram recipes.
+
+译文：我让它把我 Instagram 收藏的所有视频分类。我还让它用我收藏的 Instagram 食谱给我做了一本菜谱书。
+
+出处：[Introducing Muse（Meta）](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/)，「How It Works」一节；[How to get started with Meta's new AI agent, Muse（Engadget）](https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/)，文末用途部分；[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/comment/pcv6hrx/) 的评论。本书读取：2026-10-01、2026-10-04。
+
+提醒：官方那句是厂商举例，Engadget 和 wtjones 是实际做的。需要 Muse 能读你的 Facebook、Instagram 收藏，同一账号中心下这些账号可能已经自动连上了。wtjones 没说做了多少条、有没有逐条核对。
+
+<a id="c58"></a>
+
+### C58 从兽医的回访邮件建一条猫的健康时间线
+
+网友分享 · Reddit r/MetaAI · Bluehens96 · 2026-10-02
+
+**事情。** 猫看过几次兽医，每次的情况散在回访邮件里。
+
+**过程与结果。** 他让 Muse 翻历次就诊后的邮件，做成一份持续更新的资料：猫的健康时间线，下次复诊该问什么，以及下次预约是哪天。
+
+原文：
+
+> Combed through my past vet visit records (post visit emails) and created an ongoing artifact that shows me the timeline of my cat’s health and what to ask about at my next visits. Also shows when the next visit is scheduled for
+
+译文：翻遍了我以前的兽医就诊记录（就诊后的邮件），做了一份持续更新的资料，显示我猫的健康时间线，以及下次就诊该问什么。还显示下次预约是什么时候。
+
+出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
+
+提醒：这是整理记录，不是诊断。整理得对不对，要对照原邮件看。
+
+<a id="family-services"></a>
+
+## 搬家、找人上门与预约
 
 <a id="c01"></a>
 
@@ -117,95 +269,6 @@
 
 提醒：Muse 没有替他打电话，打电话的是他。写帖时活还没干完。
 
-<a id="c02"></a>
-
-### C02 做一份全家能一起看的每周简报
-
-网友分享 · Reddit r/MetaAI · CaptainBroccoli · 发表日期未确认；创作者分享 · ChatPRD · Claire Vo · 2026-09-16
-
-**事情。** 一周里全家的日程、天气、交通、本地新闻，想放在一张纸上。
-
-**过程与结果。** CaptainBroccoli 让 Muse 每周读家庭的 Google 日历，汇总天气、每天的活动、可能的交通冲突、本地球队比赛、县里的新闻，再加几个和儿子聊天的「餐桌话题」，生成 HTML 文件，他每周打印。Claire Vo 的做法相近：接入日历和邮箱后，她要一页像简报一样的 PDF，放在厨房桌上；结果里有一周安排，还标出了巴西柔术课和钢琴课时间重叠。CaptainBroccoli 说自己受了 Claire 的启发，两种做法放在这里对照。
-
-原文（CaptainBroccoli）：
-
-> One more thing I forgot - a family weekly newsletter. Muse reads our family Google Calendar each week to summarize the weather, family events each day, any potential transportation conflicts, when our local sports teams are playing, local news from our county,  and also includes fun “table topics” to chat about with our son!
->
-> It creates this as an HTML file that I print each week!
-
-译文：还有一件忘了说的，家庭周报。Muse 每周读我们家的 Google 日历，汇总天气、每天的家庭活动、可能的交通冲突、本地球队什么时候比赛、我们县的新闻，还加上和儿子聊天用的有趣「餐桌话题」。它做成 HTML 文件，我每周打印。
-
-原文（Claire Vo）：
-
-> Y'all, the PDF it generated was beautiful.
-
-译文：各位，它生成的那份 PDF 真漂亮。
-
-出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)，作者的补充评论；[Claire Vo 的文字实录（ChatPRD）](https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent)，「Workflow 1: The One-Shot Family Newsletter」一节；同一期节目也在 [Lenny's Newsletter](https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent)。本书读取：2026-10-01、2026-10-04。
-
-提醒：需要接入家庭日历，Claire 还接入了邮箱。Reddit 主帖含推荐码，评论区有人质疑是营销，但没有拿出证明经历虚假的材料。
-
-<a id="c03"></a>
-<a id="c04"></a>
-
-### C03 比赛前取回孩子球队的名单，还发现赛程表漏了一场
-
-网友分享 · Reddit r/MetaAI · CaptainBroccoli · 发表日期未确认
-
-**事情。** 他是儿子旅行足球队的领队，每周要打印球队名单带去比赛，可名单要到赛前两天才能打印，他总忘。联赛网站没有程序接口。
-
-**过程与结果。** 他给了 Muse 登录凭据，Muse 用浏览器登录联赛网站，找到名单 PDF 并取出来。他设成每周检查：有比赛就去取名单发给他。另一次，他把 TeamSnap 的凭据也给了 Muse，Muse 发现联赛网站上有一场比赛没出现在 TeamSnap 里。原帖只说发现了差异，没说自动补进日程。这两件事原来分别编为 [C03](#c03) 和 C04，现在合在一起。
-
-原文：
-
-> There’s no API or MCP for the soccer league’s website, but Muse was able to browse the site with Chrome, sign in with the credentials I gave it, and navigate to and print the team sheet PDF for me.
->
-> I set this on a schedule so it checks each week if there’s a match coming up and if there is, it gets the team sheet for me and sends it to me instead of me searching for it myself. I cannot express to you what a big deal this is.
-
-译文：联赛网站没有 API 或 MCP，但 Muse 能用 Chrome 打开网站，用我给的凭据登录，找到并输出球队名单 PDF。我设成定时任务，它每周检查有没有比赛，有就替我取名单发给我，不用我自己去找。我没法形容这件事对我有多重要。
-
-> So I gave Muse my TeamSnap credentials and it was able to confirm that there was a match on the league website that wasn’t on TeamSnap, which was super helpful to keep things aligned.
-
-译文：于是我把 TeamSnap 的凭据给了 Muse，它确认联赛网站上有一场比赛在 TeamSnap 里没有，这对保持两边一致非常有帮助。
-
-出处：[Useful things I've set up with Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wk92xe/useful_things_ive_set_up_with_muse/)。本书读取：2026-09-30、2026-10-01、2026-10-04。
-
-提醒：API 和 MCP 是程序之间连接的方式；这个网站没有提供，于是他让 Muse 登录网页。网站凭据意味着账号访问权，应确认允许它读取和修改的范围。主帖含推荐码，未附连续多周运行的记录。
-
-<a id="c29"></a>
-
-### C29 开学季的一组委托，和只剩十二小时的试训报名
-
-官方员工经历 · Meta 设计文章 · Mona Sarantakos、Christine Awad · 2026 年 9 月
-
-**事情。** 开学前，学校邮件和学区网站上的事一波接一波。
-
-**过程与结果。** 文章作者是 Meta 产品团队成员。她让 Muse 盯着学校邮件和学区网站，把关键日期放进家庭日历，把要买的用品装进购物车，找打折的卫衣，还订了庆祝开学的晚餐。藏在那些邮件里的，有儿子运动队试训的报名，只剩十二小时就截止。她登机前收到 Muse 的消息，打电话给丈夫，丈夫在截止前四小时交了表。
-
-原文：
-
-> my son's sports tryout, closing in twelve hours
-
-译文：我儿子的运动队试训，离截止只剩十二小时。
-
-出处：[How We Designed Muse（introducing.muse.ai）](https://introducing.muse.ai/)，「Muse Is an Agent That Can Actually Do Things」一节。本书读取：2026-10-01、2026-10-04。
-
-提醒：作者是 Meta 员工，这是官方文章，不是独立用户的分享。用品只写到放进购物车，最后交表的是她丈夫。
-
-<a id="c53"></a>
-
-### C53 学校门户登录不上，后来靠 Meta 的人帮忙才进去
-
-媒体实测 · Business Insider · Katie Notopoulos · 2026-09-19
-
-**事情。** 她要给孩子报名管乐团，报名表是一份 Google 表单，链接放在学校用的 ParentSquare 门户里。
-
-**过程与结果。** 她平时用 Google 账号登录 ParentSquare，Muse 的浏览器里却没有这种登录方式，卡住了。后来是 Meta 的公关和工程团队帮她登录成功的。文章里还有三件孩子的事：安排蹦床公园的生日会，没办完，还要孩子拿主意、要打电话；追踪女童军的活动通知，Muse 读不到 WhatsApp 群里的消息；续缴女童军会员费，付款页超时，她改用电脑自己交了。
-
-出处：[Business Insider 的 Muse 评测（英文原文）](https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9)；[授权中文版（Business Insider 台湾）](https://www.businessinsider.tw/article/7312)。本书读取：2026-10-04。
-
-提醒：学校、社团这类网站各有各的登录方式，Muse 不一定进得去。普通读者没有 Meta 工程师帮忙。
-
 <a id="c57"></a>
 
 ### C57 搬家后找医生、牙医和兽医，把初诊预约都提交了
@@ -226,25 +289,23 @@
 
 提醒：选哪家是他自己定的，Muse 负责提交。同一位作者还讲了几件事，见 [C58](#c58)、[C59](#c59) 和第 21 章。
 
-<a id="c58"></a>
+<a id="family-routines"></a>
 
-### C58 从兽医的回访邮件建一条猫的健康时间线
+## 家庭目标与日常安排
 
-网友分享 · Reddit r/MetaAI · Bluehens96 · 2026-10-02
+<a id="c54"></a>
 
-**事情。** 猫看过几次兽医，每次的情况散在回访邮件里。
+### C54 给婴儿定睡眠目标，它追问现状再给计划
 
-**过程与结果。** 他让 Muse 翻历次就诊后的邮件，做成一份持续更新的资料：猫的健康时间线，下次复诊该问什么，以及下次预约是哪天。
+创作者分享 · ChatPRD · Claire Vo · 2026-09-16
 
-原文：
+**事情。** 家里有婴儿，想把睡眠安排理顺。
 
-> Combed through my past vet visit records (post visit emails) and created an ongoing artifact that shows me the timeline of my cat’s health and what to ask about at my next visits. Also shows when the next visit is scheduled for
+**过程与结果。** 她描述了家里的睡眠情况，Muse 追问现状，然后给出计划并设了提醒。文章只写到计划生成，没有写之后睡眠有没有改善。
 
-译文：翻遍了我以前的兽医就诊记录（就诊后的邮件），做了一份持续更新的资料，显示我猫的健康时间线，以及下次就诊该问什么。还显示下次预约是什么时候。
+出处：[Claire Vo 的文字实录（ChatPRD）](https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent)，「Workflow 2: Setting Personal Goals」一节。本书读取：2026-10-04。
 
-出处：[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/top_three_use_cases_for_muse/?sort=confidence)。本书读取：2026-10-04。
-
-提醒：这是整理记录，不是诊断。整理得对不对，要对照原邮件看。
+提醒：这个例子展示了设定目标和提醒的过程，文章没有提供睡眠改善的结果。
 
 <a id="c59"></a>
 
@@ -264,52 +325,6 @@
 
 提醒：提交工资前，核对收款人、工时、金额和这次授权包含的动作；提交并不自动说明款项已经到账。
 
-<a id="c46"></a>
-
-### C46 把收藏的食谱变成买菜清单和能搜的菜谱
-
-官方示例 · Meta 发布公告 · 2026-09-08；媒体实测 · Engadget · Karissa Bell · 2026-09-12；网友分享 · Reddit r/MetaAI · wtjones · 发表日期未确认
-
-**事情。** 在 Instagram 和 Facebook 上收藏了一堆食谱视频和帖子，真要做饭时找不到。
-
-**过程与结果。** Meta 的发布公告举的例子是：把收藏的食谱短视频变成买菜清单，建议聚餐菜单，记住朋友的忌口。Engadget 的记者真试了：她让 Muse（她给它起名 boo）把 Facebook 和 Instagram 上的全部收藏过一遍，挑出食谱，整理成按类型分组、带食材和步骤、能搜索的清单，每条还链接回原帖；她用同样的办法把收藏的餐厅帖子按城市整理成了指南。Reddit 上的 wtjones 做的事相近：让它把 Instagram 收藏的视频分类，再用收藏的食谱做了一本菜谱书。
-
-原文（官方）：
-
-> It can turn a recipe reel the person saved on Instagram into a grocery list
-
-译文：它可以把用户在 Instagram 收藏的食谱短视频变成买菜清单。
-
-原文（Engadget）：
-
-> It came back with an organized list of recipes, grouped by type
-
-译文：它交回一份按类型分组、整理好的食谱清单。
-
-原文（wtjones）：
-
-> I had it take all of my Instagram saved videos and categorize them for me. I also had it build me a recipe book from my saved Instagram recipes.
-
-译文：我让它把我 Instagram 收藏的所有视频分类。我还让它用我收藏的 Instagram 食谱给我做了一本菜谱书。
-
-出处：[Introducing Muse（Meta）](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/)，「How It Works」一节；[How to get started with Meta's new AI agent, Muse（Engadget）](https://www.engadget.com/2256577/how-to-get-started-with-meta-s-new-ai-agent-muse/)，文末用途部分；[Top three use cases for Muse（Reddit r/MetaAI）](https://www.reddit.com/r/MetaAI/comments/1wrwwx2/comment/pcv6hrx/) 的评论。本书读取：2026-10-01、2026-10-04。
-
-提醒：官方那句是厂商举例，Engadget 和 wtjones 是实际做的。需要 Muse 能读你的 Facebook、Instagram 收藏，同一账号中心下这些账号可能已经自动连上了。wtjones 没说做了多少条、有没有逐条核对。
-
-<a id="c54"></a>
-
-### C54 给婴儿定睡眠目标，它追问现状再给计划
-
-创作者分享 · ChatPRD · Claire Vo · 2026-09-16
-
-**事情。** 家里有婴儿，想把睡眠安排理顺。
-
-**过程与结果。** 她描述了家里的睡眠情况，Muse 追问现状，然后给出计划并设了提醒。文章只写到计划生成，没有写之后睡眠有没有改善。
-
-出处：[Claire Vo 的文字实录（ChatPRD）](https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent)，「Workflow 2: Setting Personal Goals」一节。本书读取：2026-10-04。
-
-提醒：这个例子展示了设定目标和提醒的过程，文章没有提供睡眠改善的结果。
-
 <a id="c28"></a>
 
 ### C28 把助手变成孩子熟悉的青绿色小龙
@@ -323,6 +338,10 @@
 出处：[Claire Vo 的文字实录（ChatPRD）](https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent)，IMAX 测试前的一段。本书读取：2026-10-01、2026-10-04。
 
 提醒：形象和名字可以在对话里提出修改。改形象不改变它的权限。
+
+<a id="family-extra"></a>
+
+## 需要额外搭建的玩法
 
 <a id="c41"></a>
 

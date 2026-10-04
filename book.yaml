@@ -5,7 +5,7 @@ language: zh-CN
 product: muse
 audience: 会用手机和常见App、没有编程经验的中文读者；先认识Muse的背景与具体价值，再学会操作，按场景查阅公开案例；原理放在书后选读
 baseline:
-  product_version: 背景与价值先行的第1章、114条案例、书后原理选读；第2—14章待写，未实测
+  product_version: 价值先行、首次任务提前、114条案例按任务分组；第2—14章为细纲与骨架，未实测
   checked_on: null
 repository:
   name: ''
@@ -75,29 +75,13 @@ units:
   - muse-eligibility
   - muse-regions
   derived_from: null
-- id: interface
-  title: 第 3 章 认识界面：对话、任务、文件和设置在哪里
-  path: manuscript/interface.md
-  section: popular
-  depth: 0
-  prerequisites:
-  - setup
-  features:
-  - chat
-  - ideas
-  - library
-  - activity-log
-  - upcoming
-  facts:
-  - muse-task-loop
-  derived_from: null
 - id: start
-  title: 第 4 章 完整做一次任务：从一句需求到可用结果
+  title: 第 3 章 先完成一件小事：把几份通知整理成出行单
   path: manuscript/start.md
   section: popular
   depth: 0
   prerequisites:
-  - interface
+  - setup
   features:
   - first-request
   - clarification
@@ -107,8 +91,25 @@ units:
   - muse-task-loop
   - muse-fallibility
   derived_from: null
+- id: interface
+  title: 第 4 章 用到哪里看哪里：对话、任务、文件和设置
+  path: manuscript/interface.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - start
+  features:
+  - find-conversation
+  - find-task
+  - find-result
+  - settings-by-need
+  facts:
+  - muse-task-loop
+  - muse-artifacts
+  - muse-approval-scope
+  derived_from: null
 - id: collaborate
-  title: 第 5 章 把事情说清楚：上下文、追问和多项任务
+  title: 第 5 章 让结果更合用：补充要求、追问与修改
   path: manuscript/collaborate.md
   section: popular
   depth: 0
@@ -124,12 +125,12 @@ units:
   - muse-memory
   derived_from: null
 - id: files
-  title: 第 6 章 给Muse材料：文字、图片、链接和文件
+  title: 第 6 章 给 Muse 合适的材料：文字、图片、链接和文件
   path: manuscript/files.md
   section: popular
   depth: 0
   prerequisites:
-  - collaborate
+  - start
   features:
   - upload
   - image-input
@@ -138,13 +139,29 @@ units:
   facts:
   - muse-actions
   derived_from: null
-- id: progress
-  title: 第 7 章 任务运行时：看进度、补信息、接手和停止
-  path: manuscript/progress.md
+- id: results
+  title: 第 7 章 把成果用起来：检查、修改、保存与分享
+  path: manuscript/results.md
   section: popular
   depth: 0
   prerequisites:
   - files
+  features:
+  - artifacts
+  - library
+  - download
+  - revise-output
+  facts:
+  - muse-artifacts
+  - muse-fallibility
+  derived_from: null
+- id: progress
+  title: 第 8 章 任务没做完时：看进度、补信息、接手和停止
+  path: manuscript/progress.md
+  section: popular
+  depth: 0
+  prerequisites:
+  - interface
   features:
   - activity-log
   - background
@@ -154,29 +171,14 @@ units:
   - muse-background
   - muse-approval-scope
   derived_from: null
-- id: results
-  title: 第 8 章 拿到并用好成果：文档、表格、图片与音频
-  path: manuscript/results.md
-  section: popular
-  depth: 0
-  prerequisites:
-  - progress
-  features:
-  - artifacts
-  - library
-  - download
-  - revise-output
-  facts:
-  - muse-actions
-  - muse-fallibility
-  derived_from: null
 - id: connect
-  title: 第 9 章 接入邮箱、日历和其他账号
+  title: 第 9 章 让 Muse 查自己的资料：邮箱、日历与其他账号
   path: manuscript/connect.md
   section: popular
   depth: 0
   prerequisites:
-  - results
+  - files
+  - progress
   features:
   - connectors
   - login
@@ -188,27 +190,29 @@ units:
   - muse-approval-scope
   derived_from: null
 - id: permissions
-  title: 第 10 章 掌握许可：哪些能做，哪些先问你
+  title: 第 10 章 让 Muse 对外办事：发送、提交与许可
   path: manuscript/permissions.md
   section: popular
   depth: 0
   prerequisites:
   - connect
   features:
+  - draft-to-action
+  - send
+  - submit
   - permissions
   - approval
-  - privacy
   - data-controls
   facts:
   - muse-approval-scope
   derived_from: null
 - id: memory
-  title: 第 11 章 让Muse逐渐了解你：记忆、偏好和主动建议
+  title: 第 11 章 让 Muse 逐渐了解你：偏好、记忆与主动建议
   path: manuscript/memory.md
   section: popular
   depth: 0
   prerequisites:
-  - permissions
+  - collaborate
   features:
   - memory
   - preferences
@@ -218,12 +222,13 @@ units:
   - muse-memory
   derived_from: null
 - id: ongoing
-  title: 第 12 章 把一次请求变成提醒、定期任务和长期目标
+  title: 第 12 章 按时继续做：提醒、定期任务与长期目标
   path: manuscript/ongoing.md
   section: popular
   depth: 0
   prerequisites:
-  - memory
+  - progress
+  - permissions
   features:
   - reminders
   - scheduled-tasks
@@ -234,12 +239,13 @@ units:
   - muse-memory
   derived_from: null
 - id: surfaces
-  title: 第 13 章 在手机、网页和Mac之间继续用
+  title: 第 13 章 换个设备继续用：手机、网页与 Mac
   path: manuscript/surfaces.md
   section: popular
   depth: 0
   prerequisites:
-  - ongoing
+  - start
+  - progress
   features:
   - mobile
   - web
@@ -252,12 +258,13 @@ units:
   - muse-announced-surfaces
   derived_from: null
 - id: maintenance
-  title: 第 14 章 日常设置与排查：额度、通知、失败和重置
+  title: 第 14 章 日常使用遇到问题：额度、通知、失败与重置
   path: manuscript/maintenance.md
   section: popular
   depth: 0
   prerequisites:
-  - surfaces
+  - start
+  - progress
   features:
   - usage
   - tokens
@@ -275,10 +282,11 @@ units:
   section: watershed
   depth: 0
   prerequisites:
-  - maintenance
+  - basics
   features:
   - route-choice
-  - scope-choice
+  - case-to-operation
+  - result-scope
   facts: []
   derived_from: null
   required_checks:
